@@ -24,21 +24,46 @@ IP-CIDR,192.35.50.0/24,Apple
 IP-CIDR,198.183.17.0/24,Apple
 IP-CIDR,205.180.175.0/24,Apple
 
-#APPLE STORE
-DOMAIN-SUFFIX,mzstatic.com,Apple
+# App Store
+# Store content such as apps, books, and music
+DOMAIN,ppq.apple.com,Apple
+DOMAIN-SUFFIX,apps.apple.com,Apple
+DOMAIN-SUFFIX,itunes.apple.com,Apple
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,Apple
 user-agent, com.apple.appstored*,Apple
 DOMAIN, iosapps.itunes.apple.com, Apple
 DOMAIN, osxapps.itunes.apple.com,Apple
+# appstore connection
+DOMAIN,appstoreconnect.apple.com,App 
+DOMAIN,iosapps-ssl.itunes.apple.com,App 
+DOMAIN,itcmobile.itunes.apple.com,App 
+# TestFlight
+DOMAIN,beta.apple.com,Apple
+DOMAIN,testflight.apple.com,Apple
 # > Update
 DOMAIN, supportdownload.apple.com, Apple
 DOMAIN, appldnld.apple.com, Apple
 DOMAIN, swcdn.apple.com, Apple
 DOMAIN, apptrailers.itunes.apple.com, Apple
 DOMAIN, updates-http.cdn-apple.com, Apple
+# Software Update
+# > iOS updates
+DOMAIN,appldnld.apple.com,Apple
+DOMAIN,ns.itunes.apple.com,Apple
+# > iOS, tvOS, and macOS
+DOMAIN,mesu.apple.com,Apple
+DOMAIN,updates.cdn-apple.com,Apple
+DOMAIN,updates-http.cdn-apple.com,Apple
+DOMAIN,xp.apple.com,Apple
+# icloud
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud.com.cn,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 # > Map
 DOMAIN-SUFFIX, ls.apple.com, Apple
 DOMAIN, gs-loc-cn.apple.com, Apple
 #Others
 DOMAIN,api.smoot.apple.cn,Apple
-DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 DOMAIN-SUFFIX,crashlytics.com,Apple
