@@ -1,5 +1,19 @@
 payload:
-  # China Area Network
+# China Area Network
+  # > 超星
+  - DOMAIN-SUFFIX,chaoxing.com
+  # > mooc
+  - DOMAIN-SUFFIX,icourse163.org
+  # > CN
+  - DOMAIN-KEYWORD,cn
+  # > 智慧树
+  - DOMAIN-SUFFIX,zhihuishu.com
+  # > ZF网站
+  - DOMAIN-SUFFIX,gov.cn
+  # > 简书
+  - DOMAIN-SUFFIX,jianshu.com
+  # > CSDN
+  - DOMAIN-SUFFIX,csdn.net
   # > 360
   - DOMAIN-SUFFIX,qhres.com
   - DOMAIN-SUFFIX,qhimg.com
