@@ -60,8 +60,8 @@ DOMAIN-SUFFIX,icloud.com.cn,Apple
 DOMAIN-SUFFIX,icloud-content.com,Apple
 DOMAIN,www-cdn.icloud.com.akadns.net,Apple
 # > Map
-DOMAIN-SUFFIX, ls.apple.com, DIRECT
-DOMAIN, gs-loc-cn.apple.com, DIRECT
+DOMAIN-SUFFIX, ls.apple.com, Apple
+DOMAIN, gs-loc-cn.apple.com, Apple
 #Others
 DOMAIN,api.smoot.apple.cn,Apple
 DOMAIN-SUFFIX,crashlytics.com,Apple
