@@ -21,19 +21,6 @@ DOMAIN-SUFFIX,ykimg.com,DIRECT
 DOMAIN-SUFFIX,youku.com,DIRECT
 DOMAIN-SUFFIX,xiami.com,DIRECT
 DOMAIN-SUFFIX,xiami.net,DIRECT
-# > Apple
-DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,apple.co,DIRECT
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-DOMAIN-SUFFIX,appstore.com,DIRECT
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
-DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
 # > Baidu
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,baidubcr.com,DIRECT
