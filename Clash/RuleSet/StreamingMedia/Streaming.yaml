@@ -1,5 +1,12 @@
 payload:
-  # Streaming Media
+# Streaming Media
+  # > Google Scholar,fix client does not have permission
+  - DOMAIN-SUFFIX,scholar.google.com
+  # 字幕站
+  - DOMAIN-KEYWORD,subhd
+  # (GlobalMedia)
+  # > 樱花动漫
+  - DOMAIN-SUFFIX,yhdm.tv
   # (Podcast)
   # > Himalaya
   # USER-AGENT,Himalaya*
