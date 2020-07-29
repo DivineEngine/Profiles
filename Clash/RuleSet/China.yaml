@@ -325,3 +325,4 @@ payload:
   - DOMAIN-SUFFIX,zhuihd.com
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
+  - DOMAIN-KEYWORD,torrent
