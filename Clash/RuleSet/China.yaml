@@ -109,7 +109,6 @@ payload:
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windowsupdate.com
-  # - DOMAIN-KEYWORD,-microsoft-com.akamaized.net
   # > NetEase
   # USER-AGENT,NeteaseMusic*
   # USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
@@ -174,7 +173,6 @@ payload:
   - DOMAIN-SUFFIX,whatismyip.com
   - DOMAIN,ip.istatmenus.app
   # > Speed Test
-  # - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN,speedtest.macpaw.com
   # > Private Tracker
@@ -186,6 +184,7 @@ payload:
   - DOMAIN-SUFFIX,empornium.me
   - DOMAIN-SUFFIX,gazellegames.net
   - DOMAIN-SUFFIX,hdchina.org
+  - DOMAIN-SUFFIX,hddolby.com
   - DOMAIN-SUFFIX,hdsky.me
   - DOMAIN-SUFFIX,hdhome.org
   - DOMAIN-SUFFIX,hdbits.org
@@ -209,11 +208,11 @@ payload:
   - DOMAIN-SUFFIX,totheglory.im
   # > Other
   - DOMAIN-SUFFIX,cn
-  # - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,360in.com
   - DOMAIN-SUFFIX,51ym.me
   - DOMAIN-SUFFIX,8686c.com
+  - DOMAIN-SUFFIX,99.com
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,accuweather.com
   - DOMAIN-SUFFIX,aicoinstorge.com
@@ -233,7 +232,6 @@ payload:
   - DOMAIN-SUFFIX,chinaso.com
   - DOMAIN-SUFFIX,chuimg.com
   - DOMAIN-SUFFIX,chunyu.mobi
-  - DOMAIN-SUFFIX,chushou.tv
   - DOMAIN-SUFFIX,cmbchina.com
   - DOMAIN-SUFFIX,cmbimg.com
   - DOMAIN-SUFFIX,ctrip.com
@@ -286,6 +284,7 @@ payload:
   - DOMAIN-SUFFIX,moke.com
   - DOMAIN-SUFFIX,mubu.com
   - DOMAIN-SUFFIX,myzaker.com
+  - DOMAIN-SUFFIX,nfmovies.com
   - DOMAIN-SUFFIX,nim-lang-cn.org
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oracle.com
@@ -309,6 +308,7 @@ payload:
   - DOMAIN-SUFFIX,takungpao.com
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,tianyancha.com
+  - DOMAIN-SUFFIX,tophub.today
   - DOMAIN-SUFFIX,udacity.com
   - DOMAIN-SUFFIX,uning.com
   - DOMAIN-SUFFIX,weather.com

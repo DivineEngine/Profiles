@@ -276,6 +276,13 @@ DOMAIN,nativeadv.dftoutiao.com
 DOMAIN,sugar.zhihu.com
 DOMAIN,toots-a.akamaihd.net
 
+# (0~9)
+# > 51wnl
+DOMAIN,ad.51wnl-cq.com
+DOMAIN,adextra.51wnl-cq.com
+DOMAIN,log.51wnl-cq.com
+DOMAIN,r.51wnl-cq.com
+
 # (A)
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com
@@ -529,6 +536,9 @@ DOMAIN,ads.yahoo.com
 DOMAIN,ads.yahoo.de
 
 # (Z)
+# > Zhihu
+DOMAIN,sugar.zhihu.com
+IP-CIDR,118.89.204.198/32,no-resolve
 # > ZOL
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
