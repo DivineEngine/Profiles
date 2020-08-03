@@ -1,4 +1,6 @@
 # (DNS Cache Pollution)
+# > Apple
+DOMAIN,testflight.apple.com,PROXY
 # > Google
 DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY

@@ -1,5 +1,7 @@
 payload:
   # (DNS Cache Pollution)
+  # > Apple
+  - DOMAIN,testflight.apple.com,PROXY
   # > Google
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,blogger.com
