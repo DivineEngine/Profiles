@@ -138,6 +138,10 @@ DOMAIN-SUFFIX,v-56.com,DIRECT
 DOMAIN-SUFFIX,sogo.com,DIRECT
 DOMAIN-SUFFIX,sogou.com,DIRECT
 DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+# > Steam
+DOMAIN-SUFFIX,steamcontent.com,DIRECT
+DOMAIN-SUFFIX,steampowered.com,DIRECT
+DOMAIN-SUFFIX,steamstatic.com,DIRECT
 # > Tencent
 USER-AGENT,MicroMessenger%20Client,DIRECT
 USER-AGENT,WeChat*,DIRECT
