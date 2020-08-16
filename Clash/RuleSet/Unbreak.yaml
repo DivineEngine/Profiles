@@ -6,6 +6,7 @@ payload:
   # USER-AGENT,Coffee%20Corp*
   # USER-AGENT,restaurant-mobile*
   - DOMAIN,app.adjust.com
+  - DOMAIN,bdtj.tagtic.cn,DIRECT
   # > Alibaba
   - DOMAIN,log.mmstat.com
   - DOMAIN,sycm.mmstat.com
