@@ -63,6 +63,7 @@ external-controller: 127.0.0.1:9090
 # P.S. +.foo.com equals to .foo.com and foo.com
 hosts:
   'mtalk.google.com': 108.177.125.188
+  't.cn': 203.107.55.116
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'

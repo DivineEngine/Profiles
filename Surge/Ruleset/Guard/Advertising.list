@@ -18,14 +18,10 @@ DOMAIN-SUFFIX,a-ads.com
 DOMAIN-SUFFIX,aarki.com
 DOMAIN-SUFFIX,aarki.net
 DOMAIN-SUFFIX,abtasty.com
-DOMAIN-SUFFIX,accesstrade.com
-DOMAIN-SUFFIX,accesstrade.com.vn
-DOMAIN-SUFFIX,accesstrade.vn
 DOMAIN-SUFFIX,acento.com
 DOMAIN-SUFFIX,actionads.ru
 DOMAIN-SUFFIX,actionpay.ru
 DOMAIN-SUFFIX,ad.gt
-DOMAIN-SUFFIX,ad.org.vn
 DOMAIN-SUFFIX,ad1.ru
 DOMAIN-SUFFIX,ad120m.com
 DOMAIN-SUFFIX,ad127m.com
@@ -34,7 +30,6 @@ DOMAIN-SUFFIX,ad132m.com
 DOMAIN-SUFFIX,ad1data.com
 DOMAIN-SUFFIX,ad2games.com
 DOMAIN-SUFFIX,ad2iction.com
-DOMAIN-SUFFIX,ad360.vn
 DOMAIN-SUFFIX,ad4.com.cn
 DOMAIN-SUFFIX,ad4game.com
 DOMAIN-SUFFIX,ad6media.co.uk
@@ -108,6 +103,8 @@ DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,adtrace.org
 DOMAIN-SUFFIX,advertising.com
 DOMAIN-SUFFIX,adwhirl.com
+DOMAIN-SUFFIX,adxadserv.com
+DOMAIN-SUFFIX,aiclk.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amobee.com
 DOMAIN-SUFFIX,app-adforce.jp
@@ -237,7 +234,6 @@ DOMAIN-SUFFIX,aiseet.atianqi.com
 DOMAIN,abema-adx.ameba.jp
 DOMAIN,ad.12306.cn
 DOMAIN,ad.360in.com
-DOMAIN,ad.51wnl-cq.com
 DOMAIN,ad.caiyunapp.com
 DOMAIN,ad.huajiao.com
 DOMAIN,ad.hzyoka.com
@@ -245,9 +241,7 @@ DOMAIN,ad.jiemian.com
 DOMAIN,ad.qingting.fm
 DOMAIN,ad.toutiao.com
 DOMAIN,ad.wappalyzer.com
-DOMAIN,ad.zing.vn
 DOMAIN,ad-cn.jovcloud.com
-DOMAIN,adextra.51wnl-cq.com
 DOMAIN,ads.adadapted.com
 DOMAIN,ads.chinadaily.com.cn
 DOMAIN,ads.daydaycook.com.cn
@@ -268,12 +262,10 @@ DOMAIN,g.ousns.net
 DOMAIN,ggs.myzaker.com
 DOMAIN,ggx.cmvideo.cn
 DOMAIN,itad.linetv.tw
-DOMAIN,ja.chushou.tv
 DOMAIN,mads.suning.com
 DOMAIN,mobileads.msn.com
 DOMAIN,mopnativeadv.037201.com
 DOMAIN,nativeadv.dftoutiao.com
-DOMAIN,sugar.zhihu.com
 DOMAIN,toots-a.akamaihd.net
 
 # (0~9)
@@ -537,6 +529,8 @@ DOMAIN,ads.yahoo.de
 
 # (Z)
 # > Zhihu
+USER-AGENT,AVOS*
+DOMAIN,appcloud2.zhihu.com
 DOMAIN,sugar.zhihu.com
 IP-CIDR,118.89.204.198/32,no-resolve
 # > ZOL

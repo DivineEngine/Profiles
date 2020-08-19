@@ -18,14 +18,10 @@ DOMAIN-SUFFIX,a-ads.com,REJECT
 DOMAIN-SUFFIX,aarki.com,REJECT
 DOMAIN-SUFFIX,aarki.net,REJECT
 DOMAIN-SUFFIX,abtasty.com,REJECT
-DOMAIN-SUFFIX,accesstrade.com,REJECT
-DOMAIN-SUFFIX,accesstrade.com.vn,REJECT
-DOMAIN-SUFFIX,accesstrade.vn,REJECT
 DOMAIN-SUFFIX,acento.com,REJECT
 DOMAIN-SUFFIX,actionads.ru,REJECT
 DOMAIN-SUFFIX,actionpay.ru,REJECT
 DOMAIN-SUFFIX,ad.gt,REJECT
-DOMAIN-SUFFIX,ad.org.vn,REJECT
 DOMAIN-SUFFIX,ad1.ru,REJECT
 DOMAIN-SUFFIX,ad120m.com,REJECT
 DOMAIN-SUFFIX,ad127m.com,REJECT
@@ -34,7 +30,6 @@ DOMAIN-SUFFIX,ad132m.com,REJECT
 DOMAIN-SUFFIX,ad1data.com,REJECT
 DOMAIN-SUFFIX,ad2games.com,REJECT
 DOMAIN-SUFFIX,ad2iction.com,REJECT
-DOMAIN-SUFFIX,ad360.vn,REJECT
 DOMAIN-SUFFIX,ad4.com.cn,REJECT
 DOMAIN-SUFFIX,ad4game.com,REJECT
 DOMAIN-SUFFIX,ad6media.co.uk,REJECT
@@ -108,6 +103,8 @@ DOMAIN-SUFFIX,adthor.com,REJECT
 DOMAIN-SUFFIX,adtrace.org,REJECT
 DOMAIN-SUFFIX,advertising.com,REJECT
 DOMAIN-SUFFIX,adwhirl.com,REJECT
+DOMAIN-SUFFIX,adxadserv.com,REJECT
+DOMAIN-SUFFIX,aiclk.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,amobee.com,REJECT
 DOMAIN-SUFFIX,app-adforce.jp,REJECT
@@ -237,7 +234,6 @@ DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.360in.com,REJECT
-DOMAIN,ad.51wnl-cq.com,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,ad.huajiao.com,REJECT
 DOMAIN,ad.hzyoka.com,REJECT
@@ -245,9 +241,7 @@ DOMAIN,ad.jiemian.com,REJECT
 DOMAIN,ad.qingting.fm,REJECT
 DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
-DOMAIN,ad.zing.vn,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
-DOMAIN,adextra.51wnl-cq.com,REJECT
 DOMAIN,ads.adadapted.com,REJECT
 DOMAIN,ads.chinadaily.com.cn,REJECT
 DOMAIN,ads.daydaycook.com.cn,REJECT
@@ -268,12 +262,10 @@ DOMAIN,g.ousns.net,REJECT
 DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,itad.linetv.tw,REJECT
-DOMAIN,ja.chushou.tv,REJECT
 DOMAIN,mads.suning.com,REJECT
 DOMAIN,mobileads.msn.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
 
 # (0~9)
@@ -537,6 +529,8 @@ DOMAIN,ads.yahoo.de,REJECT
 
 # (Z)
 # > Zhihu
+USER-AGENT,AVOS*,REJECT
+DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT
 # > ZOL
