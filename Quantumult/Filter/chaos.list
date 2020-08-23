@@ -4,6 +4,7 @@ host, youku.com-youku.net, direct
 host-suffix,nfmovies.com,direct
 # globalmedia
 host-suffix, njhzmxx.com, GlobalMedia
+host-suffix,pixiv.net,GlobalMedia
 # proxy
 host-suffix, v2ex.com, proxy
 host-suffix, forestapp.cc, proxy
