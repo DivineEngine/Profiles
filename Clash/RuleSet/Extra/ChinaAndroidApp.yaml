@@ -1,0 +1,33 @@
+payload:
+  # > QQ
+  - PROCESS-NAME,com.tencent.mobileqq
+  # > 微信(默认注释因为可能的 FCM 需求)
+  #- PROCESS-NAME,com.tencent.mm
+  # > 企业微信
+  - PROCESS-NAME,com.tencent.wework
+  # > Share 微博
+  - PROCESS-NAME,com.hengye.share
+  # > 中国移动
+  - PROCESS-NAME,com.greenpoint.android.mc10086.activity
+  # > 京东
+  - PROCESS-NAME,com.jingdong.app.mall
+  # > 京东金融
+  - PROCESS-NAME,com.jd.jrapp
+  # > 哔哩哔哩(默认注释因为可能的版权番需求)
+  #- PROCESS-NAME,tv.danmaku.bili
+  # > 小米WiFi
+  - PROCESS-NAME,com.xiaomi.router
+  # > 小米运动
+  - PROCESS-NAME,com.xiaomi.hm.health
+  # > 手机淘宝
+  - PROCESS-NAME,com.taobao.taobao
+  # > 支付宝
+  - PROCESS-NAME,com.eg.android.AlipayGphone
+  # > 滴滴出行
+  - PROCESS-NAME,com.sdu.didi.psnger
+  # > 腾讯视频
+  - PROCESS-NAME,com.tencent.qqlive
+  # > 酷安
+  - PROCESS-NAME,com.coolapk.market
+  # > 高德地图
+  - PROCESS-NAME,com.autonavi.minimap
