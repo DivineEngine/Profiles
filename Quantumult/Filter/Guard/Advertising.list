@@ -532,7 +532,6 @@ DOMAIN,ads.yahoo.de,REJECT
 USER-AGENT,AVOS*,REJECT
 DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
-IP-CIDR,118.89.204.198/32,REJECT
 # > ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT

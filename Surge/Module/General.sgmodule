@@ -1,5 +1,5 @@
 #!name=URL Optimization
-#!desc=Google 搜索及地图、微博短链接白名单、AbeamTV 区域限制的解锁几一些体验增强
+#!desc=通用的 URL 优化，包含 Google 搜索及地图、微博短链接白名单、AbeamTV 区域限制等体验增强
 
 [URL Rewrite]
 # Redirect Google Search Service
