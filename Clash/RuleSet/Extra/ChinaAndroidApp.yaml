@@ -33,3 +33,5 @@ payload:
   - PROCESS-NAME,com.coolapk.market
   # > 高德地图
   - PROCESS-NAME,com.autonavi.minimap
+  # > IT之家
+  - PROCESS-NAME,com.ruanmei.ithome
