@@ -19,6 +19,8 @@ payload:
   - PROCESS-NAME,com.xiaomi.router
   # > 小米运动
   - PROCESS-NAME,com.xiaomi.hm.health
+  # > 小米推送
+  - PROCESS-NAME,com.xiaomi.xmsf
   # > 手机淘宝
   - PROCESS-NAME,com.taobao.taobao
   # > 支付宝
