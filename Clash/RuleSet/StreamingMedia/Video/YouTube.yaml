@@ -1,5 +1,7 @@
 payload:
   # > YouTube
+  - PROCESS-NAME,com.google.android.youtube
+  - PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN,youtubei.googleapis.com

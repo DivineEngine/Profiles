@@ -1,5 +1,6 @@
 payload:
   # > Amazon Prime Video
+  - PROCESS-NAME,com.amazon.avod.thirdp
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
   - DOMAIN-SUFFIX,amazonvideo.com

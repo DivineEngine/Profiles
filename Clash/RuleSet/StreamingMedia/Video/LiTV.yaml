@@ -1,4 +1,5 @@
 payload:
   # > LiTV
+  - PROCESS-NAME,com.litv.mobile.gp.litv
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net

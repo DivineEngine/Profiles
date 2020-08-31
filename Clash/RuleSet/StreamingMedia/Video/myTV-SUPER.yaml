@@ -1,4 +1,5 @@
 payload:
   # > myTV SUPER
+  - PROCESS-NAME,com.tvb.mytvsuper
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,tvb.com

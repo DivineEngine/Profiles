@@ -1,3 +1,4 @@
 payload:
   # > Himalaya
+  - PROCESS-NAME,com.ximalaya.ting.himalaya
   - DOMAIN-SUFFIX,himalaya.com

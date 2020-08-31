@@ -1,18 +1,27 @@
 # Privacy
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
-DOMAIN,trackapp.guahao.cn,REJECT
 DOMAIN,zgsdk.zhugeio.com,REJECT
 
+# > 51.LA
+DOMAIN,js.users.51.la,REJECT
+DOMAIN,mc.51.la,REJECT
+DOMAIN,wc.51.la,REJECT
 # > 58
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
-# > Facebook
-# DOMAIN,graph.facebook.com,REJECT
+# > Baidu
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
+# > ByteDance
+DOMAIN,log-va.tiktokv.com,REJECT
+DOMAIN,log-lq.snssdk.com,REJECT
+DOMAIN,xlog.snssdk.com,REJECT
+DOMAIN,log-hl-ipv6.snssdk.com,REJECT
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
-DOMAIN,ssl.google-analytics.com,REJECT
-DOMAIN,www.google-analytics.com,REJECT
+DOMAIN-SUFFIX,google-analytics.com,REJECT
+DOMAIN,safebrowsing.googleapis.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
@@ -22,3 +31,6 @@ DOMAIN,pingma.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+# > Umeng
+DOMAIN-KEYWORD,logs.umeng.com,REJECT
+DOMAIN-KEYWORD,logs.umengcloud.com,REJECT

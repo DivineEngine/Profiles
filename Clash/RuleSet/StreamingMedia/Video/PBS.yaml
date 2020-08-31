@@ -1,3 +1,4 @@
 payload:
   # > PBS
+  - PROCESS-NAME,com.pbs.video
   - DOMAIN-SUFFIX,pbs.org

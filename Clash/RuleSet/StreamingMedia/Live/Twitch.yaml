@@ -1,5 +1,6 @@
 payload:
   # > Twitch
+  - PROCESS-NAME,tv.twitch.android.app
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,twitch.tv
