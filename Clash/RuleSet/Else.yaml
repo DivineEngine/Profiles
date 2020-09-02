@@ -1,0 +1,13 @@
+payload:
+# GlobalMedia & save traffic
+  # pixiv
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pximg.net
+  # epubee
+  - DOMAIN-SUFFIX,epubee.com
+  # 字幕站
+  - DOMAIN-KEYWORD,subhd
+  # (GlobalMedia)
+  # > 樱花动漫
+  - DOMAIN-SUFFIX,njhzmxx.com
+  - DOMAIN-SUFFIX,yhdm.tv
