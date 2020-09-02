@@ -1,1 +1,17 @@
+payload:
+# bt站
+  # 动漫花园
+  - DOMAIN-SUFFIX,dmhy.org
+  - DOMAIN-SUFFIX,bebi.com
+  - DOMAIN-SUFFIX,histats.com
+  - DOMAIN-SUFFIX,kiwihk.net
+  - DOMAIN-SUFFIX,catbox.moe
+  - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,imgur.com
+  - DOMAIN-SUFFIX,upload.cc
+  - DOMAIN-SUFFIX,vim-cn.com 
 
+  # else
+  - DOMAIN-SUFFIX,comicat.org
+  - DOMAIN,acg.rip
+  - DOMAIN-SUFFIX,nyaa.si
