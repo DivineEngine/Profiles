@@ -1,0 +1,35 @@
+payload:
+# DIRECT
+  # bt
+  - DOMAIN-KEYWORD,torrent,DIRECT
+  # agefans
+  - DOMAIN-SUFFIX,agefans.tv,DIRECT
+  # 百度盘
+  - DOMAIN-SUFFIX,baidupcs.com,DIRECT
+  - DOMAIN-SUFFIX,baidupan.com,DIRECT
+  # 蓝奏云
+  - DOMAIN-SUFFIX,lanzous.com,DIRECT
+  # C114
+  - DOMAIN-SUFFIX,bootcss.com,DIRECT
+  - DOMAIN-SUFFIX,txrjy.com,DIRECT
+  # > 爱启航
+  - DOMAIN-SUFFIX,iqihang.com,DIRECT
+  # > 灰虎网
+  - DOMAIN-SUFFIX,hhkaoyan.com,DIRECT
+  # > 一直播
+  - DOMAIN-SUFFIX,yizhibo.com,DIRECT
+  - DOMAIN-SUFFIX,xiaoka.tv,DIRECT
+  # > 超星
+  - DOMAIN-SUFFIX,chaoxing.com,DIRECT
+  # > mooc
+  - DOMAIN-SUFFIX,icourse163.org,DIRECT
+  # > 奈飞影视
+  - DOMAIN-SUFFIX,nfmovies.com,DIRECT
+  # > 智慧树
+  - DOMAIN-SUFFIX,zhihuishu.com,DIRECT
+  # > 政府网站
+  - DOMAIN-SUFFIX,gov.cn,DIRECT
+  # > 简书
+  - DOMAIN-SUFFIX,jianshu.com,DIRECT
+  # > CSDN
+  - DOMAIN-SUFFIX,csdn.net,DIRECT
