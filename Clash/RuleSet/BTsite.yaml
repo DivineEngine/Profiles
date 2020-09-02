@@ -1,7 +1,7 @@
 payload:
 # bt站
   # 动漫花园
-  - DOMAIN-SUFFIX,dmhy.org
+  - DOMAIN-KEYWORD,dmhy
   - DOMAIN-SUFFIX,bebi.com
   - DOMAIN-SUFFIX,histats.com
   - DOMAIN-SUFFIX,kiwihk.net
