@@ -1,35 +1,35 @@
 payload:
 # DIRECT
   # bt
-  - DOMAIN-KEYWORD,torrent,DIRECT
+  - DOMAIN-KEYWORD,torrent
   # agefans
-  - DOMAIN-SUFFIX,agefans.tv,DIRECT
+  - DOMAIN-SUFFIX,agefans.tv
   # 百度盘
-  - DOMAIN-SUFFIX,baidupcs.com,DIRECT
-  - DOMAIN-SUFFIX,baidupan.com,DIRECT
+  - DOMAIN-SUFFIX,baidupcs.com
+  - DOMAIN-SUFFIX,baidupan.com
   # 蓝奏云
-  - DOMAIN-SUFFIX,lanzous.com,DIRECT
+  - DOMAIN-SUFFIX,lanzous.com
   # C114
-  - DOMAIN-SUFFIX,bootcss.com,DIRECT
-  - DOMAIN-SUFFIX,txrjy.com,DIRECT
+  - DOMAIN-SUFFIX,bootcss.com
+  - DOMAIN-SUFFIX,txrjy.com
   # > 爱启航
-  - DOMAIN-SUFFIX,iqihang.com,DIRECT
+  - DOMAIN-SUFFIX,iqihang.com
   # > 灰虎网
-  - DOMAIN-SUFFIX,hhkaoyan.com,DIRECT
+  - DOMAIN-SUFFIX,hhkaoyan.com
   # > 一直播
-  - DOMAIN-SUFFIX,yizhibo.com,DIRECT
-  - DOMAIN-SUFFIX,xiaoka.tv,DIRECT
+  - DOMAIN-SUFFIX,yizhibo.com
+  - DOMAIN-SUFFIX,xiaoka.tv
   # > 超星
-  - DOMAIN-SUFFIX,chaoxing.com,DIRECT
+  - DOMAIN-SUFFIX,chaoxing.com
   # > mooc
-  - DOMAIN-SUFFIX,icourse163.org,DIRECT
+  - DOMAIN-SUFFIX,icourse163.org
   # > 奈飞影视
-  - DOMAIN-SUFFIX,nfmovies.com,DIRECT
+  - DOMAIN-SUFFIX,nfmovies.com
   # > 智慧树
-  - DOMAIN-SUFFIX,zhihuishu.com,DIRECT
+  - DOMAIN-SUFFIX,zhihuishu.com
   # > 政府网站
-  - DOMAIN-SUFFIX,gov.cn,DIRECT
+  - DOMAIN-SUFFIX,gov.cn
   # > 简书
-  - DOMAIN-SUFFIX,jianshu.com,DIRECT
+  - DOMAIN-SUFFIX,jianshu.com
   # > CSDN
-  - DOMAIN-SUFFIX,csdn.net,DIRECT
+  - DOMAIN-SUFFIX,csdn.net
