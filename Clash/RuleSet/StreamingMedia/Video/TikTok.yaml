@@ -1,5 +1,6 @@
 payload:
   # > TikTok
+  - PROCESS-NAME,com.ss.android.ugc.trill
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,ipstatp.com

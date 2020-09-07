@@ -125,7 +125,7 @@ proxies:
 # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
 
   # Shadowsocks(Websocket + TLS)
-  - name: "HK"
+  - name: "1"
     type: ss
     server: server
     port: 443
@@ -143,7 +143,7 @@ proxies:
       #   custom: value
 
   # VMess(Websocket + TLS)
-  - name: "US"
+  - name: "2"
     type: vmess
     server: v2ray.cool
     port: 443
@@ -159,7 +159,7 @@ proxies:
     #   Host: v2ray.com
 
   # Trojan
-  - name: "SG"
+  - name: "3"
     type: trojan
     server: server
     port: 443
@@ -191,15 +191,27 @@ proxy-providers:
   # 1.模式选择「进阶模式」 2.填写订阅链接 3.勾选「输出为 Node List」 4.「生成订阅链接」
   #
 
-  DuckDuckGo-Sub: # 冲鸭机场订阅链接
+  # 此处只是订阅示例，如果没有订阅链接的使用需求，此处及 proxy-groups 的相关内容可删除
+
+  DuckDuckGoList: #「冲鸭机场」订阅
     type: http
-    url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/ProxyList/List.yaml" # 放机场订阅链接
     interval: 3600
-    path: ./Proxy/ProxyList.yaml # 不同机场不同命名
+    path: ./Proxy/List.yaml # 注意此处文件名不可相同
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+
+  # DuckDuckGoUS: #「冲鸭机场」订阅美国地区节点
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/ProxyList/US.yaml" # 放机场订阅链接
+  #   interval: 3600
+  #   path: ./Proxy/US.yaml # 注意此处文件名不可相同
+  #   health-check:
+  #     enable: true
+  #     interval: 600
+  #     url: http://www.gstatic.com/generate_204
 
 proxy-groups:
 # 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
@@ -214,13 +226,39 @@ proxy-groups:
 # 「PROXY」是代理规则策略，它可以指定为某个节点或嵌套一个其他策略组，如：「自动测试」、「Fallback」或「负载均衡」的策略组，关于这 3 个策略组的具体示例可以看官方示例：https://github.com/Dreamacro/clash
 #
 
+  # 注意此处的「use」而不是「proxies」，当然也可以不用在此先嵌套一个策略组进行选择，可以直接使用，如
+  #
+  # # 代理节点选择
+  # - name: "PROXY"
+  #   type: select
+  #   use:
+  #     - DuckDuckGo # 嵌套使用订阅节点策略组
+  #   proxies:
+  #     - Fallback
+  #     - 1
+  #     - 2
+  #     - 3
+  #
+  # 但如果订阅节点很多选起来就很麻烦，不如先嵌套一个策略组进行手动或自动的选择。
+
+  # 手动选择订阅节点
+  - name: "DuckDuckGo"
+    type: select # 亦可使用 fallback 或 load-balance
+    use: # 注意此处是「use」
+      - DuckDuckGoList # 这是上面「proxy-providers」的名称
+
+  # - name: "US"
+  #   type: select # 亦可使用 fallback 或 load-balance
+  #   use: # 注意此处是「use」
+  #     - DuckDuckGoUS # 这是上面「proxy-providers」的名称
+
   # Fallback 比较实用的策略组类型，用于测试服务器节点的可用性，当第一个节点不可用时切换到第二个，以此类推。
   - name: "Fallback"
     type: fallback
     proxies:
-      - HK
-      - US
-      - SG
+      - 1
+      - 2
+      - 3
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -229,10 +267,10 @@ proxy-groups:
     type: select
     proxies:
       - Fallback
-      - HK
-      - US
-      - SG
-      - DuckDuckGo
+      - 1
+      - 2
+      - 3
+      - DuckDuckGo # 嵌套使用订阅节点策略组
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
   - name: "MATCH"
@@ -246,22 +284,18 @@ proxy-groups:
     type: select
     proxies:
       - PROXY
-      - HK
-      - US
-      - SG
+      - 1
+      - 2
+      - 3
+      # - US
 
   # 中国流媒体服务（面向海外版本）
+  # 用于观看部分国内流媒体面向港澳台的地区的限定内容，此处应放港澳台节点，如果没有此需求可删除此处策略组及相关规则
   - name: "StreamingSE"
     type: select
     proxies:
       - DIRECT
-      - HK
-
-  # 手动选择节点订阅
-  - name: "DuckDuckGo"
-    type: select # 亦可使用 fallback 或 load-balance
-    use:
-      - DuckDuckGo-Sub
+      - 2
 
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 

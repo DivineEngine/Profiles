@@ -1,5 +1,5 @@
 #!name=URL Optimization
-#!desc=Google 搜索及地图、微博短链接白名单、AbeamTV 区域限制的解锁几一些体验增强
+#!desc=通用的 URL 优化，包含 Google 搜索及地图、微博短链接白名单、AbeamTV 区域限制等体验增强
 
 [URL Rewrite]
 # Redirect Google Search Service
@@ -42,6 +42,7 @@
 ^(http|https):\/\/(www.)?huishenghuiying\.com\.cn\/ https://www.coreldraw.com/cn/ 302
 ^(http|https):\/\/hypersnap\.mairuan\.com\/ https://www.hyperionics.com/ 302
 ^(http|https):\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/ 302
+^(http|https):\/\/(www.)?idmchina\.net\/ https://www.internetdownloadmanager.com/ 302
 ^(http|https):\/\/(www.)?imindmap\.cc\/ https://www.ayoa.com/previously-imindmap/ 302
 ^(http|https):\/\/(www.)?jihehuaban\.com\.cn\/ https://www.chartwellyorke.com/sketchpad/x24795.html 302
 ^(http|https):\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302

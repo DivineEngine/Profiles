@@ -1,5 +1,6 @@
 payload:
   # > ViuTV
+  - PROCESS-NAME,com.hktve.viutv
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
   - DOMAIN,api.viu.now.com

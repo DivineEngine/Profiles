@@ -1,5 +1,6 @@
 payload:
   # > HBO GO HKG
+  - PROCESS-NAME,hk.hbo.hbogo
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN,bcbolthboa-a.akamaihd.net

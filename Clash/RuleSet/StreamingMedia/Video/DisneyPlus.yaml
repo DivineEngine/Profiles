@@ -1,5 +1,6 @@
 payload:
   # > Disney+
+  - PROCESS-NAME,com.disney.disneyplus
   - DOMAIN-SUFFIX,disney-plus.net
   - DOMAIN-SUFFIX,disneyplus.com
   - DOMAIN-SUFFIX,dssott.com

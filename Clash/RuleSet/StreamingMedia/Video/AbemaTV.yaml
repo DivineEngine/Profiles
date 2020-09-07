@@ -1,5 +1,6 @@
 payload:
   # > AbemaTV
+  - PROCESS-NAME,tv.abema
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,ameba.jp
