@@ -530,6 +530,8 @@ DOMAIN,beta.music.apple.com
 # > Others
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cccat.io
+DOMAIN-SUFFIX,dubox.com
+DOMAIN-SUFFIX,duboxcdn.com
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,mangakakalot.com
 DOMAIN-SUFFIX,shopeemobile.com

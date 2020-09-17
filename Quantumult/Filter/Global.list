@@ -516,6 +516,8 @@ DOMAIN,beta.music.apple.com,PROXY
 # > Others
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,cccat.io,PROXY
+DOMAIN-SUFFIX,dubox.com,PROXY
+DOMAIN-SUFFIX,duboxcdn.com,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY

@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 # > Tencent Video
 DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,i.qq.com
 DOMAIN-SUFFIX,v.qq.com
 # > iQiyi
 DOMAIN-SUFFIX,iqiyi.com
