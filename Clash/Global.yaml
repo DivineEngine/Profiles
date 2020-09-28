@@ -86,9 +86,12 @@ dns:
   # Hostnames in this list will not be resolved with fake IPs
   # i.e. questions to these domain names will always be answered with their
   # real IP addresses
-  # fake-ip-filter:
+  fake-ip-filter:
   #   - '*.lan'
   #   - localhost.ptlogin2.qq.com
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - 'www.msftconnecttest.com'
   
   # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
   # All DNS questions are sent directly to the nameserver, without proxies

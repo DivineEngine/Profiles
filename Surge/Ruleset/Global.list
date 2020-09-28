@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,.blogspot.
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN,az416426.vo.msecnd.net
@@ -165,7 +165,6 @@ DOMAIN-SUFFIX,earthcam.com
 DOMAIN-SUFFIX,ebookservice.tw
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,edgecastcdn.net
-DOMAIN-SUFFIX,edu
 DOMAIN-SUFFIX,edx-cdn.org
 DOMAIN-SUFFIX,elpais.com
 DOMAIN-SUFFIX,enanyang.my
@@ -198,7 +197,6 @@ DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,globalvoices.org
 DOMAIN-SUFFIX,goo.ne.jp
 DOMAIN-SUFFIX,goodreads.com
-DOMAIN-SUFFIX,gov
 DOMAIN-SUFFIX,gov.tw
 DOMAIN-SUFFIX,greatfire.org
 DOMAIN-SUFFIX,gumroad.com
@@ -258,7 +256,6 @@ DOMAIN-SUFFIX,maying.co
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,mergersandinquisitions.com
-DOMAIN-SUFFIX,mil
 DOMAIN-SUFFIX,mingpao.com
 DOMAIN-SUFFIX,mixi.jp
 DOMAIN-SUFFIX,mobile01.com
@@ -436,18 +433,20 @@ DOMAIN,s3-ap-southeast-2.amazonaws.com
 DOMAIN,search.avira.com
 DOMAIN,us.weibo.com
 
-DOMAIN-KEYWORD,jav
-DOMAIN-KEYWORD,pinterest
-DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,.pinterest.
+
+DOMAIN-SUFFIX,edu
+DOMAIN-SUFFIX,gov
+DOMAIN-SUFFIX,mil
 
 # (IP Blackhole)
 # > Google
+DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,advertisercommunity.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,autodraw.com
 DOMAIN-SUFFIX,capitalg.com
 DOMAIN-SUFFIX,certificate-transparency.org
@@ -458,6 +457,7 @@ DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,creativelab5.com
 DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,ggpht.com
@@ -473,7 +473,6 @@ DOMAIN-SUFFIX,madewithcode.com
 DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,page.link
 DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,admin.recaptcha.net
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,shattered.io
 DOMAIN-SUFFIX,synergyse.com
@@ -522,8 +521,8 @@ DOMAIN,itunes.apple.com
 # > Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com
 # > Look Up
-DOMAIN,lookup-api.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,lookup-api.apple.com
 # > Apple Music Web
 DOMAIN,beta.music.apple.com
 # ------
@@ -541,7 +540,6 @@ URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
 DOMAIN-KEYWORD,buy.itunes.apple.com
 DOMAIN-SUFFIX,cloudcone.com.cn
-# DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,metapix.net
 DOMAIN-SUFFIX,s3.amazonaws.com

@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
-DOMAIN-KEYWORD,blogspot,PROXY
+DOMAIN-KEYWORD,.blogspot.,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
 DOMAIN,az416426.vo.msecnd.net,PROXY
@@ -165,7 +165,6 @@ DOMAIN-SUFFIX,earthcam.com,PROXY
 DOMAIN-SUFFIX,ebookservice.tw,PROXY
 DOMAIN-SUFFIX,economist.com,PROXY
 DOMAIN-SUFFIX,edgecastcdn.net,PROXY
-DOMAIN-SUFFIX,edu,PROXY
 DOMAIN-SUFFIX,edx-cdn.org,PROXY
 DOMAIN-SUFFIX,elpais.com,PROXY
 DOMAIN-SUFFIX,enanyang.my,PROXY
@@ -198,7 +197,6 @@ DOMAIN-SUFFIX,githubusercontent.com,PROXY
 DOMAIN-SUFFIX,globalvoices.org,PROXY
 DOMAIN-SUFFIX,goo.ne.jp,PROXY
 DOMAIN-SUFFIX,goodreads.com,PROXY
-DOMAIN-SUFFIX,gov,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
 DOMAIN-SUFFIX,greatfire.org,PROXY
 DOMAIN-SUFFIX,gumroad.com,PROXY
@@ -258,7 +256,6 @@ DOMAIN-SUFFIX,maying.co,PROXY
 DOMAIN-SUFFIX,medium.com,PROXY
 DOMAIN-SUFFIX,mega.nz,PROXY
 DOMAIN-SUFFIX,mergersandinquisitions.com,PROXY
-DOMAIN-SUFFIX,mil,PROXY
 DOMAIN-SUFFIX,mingpao.com,PROXY
 DOMAIN-SUFFIX,mixi.jp,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
@@ -436,9 +433,11 @@ DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 DOMAIN,search.avira.com,PROXY
 DOMAIN,us.weibo.com,PROXY
 
-DOMAIN-KEYWORD,jav,PROXY
-DOMAIN-KEYWORD,pinterest,PROXY
-DOMAIN-KEYWORD,porn,PROXY
+DOMAIN-KEYWORD,.pinterest.,PROXY
+
+DOMAIN-SUFFIX,edu,PROXY
+DOMAIN-SUFFIX,gov,PROXY
+DOMAIN-SUFFIX,mil,PROXY
 
 # (IP Blackhole)
 # > Facebook
@@ -508,8 +507,8 @@ DOMAIN,itunes.apple.com,PROXY
 # > Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # > Look Up
-DOMAIN,lookup-api.apple.com,PROXY
 DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN,lookup-api.apple.com,PROXY
 # > Apple Music Web
 DOMAIN,beta.music.apple.com,PROXY
 # ------
@@ -526,7 +525,6 @@ DOMAIN-SUFFIX,shopeemobile.com,PROXY
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
 DOMAIN-KEYWORD,buy.itunes.apple.com,PROXY
 DOMAIN-SUFFIX,cloudcone.com.cn,PROXY
-# DOMAIN-SUFFIX,evernote.com,PROXY
 DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
