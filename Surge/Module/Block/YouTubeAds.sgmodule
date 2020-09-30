@@ -1,5 +1,5 @@
 #!name=Block YouTube Advertising
-#!desc=跳过 YouTube 视频片头广告，YouTube Premium 勿使用否则遇片头广告卡黑屏。
+#!desc=跳过 YouTube 视频片头广告，Premium 勿用且版本需 ≤ 15.26.4。
 #!system=ios
 
 [Script]

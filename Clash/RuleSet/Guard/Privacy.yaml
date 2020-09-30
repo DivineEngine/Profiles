@@ -15,10 +15,12 @@ payload:
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
   # > ByteDance
-  - DOMAIN,log-va.tiktokv.com
-  - DOMAIN,log-lq.snssdk.com
-  - DOMAIN,xlog.snssdk.com
+  - DOMAIN,log.byteoversea.com
+  - DOMAIN,log.tiktokv.com
   - DOMAIN,log-hl-ipv6.snssdk.com
+  - DOMAIN,log-lq.snssdk.com
+  - DOMAIN,log-va.tiktokv.com
+  - DOMAIN,xlog.snssdk.com
   # > Google
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,google-analytics.com
@@ -28,10 +30,10 @@ payload:
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,tracking.intl.miui.com
   # > Tencent
-  - DOMAIN,pingma.qq.com
   - DOMAIN,btrace.qq.com
   - DOMAIN,mtrace.qq.com
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > Umeng
+  - DOMAIN-KEYWORD,log.umeng.com
   - DOMAIN-KEYWORD,logs.umeng.com
   - DOMAIN-KEYWORD,logs.umengcloud.com
