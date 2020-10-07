@@ -1,4 +1,4 @@
-payload:
+
   # App Store
   # Store content such as apps, books, and music
   - DOMAIN-SUFFIX,apps.apple.com
