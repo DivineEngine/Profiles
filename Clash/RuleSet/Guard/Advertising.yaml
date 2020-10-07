@@ -7,8 +7,6 @@ payload:
   - DOMAIN-SUFFIX,1rtb.com
   - DOMAIN-SUFFIX,1xl.co.uk
   - DOMAIN-SUFFIX,206ads.com
-  - DOMAIN-SUFFIX,247realmedia.com
-  - DOMAIN-SUFFIX,2mdnsys.com
   - DOMAIN-SUFFIX,3cinteractive.com
   - DOMAIN-SUFFIX,4mads.com
   - DOMAIN-SUFFIX,5rocks.io
@@ -19,14 +17,10 @@ payload:
   - DOMAIN-SUFFIX,aarki.com
   - DOMAIN-SUFFIX,aarki.net
   - DOMAIN-SUFFIX,abtasty.com
-  - DOMAIN-SUFFIX,accesstrade.com
-  - DOMAIN-SUFFIX,accesstrade.com.vn
-  - DOMAIN-SUFFIX,accesstrade.vn
   - DOMAIN-SUFFIX,acento.com
   - DOMAIN-SUFFIX,actionads.ru
   - DOMAIN-SUFFIX,actionpay.ru
   - DOMAIN-SUFFIX,ad.gt
-  - DOMAIN-SUFFIX,ad.org.vn
   - DOMAIN-SUFFIX,ad1.ru
   - DOMAIN-SUFFIX,ad120m.com
   - DOMAIN-SUFFIX,ad127m.com
@@ -35,7 +29,6 @@ payload:
   - DOMAIN-SUFFIX,ad1data.com
   - DOMAIN-SUFFIX,ad2games.com
   - DOMAIN-SUFFIX,ad2iction.com
-  - DOMAIN-SUFFIX,ad360.vn
   - DOMAIN-SUFFIX,ad4.com.cn
   - DOMAIN-SUFFIX,ad4game.com
   - DOMAIN-SUFFIX,ad6media.co.uk
@@ -85,6 +78,7 @@ payload:
   - DOMAIN-SUFFIX,adflow.ru
   - DOMAIN-SUFFIX,adinall.com
   - DOMAIN-SUFFIX,ad-locus.com
+  - DOMAIN-SUFFIX,adlooxtracking.com
   - DOMAIN-SUFFIX,admaster.com.cn
   - DOMAIN-SUFFIX,ad-maven.com
   - DOMAIN-SUFFIX,admob.com
@@ -93,9 +87,12 @@ payload:
   - DOMAIN-SUFFIX,adnyg.com
   - DOMAIN-SUFFIX,ad-plus.cn
   - DOMAIN-SUFFIX,adsafeprotected.com
+  - DOMAIN-SUFFIX,adsage.cn
+  - DOMAIN-SUFFIX,adsage.com
   - DOMAIN-SUFFIX,ad-score.com
   - DOMAIN-SUFFIX,adsensor.org
   - DOMAIN-SUFFIX,adsmediabox.com
+  - DOMAIN-SUFFIX,ads-pixiv.net
   - DOMAIN-SUFFIX,ad-srv.co
   - DOMAIN-SUFFIX,adsrvr.org
   - DOMAIN-SUFFIX,ad-stir.com
@@ -105,10 +102,14 @@ payload:
   - DOMAIN-SUFFIX,ad-sys.com
   - DOMAIN-SUFFIX,adtarget.io
   - DOMAIN-SUFFIX,adtarget.me
+  - DOMAIN-SUFFIX,adtdp.com
   - DOMAIN-SUFFIX,adthor.com
   - DOMAIN-SUFFIX,adtrace.org
   - DOMAIN-SUFFIX,advertising.com
   - DOMAIN-SUFFIX,adwhirl.com
+  - DOMAIN-SUFFIX,adwo.com
+  - DOMAIN-SUFFIX,adxadserv.com
+  - DOMAIN-SUFFIX,aiclk.com
   - DOMAIN-SUFFIX,amazon-adsystem.com
   - DOMAIN-SUFFIX,amobee.com
   - DOMAIN-SUFFIX,app-adforce.jp
@@ -118,6 +119,7 @@ payload:
   - DOMAIN-SUFFIX,applift.com
   - DOMAIN-SUFFIX,applovin.com
   - DOMAIN-SUFFIX,applvn.com
+  - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,apsalar.com
   - DOMAIN-SUFFIX,apxadtracking.net
   - DOMAIN-SUFFIX,atomhike.com
@@ -134,8 +136,10 @@ payload:
   - DOMAIN-SUFFIX,cloudmobi.net
   - DOMAIN-SUFFIX,crwdcntrl.net
   - DOMAIN-SUFFIX,ctrmi.com
+  - DOMAIN-SUFFIX,domob.cn
   - DOMAIN-SUFFIX,eroadvertising.com
   - DOMAIN-SUFFIX,ero-advertising.com
+  - DOMAIN-SUFFIX,exdynsrv.com
   - DOMAIN-SUFFIX,exosrv.com
   - DOMAIN-SUFFIX,go2cloud.org
   - DOMAIN-SUFFIX,growingio.com
@@ -180,6 +184,7 @@ payload:
   - DOMAIN-SUFFIX,rayjump.com
   - DOMAIN-SUFFIX,rtbasia.com
   - DOMAIN-SUFFIX,rubiconproject.com
+  - DOMAIN-SUFFIX,runative-syndicate.com
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,sdkclick.com
   - DOMAIN-SUFFIX,shuzilm.cn
@@ -192,6 +197,7 @@ payload:
   - DOMAIN-SUFFIX,tanv.com
   - DOMAIN-SUFFIX,tanx.com
   - DOMAIN-SUFFIX,tapjoy.com
+  - DOMAIN-SUFFIX,teads.tv
   - DOMAIN-SUFFIX,trafficjunky.net
   - DOMAIN-SUFFIX,trvdp.com
   - DOMAIN-SUFFIX,turn.com
@@ -237,21 +243,18 @@ payload:
 
   - DOMAIN,abema-adx.ameba.jp
   - DOMAIN,ad.12306.cn
-  - DOMAIN,ad.360in.com
-  - DOMAIN,ad.51wnl-cq.com
   - DOMAIN,ad.caiyunapp.com
+  - DOMAIN,ad.flurry.com
   - DOMAIN,ad.huajiao.com
   - DOMAIN,ad.hzyoka.com
   - DOMAIN,ad.jiemian.com
-  - DOMAIN,ad.qingting.fm
   - DOMAIN,ad.toutiao.com
   - DOMAIN,ad.wappalyzer.com
-  - DOMAIN,ad.zing.vn
   - DOMAIN,ad-cn.jovcloud.com
-  - DOMAIN,adextra.51wnl-cq.com
   - DOMAIN,ads.adadapted.com
   - DOMAIN,ads.chinadaily.com.cn
   - DOMAIN,ads.daydaycook.com.cn
+  - DOMAIN,ads.flurry.com
   - DOMAIN,ads.weilitoutiao.net
   - DOMAIN,adsapi.manhuaren.com
   - DOMAIN,adsdk.dmzj.com
@@ -261,6 +264,7 @@ payload:
   - DOMAIN,adv.bandi.so
   - DOMAIN,adv.ettoday.net
   - DOMAIN,api.adnet.mob.com
+  - DOMAIN,api-ad.kajicam.com
   - DOMAIN,app-ad.variflight.com
   - DOMAIN,appnext.hs.llnwd.net
   - DOMAIN,appnext-a.akamaihd.net
@@ -269,13 +273,19 @@ payload:
   - DOMAIN,ggs.myzaker.com
   - DOMAIN,ggx.cmvideo.cn
   - DOMAIN,itad.linetv.tw
-  - DOMAIN,ja.chushou.tv
+  - DOMAIN,ma-adx.ctrip.com
   - DOMAIN,mads.suning.com
   - DOMAIN,mobileads.msn.com
   - DOMAIN,mopnativeadv.037201.com
   - DOMAIN,nativeadv.dftoutiao.com
-  - DOMAIN,sugar.zhihu.com
   - DOMAIN,toots-a.akamaihd.net
+
+  # (0~9)
+  # > 51wnl
+  - DOMAIN,ad.51wnl-cq.com
+  - DOMAIN,adextra.51wnl-cq.com
+  - DOMAIN,log.51wnl-cq.com
+  - DOMAIN,r.51wnl-cq.com
 
   # (A)
   # > Apple
@@ -342,6 +352,10 @@ payload:
   # > Chelaile
   - DOMAIN,atrace.chelaile.net.cn
   - DOMAIN,logs.chelaile.net.cn
+  # > Camera360
+  - DOMAIN,dispatcher.360in.com
+  - DOMAIN,ad.360in.com
+  - DOMAIN,exp.360in.com
 
   # (G)
   # > Google
@@ -368,6 +382,7 @@ payload:
   - DOMAIN,adcdn.hpplay.cn
   - DOMAIN,adeng.hpplay.cn
   - DOMAIN,rp.hpplay.cn
+  - DOMAIN,rpt.hpplay.cn
 
   # (J)
   # > Kingsoft
@@ -447,6 +462,12 @@ payload:
   - DOMAIN-SUFFIX,deliver.ifeng.com
   - DOMAIN,api.newad.ifeng.com
   - DOMAIN,ifengad.3g.ifeng.com
+
+  # (Q)
+  # > QingTing
+  - DOMAIN,ad.qingting.fm
+  - DOMAIN,adlaunch.qingting.fm
+  - DOMAIN,ad-cdn.qingting.fm
 
   # (S)
   # > Sina
@@ -530,6 +551,9 @@ payload:
   - DOMAIN,ads.yahoo.de
 
   # (Z)
+  # > Zhihu
+  - DOMAIN,sugar.zhihu.com
+  - IP-CIDR,118.89.204.198/32,no-resolve
   # > ZOL
   - DOMAIN,apppv.zol.com.cn
   - DOMAIN,pvnapp.zol.com.cn

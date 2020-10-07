@@ -263,6 +263,7 @@ DOMAIN,adui.tg.meitu.com
 DOMAIN,adv.bandi.so
 DOMAIN,adv.ettoday.net
 DOMAIN,api.adnet.mob.com
+DOMAIN,api-ad.kajicam.com
 DOMAIN,app-ad.variflight.com
 DOMAIN,appnext.hs.llnwd.net
 DOMAIN,appnext-a.akamaihd.net
@@ -271,6 +272,7 @@ DOMAIN,g.ousns.net
 DOMAIN,ggs.myzaker.com
 DOMAIN,ggx.cmvideo.cn
 DOMAIN,itad.linetv.tw
+DOMAIN,ma-adx.ctrip.com
 DOMAIN,mads.suning.com
 DOMAIN,mobileads.msn.com
 DOMAIN,mopnativeadv.037201.com
@@ -550,7 +552,6 @@ DOMAIN,ads.yahoo.de
 # (Z)
 # > Zhihu
 USER-AGENT,AVOS*
-DOMAIN,appcloud2.zhihu.com
 DOMAIN,sugar.zhihu.com
 IP-CIDR,118.89.204.198/32,no-resolve
 # > ZOL

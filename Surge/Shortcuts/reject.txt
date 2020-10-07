@@ -16,6 +16,7 @@
 # --- (Alibaba) ---
 # > Taobao - gw.alicdn.com,heic.alicdn.com
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4}) - reject
+# ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/[\w\/]+!!\d+\.jpg_9\d{2} - reject
 # > Xianyu - acs.m.taobao.com
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject
 # > Fliggy - acs.m.taobao.com
@@ -60,7 +61,7 @@
 # > Baidu InputMethod - mime.baidu.com
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
-# > iQIYI
+# > iQIYI - act.vip.iqiyi.com
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
@@ -108,6 +109,8 @@
 ^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$ - reject
 # > CSDN - gw.csdn.net
 ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
+# > Ctrip - m.ctrip.com
+^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList - reject
 
 # D
 # > DU - app.poizon.com
@@ -163,12 +166,13 @@
 ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
 
 # G
-# > Google - *.googlevideo.com,*.youtube.com
+# > Google - *.googlevideo.com,www.youtube.com,s.youtube.com
 # ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
-^https?:\/\/\w+\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
 # > Gofun - gateway.shouqiev.com
-^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
+^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json - reject
 # > Guotai Junan Securities - dl.app.gtja.com
 ^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/[\w\/]+\.jpg$ - reject
 # > Gome - prom.mobile.gome.com.cn
@@ -233,6 +237,8 @@
 # L
 # > LaiFeng
 ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
+# > Lenovo - api.club.lenovo.cn
+^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad - reject
 
 # M
 # > MI - api.jr.mi.com,api-mifit*.huami.com
@@ -293,9 +299,8 @@
 # P
 # > PiaoGen - pss.txffp.com
 ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
-# > Pinduoduo - api.yangkeduo.com
-^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash - reject
-^https?:\/\/t00img\.yangkeduo\.com\/goods\/[\d-]+\/[A-Za-z0-9]+\.jpeg\?imageView2\/format\/webp$ - reject
+# > Pinduoduo - api.yangkeduo.com,api.pinduoduo.com
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
 # > PeanutWiFi
 ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
 # > PConline - mrobot.pconline.com.cn,mrobot.pcauto.com.cn
@@ -421,6 +426,8 @@
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
 # > WaitWaitPay - api.waitwaitpay.com
 # ^https?:\/\/api\.waitwaitpay\.com\/\/api\/splash - reject
+# > WallStCN - api.wallstcn.com
+^https?:\/\/api\.wallstcn\.com\/apiv\d\/advertising\/ - reject
 
 # X
 # > Xiachufang - api.xiachufang.com

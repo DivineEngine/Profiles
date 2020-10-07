@@ -263,6 +263,7 @@ DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv.bandi.so,REJECT
 DOMAIN,adv.ettoday.net,REJECT
 DOMAIN,api.adnet.mob.com,REJECT
+DOMAIN,api-ad.kajicam.com,REJECT
 DOMAIN,app-ad.variflight.com,REJECT
 DOMAIN,appnext.hs.llnwd.net,REJECT
 DOMAIN,appnext-a.akamaihd.net,REJECT
@@ -271,6 +272,7 @@ DOMAIN,g.ousns.net,REJECT
 DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,itad.linetv.tw,REJECT
+DOMAIN,ma-adx.ctrip.com,REJECT
 DOMAIN,mads.suning.com,REJECT
 DOMAIN,mobileads.msn.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
@@ -550,7 +552,6 @@ DOMAIN,ads.yahoo.de,REJECT
 # (Z)
 # > Zhihu
 USER-AGENT,AVOS*,REJECT
-DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT
 # > ZOL

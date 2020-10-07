@@ -189,9 +189,8 @@ proxy-providers:
   #
   # 「url」参数填写订阅链接
   #
-  # 订阅链接可以使用 API 进行转换，如：https://sub.dler.io/
+  # 订阅链接可以使用 API 进行转换，如：https://dove.589669.xyz/web
   #
-  # 1.模式选择「进阶模式」 2.填写订阅链接 3.勾选「输出为 Node List」 4.「生成订阅链接」
   #
 
   # 此处只是订阅示例，如果没有订阅链接的使用需求，此处及 proxy-groups 的相关内容可删除
