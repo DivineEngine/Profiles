@@ -6,14 +6,21 @@ payload:
   # USER-AGENT,Coffee%20Corp*
   # USER-AGENT,restaurant-mobile*
   - DOMAIN,app.adjust.com
-  - DOMAIN,bdtj.tagtic.cn,DIRECT
+  - DOMAIN,bdtj.tagtic.cn
   # > Alibaba
   - DOMAIN,log.mmstat.com
   - DOMAIN,sycm.mmstat.com
   # > Google
+  - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN,clientservices.googleapis.com
   - DOMAIN,dl.google.com
+  - DOMAIN,dl.l.google.com
+  - DOMAIN,fonts.googleapis.com
+  - DOMAIN,fonts.gstatic.com
   - DOMAIN,mtalk.google.com
+  - DOMAIN,translate.googleapis.com
+  - DOMAIN,update.googleapis.com
   # > Tencent
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com

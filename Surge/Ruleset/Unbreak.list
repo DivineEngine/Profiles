@@ -10,9 +10,16 @@ DOMAIN,bdtj.tagtic.cn
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
 # > Google
-DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN-SUFFIX,blog.google // Google Blog
+DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
+DOMAIN,clientservices.googleapis.com
 DOMAIN,dl.google.com
-DOMAIN,mtalk.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,fonts.googleapis.com // Google Fonts API
+DOMAIN,fonts.gstatic.com // Google Fonts API
+DOMAIN,mtalk.google.com // Firebase Cloud Messaging
+DOMAIN,translate.googleapis.com
+DOMAIN,update.googleapis.com
 # > Tencent
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com

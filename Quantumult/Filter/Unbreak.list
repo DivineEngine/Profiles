@@ -10,9 +10,16 @@ DOMAIN,bdtj.tagtic.cn,DIRECT
 DOMAIN,log.mmstat.com,DIRECT
 DOMAIN,sycm.mmstat.com,DIRECT
 # > Google
+DOMAIN-SUFFIX,blog.google,DIRECT
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+DOMAIN,clientservices.googleapis.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
+DOMAIN,dl.l.google.com,DIRECT
+DOMAIN,fonts.googleapis.com,DIRECT
+DOMAIN,fonts.gstatic.com,DIRECT
 DOMAIN,mtalk.google.com,DIRECT
+DOMAIN,translate.googleapis.com,DIRECT
+DOMAIN,update.googleapis.com,DIRECT
 # > Tencent
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
