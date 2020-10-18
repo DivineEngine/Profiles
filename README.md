@@ -52,3 +52,4 @@ Please read the [Documentation](https://www.notion.so/divineengine/b4161dac04124
 - [onewayticket255 / Surge-Script](https://github.com/onewayticket255/Surge-Script)
 - [Koolson / Qure](https://github.com/Koolson/Qure)
 - [17mon / china_ip_list](https://github.com/17mon/china_ip_list)
+- [blackmatrix7 / ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
