@@ -2,7 +2,7 @@
 #!desc=跳过 YouTube 视频片头广告，Premium 勿用。
 #!system=ios
 
-[Script]
+[URL Rewrite]
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) $1$3 302
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) - reject
 
