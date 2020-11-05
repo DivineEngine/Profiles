@@ -58,12 +58,16 @@ DOMAIN-SUFFIX,aiv-cdn.net,Streaming
 DOMAIN-SUFFIX,aiv-delivery.net,Streaming
 DOMAIN-SUFFIX,amazonvideo.com,Streaming
 DOMAIN-SUFFIX,primevideo.com,Streaming
+DOMAIN-SUFFIX,media-amazon.com,Streaming
+DOMAIN,atv-ps.amazon.com,Streaming
+DOMAIN,fls-na.amazon.com,Streaming
 DOMAIN,avodmp4s3ww-a.akamaihd.net,Streaming
 DOMAIN,d25xi40x97liuc.cloudfront.net,Streaming
 DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
 DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
 DOMAIN,d22qjgkvxw22r6.cloudfront.net,Streaming
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
+DOMAIN,d27xxe7juh1us6.cloudfront.net,Streaming
 DOMAIN-KEYWORD,avoddashs,Streaming
 # > Apple TV
 DOMAIN-SUFFIX,tv.apple.com,Streaming
