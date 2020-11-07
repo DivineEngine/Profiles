@@ -408,12 +408,6 @@ payload:
   - DOMAIN,c1wx.lianwangtech.com
 
   # (M)
-  # > MI
-  - DOMAIN-SUFFIX,ad.intl.xiaomi.com
-  - DOMAIN-SUFFIX,ad.xiaomi.com
-  - DOMAIN-SUFFIX,admob.xiaomi.com
-  - DOMAIN,adv.sec.intl.miui.com
-  - DOMAIN,adv.sec.miui.com
   # > MojiWeather
   - DOMAIN,ad.api.moji.com
   - DOMAIN,adlaunch.moji.com
