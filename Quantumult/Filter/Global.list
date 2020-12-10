@@ -8,9 +8,11 @@ DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
 # > Microsoft
+DOMAIN-SUFFIX,aka.ms,PROXY
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
 DOMAIN,az416426.vo.msecnd.net,PROXY
 DOMAIN,az668014.vo.msecnd.net,PROXY
@@ -62,11 +64,15 @@ IP-CIDR,103.2.30.0/23,PROXY
 IP-CIDR,125.209.208.0/20,PROXY
 IP-CIDR,147.92.128.0/17,PROXY
 IP-CIDR,203.104.144.0/21,PROXY
+# > Amazon
+DOMAIN-SUFFIX,amazon.co.jp,PROXY
+DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY
+DOMAIN,payments-jp.amazon.com,PROXY
+DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY
+DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 # > Akamai
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
-# > Amazon CloudFront
-DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY
 # > Others
 DOMAIN-SUFFIX,4shared.com,PROXY
 DOMAIN-SUFFIX,9cache.com,PROXY
@@ -74,7 +80,6 @@ DOMAIN-SUFFIX,9gag.com,PROXY
 DOMAIN-SUFFIX,abc.com,PROXY
 DOMAIN-SUFFIX,abc.net.au,PROXY
 DOMAIN-SUFFIX,abebooks.com,PROXY
-DOMAIN-SUFFIX,amazon.co.jp,PROXY
 DOMAIN-SUFFIX,ao3.org,PROXY
 DOMAIN-SUFFIX,apigee.com,PROXY
 DOMAIN-SUFFIX,apkcombo.com,PROXY
@@ -188,6 +193,7 @@ DOMAIN-SUFFIX,ft.com,PROXY
 DOMAIN-SUFFIX,ftchinese.com,PROXY
 DOMAIN-SUFFIX,ftimg.net,PROXY
 DOMAIN-SUFFIX,gate.io,PROXY
+DOMAIN-SUFFIX,genius.com,PROXY
 DOMAIN-SUFFIX,getlantern.org,PROXY
 DOMAIN-SUFFIX,getsync.com,PROXY
 DOMAIN-SUFFIX,github.com,PROXY
@@ -351,6 +357,7 @@ DOMAIN-SUFFIX,steamcommunity.com,PROXY
 DOMAIN-SUFFIX,steemit.com,PROXY
 DOMAIN-SUFFIX,steemitwallet.com,PROXY
 DOMAIN-SUFFIX,straitstimes.com,PROXY
+DOMAIN-SUFFIX,streamable.com,PROXY
 DOMAIN-SUFFIX,streema.com,PROXY
 DOMAIN-SUFFIX,t66y.com,PROXY
 DOMAIN-SUFFIX,tapatalk.com,PROXY
@@ -426,9 +433,6 @@ DOMAIN-SUFFIX,zoom.us,PROXY
 
 DOMAIN,cc.tvbs.com.tw,PROXY
 DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
-DOMAIN,payments-jp.amazon.com,PROXY
-DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY
-DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 DOMAIN,search.avira.com,PROXY
 DOMAIN,us.weibo.com,PROXY
 
@@ -528,3 +532,4 @@ DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
+DOMAIN,ocsp.apple.com,PROXY

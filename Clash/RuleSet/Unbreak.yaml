@@ -22,6 +22,7 @@ payload:
   - DOMAIN,translate.googleapis.com
   - DOMAIN,update.googleapis.com
   # > Tencent
+  - DOMAIN,fairplay.l.qq.com
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
   # > Strava

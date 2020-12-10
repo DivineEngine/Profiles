@@ -21,6 +21,7 @@ DOMAIN,mtalk.google.com,DIRECT
 DOMAIN,translate.googleapis.com,DIRECT
 DOMAIN,update.googleapis.com,DIRECT
 # > Tencent
+DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
 # > Strava
