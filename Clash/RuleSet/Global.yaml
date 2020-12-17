@@ -431,7 +431,9 @@ payload:
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zeronet.io
   - DOMAIN-SUFFIX,zoom.us
-
+  
+  - DOMAIN,international-gfe.download.nvidia.com
+  
   - DOMAIN,cc.tvbs.com.tw
   - DOMAIN,ocsp.int-x3.letsencrypt.org
   - DOMAIN,search.avira.com
