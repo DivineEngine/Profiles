@@ -1,8 +1,7 @@
 payload:
   # > bilibili
   - DOMAIN-SUFFIX,biliapi.net
-  - DOMAIN,api.bilibili.com
-  - DOMAIN,www.bilibili.com
+  - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   # > 愛奇藝台灣站
   - DOMAIN,cache.video.iqiyi.com

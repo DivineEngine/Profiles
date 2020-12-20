@@ -1,7 +1,6 @@
 # > bilibili
 DOMAIN-SUFFIX,biliapi.net,StreamingSE
-DOMAIN,api.bilibili.com,StreamingSE
-DOMAIN,www.bilibili.com,StreamingSE
+DOMAIN-SUFFIX,bilibili.com,StreamingSE
 DOMAIN,upos-hz-mirrorakam.akamaized.net,StreamingSE
 # > 愛奇藝台灣站
 DOMAIN,cache.video.iqiyi.com,StreamingSE

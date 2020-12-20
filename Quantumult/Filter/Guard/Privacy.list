@@ -29,7 +29,9 @@ DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
 # > Tencent
+DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
+DOMAIN,btrace.video.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
 # > Umeng

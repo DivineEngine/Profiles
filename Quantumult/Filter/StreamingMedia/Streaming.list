@@ -94,11 +94,12 @@ DOMAIN,d151l6v8er5bdm.cloudfront.net,Streaming
 DOMAIN-KEYWORD,voddazn,Streaming
 # > Disney+
 USER-AGENT,Disney+*,Streaming
-DOMAIN-SUFFIX,disney-plus.net,Streaming
+DOMAIN-SUFFIX,bamgrid.com,Streaming
 DOMAIN-SUFFIX,disneyplus.com,Streaming
+DOMAIN-SUFFIX,disney-plus.net,Streaming
+DOMAIN-SUFFIX,disneystreaming.com,Streaming
 DOMAIN-SUFFIX,dssott.com,Streaming
 DOMAIN,cdn.registerdisney.go.com,Streaming
-DOMAIN,global.edge.bamgrid.com,Streaming
 # > DMM
 DOMAIN-SUFFIX,dmm.co.jp,Streaming
 DOMAIN-SUFFIX,dmm.com,Streaming
