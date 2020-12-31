@@ -130,6 +130,7 @@ DOMAIN-SUFFIX,brightcom.com,REJECT
 DOMAIN-SUFFIX,bulldogcpi.com,REJECT
 DOMAIN-SUFFIX,bxsnews.com,REJECT
 DOMAIN-SUFFIX,carbonads.net,REJECT
+DOMAIN-SUFFIX,cdj99d.cn,REJECT
 DOMAIN-SUFFIX,clotfun.mobi,REJECT
 DOMAIN-SUFFIX,clotfun.online,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
@@ -247,7 +248,6 @@ DOMAIN,ad.flurry.com,REJECT
 DOMAIN,ad.huajiao.com,REJECT
 DOMAIN,ad.hzyoka.com,REJECT
 DOMAIN,ad.jiemian.com,REJECT
-DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
 DOMAIN,ads.adadapted.com,REJECT
@@ -330,6 +330,8 @@ IP-CIDR,101.227.200.28/32,REJECT
 IP-CIDR,124.192.153.42/32,REJECT
 # ------
 # > ByteDance
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,pangolin.snssdk.com,REJECT
 # > baicizhan
 DOMAIN,advertise.baicizhan.com,REJECT
@@ -519,6 +521,7 @@ DOMAIN,adsp.xunlei.com,REJECT
 DOMAIN,etl.xlmc.sandai.net,REJECT
 
 # (V)
+# > VariFlight
 DOMAIN,adv-adlog.variflight.com,REJECT
 DOMAIN,adv-ads.variflight.com,REJECT
 DOMAIN,app-ad.variflight.com,REJECT

@@ -130,6 +130,7 @@ DOMAIN-SUFFIX,brightcom.com
 DOMAIN-SUFFIX,bulldogcpi.com
 DOMAIN-SUFFIX,bxsnews.com
 DOMAIN-SUFFIX,carbonads.net
+DOMAIN-SUFFIX,cdj99d.cn
 DOMAIN-SUFFIX,clotfun.mobi
 DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cloudmobi.net
@@ -247,7 +248,6 @@ DOMAIN,ad.flurry.com
 DOMAIN,ad.huajiao.com
 DOMAIN,ad.hzyoka.com
 DOMAIN,ad.jiemian.com
-DOMAIN,ad.toutiao.com
 DOMAIN,ad.wappalyzer.com
 DOMAIN,ad-cn.jovcloud.com
 DOMAIN,ads.adadapted.com
@@ -264,7 +264,6 @@ DOMAIN,adv.bandi.so
 DOMAIN,adv.ettoday.net
 DOMAIN,api.adnet.mob.com
 DOMAIN,api-ad.kajicam.com
-DOMAIN,app-ad.variflight.com
 DOMAIN,appnext.hs.llnwd.net
 DOMAIN,appnext-a.akamaihd.net
 DOMAIN,business-cdn.shouji.sogou.com
@@ -330,6 +329,10 @@ IP-CIDR,101.227.200.11/32,no-resolve
 IP-CIDR,101.227.200.28/32,no-resolve
 IP-CIDR,124.192.153.42/32,no-resolve
 # ------
+# > ByteDance
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN,ad.toutiao.com
+DOMAIN,pangolin.snssdk.com
 # > baicizhan
 DOMAIN,advertise.baicizhan.com
 DOMAIN,advertise.baicizhan.org
@@ -407,12 +410,6 @@ DOMAIN,cwx.lianwangtech.com
 DOMAIN,c1wx.lianwangtech.com
 
 # (M)
-# > MI
-DOMAIN-SUFFIX,ad.intl.xiaomi.com
-DOMAIN-SUFFIX,ad.xiaomi.com
-DOMAIN-SUFFIX,admob.xiaomi.com
-DOMAIN,adv.sec.intl.miui.com
-DOMAIN,adv.sec.miui.com
 # > MojiWeather
 DOMAIN,ad.api.moji.com
 DOMAIN,adlaunch.moji.com
@@ -522,6 +519,12 @@ DOMAIN,imgadpai.thepaper.cn
 # > Thunder
 DOMAIN,adsp.xunlei.com
 DOMAIN,etl.xlmc.sandai.net
+
+# (V)
+# > VariFlight
+DOMAIN,adv-adlog.variflight.com
+DOMAIN,adv-ads.variflight.com
+DOMAIN,app-ad.variflight.com
 
 # (X)
 # > Ximalaya
