@@ -70,9 +70,7 @@ DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
 DOMAIN,d27xxe7juh1us6.cloudfront.net,Streaming
 DOMAIN-KEYWORD,avoddashs,Streaming
 # > Apple TV
-DOMAIN-SUFFIX,tv.apple.com,Streaming
-DOMAIN,hls.itunes.apple.com,Streaming
-DOMAIN,hls-amt.itunes.apple.com,Streaming
+DOMAIN,linear.tv.apple.com,Streaming
 DOMAIN,play-edge.itunes.apple.com,Streaming
 # > Bahamut
 USER-AGENT,Anime*,Streaming
@@ -221,7 +219,6 @@ USER-AGENT,Niconico*,Streaming
 DOMAIN-SUFFIX,dmc.nico,Streaming
 DOMAIN-SUFFIX,nicovideo.jp,Streaming
 DOMAIN-SUFFIX,nimg.jp,Streaming
-DOMAIN-SUFFIX,socdm.com,Streaming
 # > Now E
 DOMAIN-SUFFIX,nowe.com,Streaming
 DOMAIN-SUFFIX,nowestatic.com,Streaming
