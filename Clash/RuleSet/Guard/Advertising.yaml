@@ -131,6 +131,7 @@ payload:
   - DOMAIN-SUFFIX,bulldogcpi.com
   - DOMAIN-SUFFIX,bxsnews.com
   - DOMAIN-SUFFIX,carbonads.net
+  - DOMAIN-SUFFIX,cdj99d.cn
   - DOMAIN-SUFFIX,clotfun.mobi
   - DOMAIN-SUFFIX,clotfun.online
   - DOMAIN-SUFFIX,cloudmobi.net
@@ -191,6 +192,7 @@ payload:
   - DOMAIN-SUFFIX,smaato.net
   - DOMAIN-SUFFIX,smartadserver.com
   - DOMAIN-SUFFIX,smartnews-ads.com
+  - DOMAIN-SUFFIX,socdm.com
   - DOMAIN-SUFFIX,supersonic.com
   - DOMAIN-SUFFIX,supersonicads.com
   - DOMAIN-SUFFIX,tagtic.cn
@@ -239,7 +241,6 @@ payload:
 
   - DOMAIN-SUFFIX,ad.cmvideo.cn
   - DOMAIN-SUFFIX,ad.daum.net
-  - DOMAIN-SUFFIX,aiseet.atianqi.com
 
   - DOMAIN,abema-adx.ameba.jp
   - DOMAIN,ad.12306.cn
@@ -248,7 +249,6 @@ payload:
   - DOMAIN,ad.huajiao.com
   - DOMAIN,ad.hzyoka.com
   - DOMAIN,ad.jiemian.com
-  - DOMAIN,ad.toutiao.com
   - DOMAIN,ad.wappalyzer.com
   - DOMAIN,ad-cn.jovcloud.com
   - DOMAIN,ads.adadapted.com
@@ -265,7 +265,6 @@ payload:
   - DOMAIN,adv.ettoday.net
   - DOMAIN,api.adnet.mob.com
   - DOMAIN,api-ad.kajicam.com
-  - DOMAIN,app-ad.variflight.com
   - DOMAIN,appnext.hs.llnwd.net
   - DOMAIN,appnext-a.akamaihd.net
   - DOMAIN,business-cdn.shouji.sogou.com
@@ -331,6 +330,10 @@ payload:
   - IP-CIDR,101.227.200.28/32,no-resolve
   - IP-CIDR,124.192.153.42/32,no-resolve
   # ------
+  # > ByteDance
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN,ad.toutiao.com
+  - DOMAIN,pangolin.snssdk.com
   # > baicizhan
   - DOMAIN,advertise.baicizhan.com
   - DOMAIN,advertise.baicizhan.org
@@ -518,6 +521,12 @@ payload:
   - DOMAIN,adsp.xunlei.com
   - DOMAIN,etl.xlmc.sandai.net
 
+  # (V)
+  # > VariFlight
+  - DOMAIN,adv-adlog.variflight.com
+  - DOMAIN,adv-ads.variflight.com
+  - DOMAIN,app-ad.variflight.com
+
   # (X)
   # > Ximalaya
   - DOMAIN,ad.ximalaya.com
@@ -546,6 +555,9 @@ payload:
 
   # (Z)
   # > Zhihu
+  # USER-AGENT,AVOS*
+  - DOMAIN,appcloud2.zhihu.com
+  - DOMAIN,appcloud2.in.zhihu.com
   - DOMAIN,sugar.zhihu.com
   - IP-CIDR,118.89.204.198/32,no-resolve
   # > ZOL
