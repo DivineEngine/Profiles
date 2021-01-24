@@ -4,8 +4,11 @@
 # Port of SOCKS5 proxy server on the local end
 # socks-port: 7891
 
-# Transparent proxy server port for Linux and macOS
+# Transparent proxy server port for Linux and macOS (Redirect TCP and TProxy UDP)
 # redir-port: 7892
+
+# Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
+# tproxy-port: 7893
 
 # HTTP(S) and SOCKS5 server on the same port
 mixed-port: 7890
@@ -15,7 +18,7 @@ mixed-port: 7890
 #  - "user1:pass1"
 #  - "user2:pass2"
 
-# Set to true to allow connections to local-end server from
+# Set to true to allow connections to the local-end server from
 # other LAN IP addresses
 allow-lan: false
 
@@ -54,11 +57,10 @@ external-controller: 127.0.0.1:9090
 # Outbound interface name
 # interface-name: en0
 
-# Static hosts for DNS server and connection establishment, only works
-# when `dns.enhanced-mode` is `redir-host`.
+# Static hosts for DNS server and connection establishment (like /etc/hosts)
 #
 # Wildcard hostnames are supported (e.g. *.clash.dev, *.foo.*.example.com)
-# Non-wildcard domain names has a higher priority than wildcard domain names
+# Non-wildcard domain names have a higher priority than wildcard domain names
 # e.g. foo.example.com > *.example.com > .example.com
 # P.S. +.foo.com equals to .foo.com and foo.com
 hosts:
@@ -68,11 +70,11 @@ hosts:
   # 'alpha.clash.dev': '::1'
 
 # DNS server settings
-# This section is optional. When not present, DNS server will be disabled.
+# This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: false
   listen: 0.0.0.0:53
-  # ipv6: false # when false, response to AAAA questions will be empty
+  # ipv6: false # when the false, response to AAAA questions will be empty
 
   # These nameservers are used to resolve the DNS nameserver hostnames below.
   # Specify IP addresses only
@@ -81,7 +83,8 @@ dns:
     - 1.0.0.1
   enhanced-mode: redir-host # or fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
-  
+  # use-hosts: true # lookup hosts and return IP record
+
   # Hostnames in this list will not be resolved with fake IPs
   # i.e. questions to these domain names will always be answered with their
   # real IP addresses
@@ -101,15 +104,15 @@ dns:
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
     - 119.29.29.29
-    # - tls://dns.rubyfish.cn:853 # DNS over TLS
-    # - https://1.1.1.1/dns-query # DNS over HTTPS
+    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://1.1.1.1/dns-query # DNS over HTTPS
 
   # When `fallback` is present, the DNS server will send concurrent requests
   # to the servers in this section along with servers in `nameservers`.
   # The answers from fallback servers are used when the GEOIP country
   # is not `CN`.
-  fallback:
-    - https://cloudflare-dns.com/dns-query
+  # fallback:
+  #   - tcp://1.1.1.1
 
   # If IP addresses resolved with servers in `nameservers` are in the specified
   # subnets below, they are considered invalid and results from `fallback`
@@ -118,17 +121,33 @@ dns:
   # IP address resolved with servers in `nameserver` is used when
   # `fallback-filter.geoip` is true and when GEOIP of the IP address is `CN`.
   #
-  # If `fallback-filter.geoip` is false, results from `fallback` nameservers
-  # are always used, and answers from `nameservers` are discarded.
+  # If `fallback-filter.geoip` is false, results from `nameserver` nameservers
+  # are always used if not match `fallback-filter.ipcidr`.
   #
   # This is a countermeasure against DNS pollution attacks.
   fallback-filter:
     geoip: true
     ipcidr:
       # - 240.0.0.0/4
+    # domain:
+    #   - '+.google.com'
+    #   - '+.facebook.com'
+    #   - '+.youtube.com'
+
+#
+# https://github.com/Dreamacro/clash/wiki/premium-core-features
+#
+# tun:
+#   enable: true
+#   stack: system # or gvisor
+#   # dns-hijack:
+#   #   - 8.8.8.8:53
+#   #   - tcp://8.8.8.8:53
+#   macOS-auto-route: true # auto set global route
+#   macOS-auto-detect-interface: true # conflict with interface-name
 
 proxies:
-# 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+# 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/wiki/configuration
 
   # Shadowsocks(Websocket + TLS)
   - name: "1"
@@ -219,7 +238,7 @@ proxy-providers:
   #     url: http://www.gstatic.com/generate_204
 
 proxy-groups:
-# 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+# 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/wiki/configuration
 
 #
 # 策略组说明

@@ -202,6 +202,8 @@ DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
 DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
 DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
 DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
+DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Streaming
+DOMAIN-KEYWORD,dualstack.ichnaea-web-,Streaming
 IP-CIDR,23.246.0.0/18,Streaming
 IP-CIDR,37.77.184.0/21,Streaming
 IP-CIDR,45.57.0.0/17,Streaming
