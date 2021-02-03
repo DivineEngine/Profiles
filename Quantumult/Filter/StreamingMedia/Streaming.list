@@ -265,4 +265,6 @@ USER-AGENT,com.google.ios.youtube*,Streaming
 USER-AGENT,YouTube*,Streaming
 DOMAIN-SUFFIX,googlevideo.com,Streaming
 DOMAIN-SUFFIX,youtube.com,Streaming
+DOMAIN-SUFFIX,ytimg.com,Streaming
 DOMAIN,youtubei.googleapis.com,Streaming
+DOMAIN,yt3.ggpht.com,Streaming

@@ -446,7 +446,6 @@ payload:
 
   # (IP Blackhole)
   # > Google
-  - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,advertisercommunity.com
   - DOMAIN-SUFFIX,ampproject.org
