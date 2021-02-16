@@ -2,6 +2,7 @@ payload:
   # > bilibili
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-KEYWORD,cn-hk-eq-bcache-
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   # > 愛奇藝台灣站 & iQIYI
   - DOMAIN-SUFFIX,iq.com

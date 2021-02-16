@@ -59,12 +59,12 @@ DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvpic.com
 DOMAIN-SUFFIX,livechina.com
+# > ChinaTelecom
+DOMAIN-SUFFIX,21cn.com
 # > DiDi
 DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,udache.com
-# > ChinaTelecom
-DOMAIN-SUFFIX,21cn.com
 # > HunanTV
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,mgtv.com
@@ -224,6 +224,7 @@ DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,99.com
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,accuweather.com
+DOMAIN-SUFFIX,agora.io
 DOMAIN-SUFFIX,aicoinstorge.com
 DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
@@ -295,6 +296,7 @@ DOMAIN-SUFFIX,moke.com
 DOMAIN-SUFFIX,mubu.com
 DOMAIN-SUFFIX,myzaker.com
 DOMAIN-SUFFIX,nim-lang-cn.org
+DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,pcbeta.com
@@ -340,7 +342,3 @@ DOMAIN-SUFFIX,zhuihd.com
 
 DOMAIN,download.jetbrains.com
 DOMAIN,images-cn.ssl-images-amazon.com
-
-# Tencent
-IP-CIDR,119.28.28.28/32,no-resolve
-IP-CIDR,182.254.116.0/24,no-resolve

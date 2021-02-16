@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN-KEYWORD,cn-hk-eq-bcache-
 # > 愛奇藝台灣站 & iQIYI
 DOMAIN-SUFFIX,iq.com
 DOMAIN,cache.video.iqiyi.com

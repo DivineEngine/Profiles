@@ -247,6 +247,10 @@ DOMAIN-SUFFIX,tik-tokapi.com,Streaming
 DOMAIN-SUFFIX,tiktokcdn.com,Streaming
 DOMAIN-SUFFIX,tiktokv.com,Streaming
 DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
+# > TVer
+USER-AGENT,TVer-Release*,Streaming
+DOMAIN-SUFFIX,tver.jp,Streaming
+DOMAIN,edge.api.brightcove.com,Streaming
 # > Twitch
 DOMAIN-SUFFIX,jtvnw.net,Streaming
 DOMAIN-SUFFIX,ttvnw.net,Streaming

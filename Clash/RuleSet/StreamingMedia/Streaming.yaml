@@ -250,6 +250,10 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-KEYWORD,-tiktokcdn-com
+  # > TVer
+  - PROCESS-NAME,jp.hamitv.hamiand1
+  - DOMAIN-SUFFIX,tver.jp
+  - DOMAIN,edge.api.brightcove.com
   # > Twitch
   - PROCESS-NAME,tv.twitch.android.app
   - DOMAIN-SUFFIX,jtvnw.net

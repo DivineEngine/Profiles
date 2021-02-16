@@ -74,6 +74,9 @@ DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 # > Akamai
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
+# > Clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com,PROXY
+DOMAIN-SUFFIX,joinclubhouse.com,PROXY
 # > Others
 DOMAIN-SUFFIX,4shared.com,PROXY
 DOMAIN-SUFFIX,9cache.com,PROXY
