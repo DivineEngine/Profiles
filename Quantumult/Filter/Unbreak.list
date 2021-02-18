@@ -13,7 +13,6 @@ DOMAIN,sycm.mmstat.com,DIRECT
 DOMAIN-SUFFIX,blog.google,DIRECT
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
 DOMAIN,clientservices.googleapis.com,DIRECT
-DOMAIN,dl.google.com,DIRECT
 DOMAIN,dl.l.google.com,DIRECT
 DOMAIN,update.googleapis.com,DIRECT
 DOMAIN,translate.googleapis.com,DIRECT
