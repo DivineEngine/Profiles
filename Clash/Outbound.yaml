@@ -64,10 +64,15 @@ external-controller: 127.0.0.1:9090
 # e.g. foo.example.com > *.example.com > .example.com
 # P.S. +.foo.com equals to .foo.com and foo.com
 hosts:
-  'mtalk.google.com': 108.177.125.188
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
+
+  # Firebase Cloud Messaging
+  'mtalk.google.com': 108.177.125.188
+  # Google Dl
+  'dl.google.com': 180.163.151.161
+  'dl.l.google.com': 180.163.151.161
 
 # DNS server settings
 # This section is optional. When not present, the DNS server will be disabled.

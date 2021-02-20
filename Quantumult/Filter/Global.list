@@ -14,6 +14,7 @@ DOMAIN-KEYWORD,.blogspot.,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,aka.ms,PROXY
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net,PROXY
 DOMAIN,az416426.vo.msecnd.net,PROXY
 DOMAIN,az668014.vo.msecnd.net,PROXY
 # > Facebook
@@ -529,6 +530,12 @@ DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
 
 # (Network Jitter)
+# > DigiCert
+DOMAIN,cacerts.digicert.com,PROXY
+DOMAIN,crl3.digicert.com,PROXY
+DOMAIN,crl4.digicert.com,PROXY
+DOMAIN,ocsp.digicert.com,PROXY
+# > Others
 DOMAIN-SUFFIX,cloudcone.com.cn,PROXY
 DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
