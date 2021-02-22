@@ -8,15 +8,6 @@ DOMAIN-SUFFIX,himalaya.com,Streaming
 USER-AGENT,Deezer*,Streaming
 DOMAIN-SUFFIX,deezer.com,Streaming
 DOMAIN-SUFFIX,dzcdn.net,Streaming
-# > JOOX
-USER-AGENT,JOOX*,Streaming
-USER-AGENT,WeMusic*,Streaming
-DOMAIN-SUFFIX,joox.com,Streaming
-DOMAIN-KEYWORD,jooxweb-api,Streaming
-# > KKBOX
-DOMAIN-SUFFIX,kkbox.com,Streaming
-DOMAIN-SUFFIX,kkbox.com.tw,Streaming
-DOMAIN-SUFFIX,kfs.io,Streaming
 # > Pandora
 USER-AGENT,Pandora*,Streaming
 DOMAIN-SUFFIX,pandora.com,Streaming
@@ -25,14 +16,6 @@ USER-AGENT,SoundCloud*,Streaming
 DOMAIN-SUFFIX,p-cdn.us,Streaming
 DOMAIN-SUFFIX,sndcdn.com,Streaming
 DOMAIN-SUFFIX,soundcloud.com,Streaming
-# > Spotify
-USER-AGENT,Spotify*,Streaming
-DOMAIN-SUFFIX,pscdn.co,Streaming
-DOMAIN-SUFFIX,scdn.co,Streaming
-DOMAIN-SUFFIX,spotify.com,Streaming
-DOMAIN-SUFFIX,spoti.fi,Streaming
-DOMAIN-KEYWORD,spotify.com,Streaming
-DOMAIN-KEYWORD,-spotify-com,Streaming
 # > TIDAL
 USER-AGENT,TIDAL*,Streaming
 DOMAIN-SUFFIX,tidal.com,Streaming
@@ -98,10 +81,6 @@ DOMAIN-SUFFIX,disney-plus.net,Streaming
 DOMAIN-SUFFIX,disneystreaming.com,Streaming
 DOMAIN-SUFFIX,dssott.com,Streaming
 DOMAIN,cdn.registerdisney.go.com,Streaming
-# > DMM
-DOMAIN-SUFFIX,dmm.co.jp,Streaming
-DOMAIN-SUFFIX,dmm.com,Streaming
-DOMAIN-SUFFIX,dmm-extension.com,Streaming
 # > encoreTVB
 USER-AGENT,encoreTVB*,Streaming
 DOMAIN-SUFFIX,encoretvb.com,Streaming
@@ -187,39 +166,6 @@ DOMAIN-SUFFIX,tvb.com,Streaming
 USER-AGENT,Naver%20TV*,Streaming
 DOMAIN-SUFFIX,naver.com,Streaming
 DOMAIN-SUFFIX,smartmediarep.com,Streaming
-# > Netflix
-USER-AGENT,Argo*,Streaming
-DOMAIN-SUFFIX,netflix.com,Streaming
-DOMAIN-SUFFIX,netflix.net,Streaming
-DOMAIN-SUFFIX,nflxext.com,Streaming
-DOMAIN-SUFFIX,nflximg.com,Streaming
-DOMAIN-SUFFIX,nflximg.net,Streaming
-DOMAIN-SUFFIX,nflxso.net,Streaming
-DOMAIN-SUFFIX,nflxvideo.net,Streaming
-DOMAIN-SUFFIX,netflixdnstest0.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest1.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest2.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest3.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest4.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest5.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
-DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Streaming
-DOMAIN-KEYWORD,dualstack.ichnaea-web-,Streaming
-IP-CIDR,23.246.0.0/18,Streaming
-IP-CIDR,37.77.184.0/21,Streaming
-IP-CIDR,45.57.0.0/17,Streaming
-IP-CIDR,64.120.128.0/17,Streaming
-IP-CIDR,66.197.128.0/17,Streaming
-IP-CIDR,108.175.32.0/20,Streaming
-IP-CIDR,192.173.64.0/18,Streaming
-IP-CIDR,198.38.96.0/19,Streaming
-IP-CIDR,198.45.48.0/20,Streaming
-IP-CIDR,34.210.42.111/32,Streaming
-IP-CIDR,52.89.124.203/32,Streaming
-IP-CIDR,54.148.37.5/32,Streaming
 # > niconico
 USER-AGENT,Niconico*,Streaming
 DOMAIN-SUFFIX,dmc.nico,Streaming
@@ -231,26 +177,10 @@ DOMAIN-SUFFIX,nowestatic.com,Streaming
 # > PBS
 USER-AGENT,PBS*,Streaming
 DOMAIN-SUFFIX,pbs.org,Streaming
-# > Pornhub
-DOMAIN-SUFFIX,phncdn.com,Streaming
-DOMAIN-SUFFIX,phprcdn.com,Streaming
-DOMAIN-SUFFIX,pornhub.com,Streaming
-DOMAIN-SUFFIX,pornhubpremium.com,Streaming
 # > 台湾好
 USER-AGENT,TaiwanGood*,Streaming
 DOMAIN-SUFFIX,skyking.com.tw,Streaming
 DOMAIN,hamifans.emome.net,Streaming
-# > TikTok
-USER-AGENT,TikTok*,Streaming
-DOMAIN-SUFFIX,byteoversea.com,Streaming
-DOMAIN-SUFFIX,ibytedtos.com,Streaming
-DOMAIN-SUFFIX,muscdn.com,Streaming
-DOMAIN-SUFFIX,musical.ly,Streaming
-DOMAIN-SUFFIX,tiktok.com,Streaming
-DOMAIN-SUFFIX,tik-tokapi.com,Streaming
-DOMAIN-SUFFIX,tiktokcdn.com,Streaming
-DOMAIN-SUFFIX,tiktokv.com,Streaming
-DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
 # > TVer
 USER-AGENT,TVer-Release*,Streaming
 DOMAIN-SUFFIX,tver.jp,Streaming
@@ -260,19 +190,3 @@ DOMAIN-SUFFIX,jtvnw.net,Streaming
 DOMAIN-SUFFIX,ttvnw.net,Streaming
 DOMAIN-SUFFIX,twitch.tv,Streaming
 DOMAIN-SUFFIX,twitchcdn.net,Streaming
-# > ViuTV
-USER-AGENT,Viu*,Streaming
-DOMAIN-SUFFIX,viu.com,Streaming
-DOMAIN-SUFFIX,viu.tv,Streaming
-DOMAIN,api.viu.now.com,Streaming
-DOMAIN,d1k2us671qcoau.cloudfront.net,Streaming
-DOMAIN,d2anahhhmp1ffz.cloudfront.net,Streaming
-DOMAIN,dfp6rglgjqszk.cloudfront.net,Streaming
-# > YouTube
-USER-AGENT,com.google.ios.youtube*,Streaming
-USER-AGENT,YouTube*,Streaming
-DOMAIN-SUFFIX,googlevideo.com,Streaming
-DOMAIN-SUFFIX,youtube.com,Streaming
-DOMAIN-SUFFIX,ytimg.com,Streaming
-DOMAIN,youtubei.googleapis.com,Streaming
-DOMAIN,yt3.ggpht.com,Streaming
