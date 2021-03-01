@@ -271,10 +271,11 @@ proxy-groups:
   # 但如果订阅节点很多选起来就很麻烦，不如先嵌套一个策略组进行手动或自动的选择。
 
   # 手动选择订阅节点
-  - name: "DuckDuckGo"
+  - name: "🦆DuckDuckGo"
     type: select # 亦可使用 fallback 或 load-balance
     use: # 注意此处是「use」
       - DuckDuckGoList # 这是上面「proxy-providers」的名称
+      - DuckDuckGoUS # 这是上面「proxy-providers」的名称
 
   # - name: "US"
   #   type: select # 亦可使用 fallback 或 load-balance
@@ -282,8 +283,12 @@ proxy-groups:
   #     - DuckDuckGoUS # 这是上面「proxy-providers」的名称
 
   # Fallback 比较实用的策略组类型，用于测试服务器节点的可用性，当第一个节点不可用时切换到第二个，以此类推。
-  - name: "Fallback"
+  # Fallback
+  - name: "🧯Fallback"
     type: fallback
+    # use:
+    #   - DuckDuckGoList
+    #   - DuckDuckGoUS
     proxies:
       - 1
       - 2
@@ -292,27 +297,27 @@ proxy-groups:
     interval: 300
 
   # 代理节点选择
-  - name: "PROXY"
+  - name: "🌑Proxy"
     type: select
     proxies:
-      - Fallback
+      - 🧯Fallback
       - 1
       - 2
       - 3
-      - DuckDuckGo # 嵌套使用订阅节点策略组
+      - 🦆DuckDuckGo # 嵌套使用订阅节点策略组
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
-  - name: "MATCH"
+  - name: "🧭Final"
     type: select
     proxies:
-      - PROXY
+      - 🌑Proxy
       - DIRECT
 
   # 国际流媒体服务
-  - name: "Streaming"
+  - name: "🎞Streaming"
     type: select
     proxies:
-      - PROXY
+      - 🌑Proxy
       - 1
       - 2
       - 3
@@ -320,7 +325,7 @@ proxy-groups:
 
   # 中国流媒体服务（面向海外版本）
   # 用于观看部分国内流媒体面向港澳台的地区的限定内容，此处应放港澳台节点，如果没有此需求可删除此处策略组及相关规则
-  - name: "StreamingSE"
+  - name: "🎞StreamingSE"
     type: select
     proxies:
       - DIRECT
@@ -341,6 +346,27 @@ rule-providers:
     behavior: classical
     path: ./RuleSet/Unbreak.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    interval: 86400
+
+  Advertising:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Advertising.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    interval: 86400
+
+  Privacy:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Privacy.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
+    interval: 86400
+
+  Hijacking:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Hijacking.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
     interval: 86400
 
   Streaming:
@@ -385,14 +411,19 @@ rules:
 
   # Global Area Network
 
+  # (Guard)
+  - RULE-SET,Advertising,🛡Guard
+  - RULE-SET,Privacy,🛡Guard
+  - RULE-SET,Hijacking,🛡Guard
+ 
   # (Streaming Media)
-  - RULE-SET,Streaming,Streaming
+  - RULE-SET,Streaming,🎞Streaming
 
   # (StreamingSE)
-  - RULE-SET,StreamingSE,StreamingSE
+  - RULE-SET,StreamingSE,🎞StreamingSE
 
   # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
-  - RULE-SET,Global,PROXY
+  - RULE-SET,Global,🌑Proxy
 
   # China Area Network
   - RULE-SET,China,DIRECT
@@ -414,4 +445,4 @@ rules:
   # GeoIP China
   - GEOIP,CN,DIRECT
 
-  - MATCH,MATCH
+  - MATCH,🧭Final

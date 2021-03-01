@@ -194,7 +194,7 @@ proxies:
     #   - http/1.1
     # skip-cert-verify: true
 
-# 节点订阅
+# 服务器节点订阅
 proxy-providers:
   # name: # Provider 名称
   #   type: http # http 或 file
@@ -206,6 +206,16 @@ proxy-providers:
   #     url: 
   #     interval: 
 
+  #
+  # 「url」参数填写订阅链接
+  #
+  # 订阅链接可以使用 API 进行转换，如：https://dove.589669.xyz/web
+  #
+  #
+
+  # 此处只是订阅示例，如果没有订阅链接的使用需求，此处及 proxy-groups 的相关内容可删除
+
+  
   # DuckDuckGo: # 冲鸭机场订阅链接
   #   type: http
   #   url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
@@ -219,8 +229,45 @@ proxy-providers:
 proxy-groups:
 # 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/wiki/configuration
 
+#
+# 策略组说明
+#
+# 「MATCH」类似 Surge 的「Final」，此处用于选择白名单模式(PROXY 策略)和黑名单模式(DIRECT 策略)
+#
+# 「Streaming」和「StreamingSE」比较好理解，有专用于流媒体的节点就设置到其中，如果没有「StreamingSE」的需求可以连带 Rule 部分一起删掉，「Streaming」需至少保留 Rule，用「PROXY」即可。
+#
+# 「PROXY」是代理规则策略，它可以指定为某个节点或嵌套一个其他策略组，如：「自动测试」、「Fallback」或「负载均衡」的策略组，关于这 3 个策略组的具体示例可以看官方示例：https://github.com/Dreamacro/clash
+#
+
+  # 注意此处的「use」而不是「proxies」，当然也可以不用在此先嵌套一个策略组进行选择，可以直接使用，如
+  #
+  # # 代理节点选择
+  # - name: "PROXY"
+  #   type: select
+  #   use:
+  #     - DuckDuckGo # 嵌套使用订阅节点策略组
+  #   proxies:
+  #     - Fallback
+  #     - 1
+  #     - 2
+  #     - 3
+  #
+  # 但如果订阅节点很多选起来就很麻烦，不如先嵌套一个策略组进行手动或自动的选择。
+
+  # 手动选择订阅节点
+  - name: "🦆DuckDuckGo"
+    type: select # 亦可使用 fallback 或 load-balance
+    use: # 注意此处是「use」
+      - DuckDuckGoList # 这是上面「proxy-providers」的名称
+
+  # - name: "US"
+  #   type: select # 亦可使用 fallback 或 load-balance
+  #   use: # 注意此处是「use」
+  #     - DuckDuckGoUS # 这是上面「proxy-providers」的名称
+
+  # Fallback 比较实用的策略组类型，用于测试服务器节点的可用性，当第一个节点不可用时切换到第二个，以此类推。
   # Fallback
-  - name: "Fallback"
+  - name: "🧯Fallback"
     type: fallback
     # use:
     #   - DuckDuckGo
@@ -232,13 +279,31 @@ proxy-groups:
     interval: 300
 
   # 代理节点选择
-  - name: "PROXY"
+  - name: "🌑Proxy"
     type: select
     proxies:
-      - Fallback
+      - 🧯Fallback
       - CN1
       - CN2
       - CN3
+      - 🦆DuckDuckGo # 嵌套使用订阅节点策略组
+
+  # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
+  - name: "🧭Final"
+    type: select
+    proxies:
+      - 🌑Proxy
+      - DIRECT
+
+  # 中国流媒体服务
+  - name: "🎞StreamingCN"
+    type: select
+    proxies:
+      - 🌑Proxy
+      - 1
+      - 2
+      - 3
+      # - US
 
 rule-providers:
   # name: # Provider 名称
@@ -248,16 +313,38 @@ rule-providers:
   #   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
   #   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
 
-  StreamingCN:
+
+  Advertising:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Advertising.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    interval: 86400
+
+  Privacy:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Privacy.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
+    interval: 86400
+
+    StreamingCN:
     type: http
     behavior: classical
     path: ./RuleSet/StreamingMedia/StreamingCN.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
     interval: 86400
 
+# 规则
 rules:
+  # Global Area Network
 
-  - RULE-SET,StreamingCN,PROXY
+  # (Guard)
+  - RULE-SET,Advertising,🛡Guard
+  - RULE-SET,Privacy,🛡Guard
+
+  # (StreamingCN)
+  - RULE-SET,StreamingCN,🌑Proxy
 
   # Local Area Network
   - IP-CIDR,192.168.0.0/16,DIRECT
@@ -268,6 +355,6 @@ rules:
   - IP-CIDR,224.0.0.0/4,DIRECT
 
   # GeoIP China
-  - GEOIP,CN,PROXY
+  - GEOIP,CN,🌑Proxy
 
-  - MATCH,DIRECT
+  - MATCH,🧭Final
