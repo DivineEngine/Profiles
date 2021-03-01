@@ -185,6 +185,10 @@ payload:
   - PROCESS-NAME,com.tvb.mytvsuper
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,tvb.com
+  # > Naver TV
+  - PROCESS-NAME,com.nhn.android.naverplayer
+  - DOMAIN-SUFFIX,naver.com
+  - DOMAIN-SUFFIX,smartmediarep.com
   # > Netflix
   - PROCESS-NAME,com.netflix.mediaclient
   - DOMAIN-SUFFIX,netflix.com

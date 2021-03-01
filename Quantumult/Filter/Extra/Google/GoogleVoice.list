@@ -1,0 +1,3 @@
+# > Google Voice
+# 如果你的代理服务器不支持 udp-relay 可尝试 DIRECT 以免被 REJECT（部分 Google 服务器还可直连）
+DOMAIN,lens.l.google.com,Google Voice

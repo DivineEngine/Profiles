@@ -208,6 +208,7 @@ DOMAIN-SUFFIX,globalvoices.org
 DOMAIN-SUFFIX,goo.ne.jp
 DOMAIN-SUFFIX,goodreads.com
 DOMAIN-SUFFIX,gov.tw
+DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,greatfire.org
 DOMAIN-SUFFIX,gumroad.com
 DOMAIN-SUFFIX,hbg.com
@@ -539,6 +540,12 @@ DOMAIN-SUFFIX,shopeemobile.com
 URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
 # (Network Jitter)
+# > Apple
+DOMAIN,appleid.apple.com
+DOMAIN,developer.apple.com
+DOMAIN,www.icloud.com
+DOMAIN,ocsp.apple.com
+DOMAIN,xp.apple.com
 # > DigiCert
 DOMAIN,cacerts.digicert.com
 DOMAIN,crl3.digicert.com
@@ -551,5 +558,4 @@ DOMAIN-SUFFIX,metapix.net
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN,international-gfe.download.nvidia.com
-DOMAIN,ocsp.apple.com
 DOMAIN,store-images.s-microsoft.com

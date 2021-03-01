@@ -183,6 +183,10 @@ DOMAIN,d349g9zuie06uo.cloudfront.net,Streaming
 USER-AGENT,mytv*,Streaming
 DOMAIN-SUFFIX,mytvsuper.com,Streaming
 DOMAIN-SUFFIX,tvb.com,Streaming
+# > Naver TV
+USER-AGENT,Naver%20TV*,Streaming
+DOMAIN-SUFFIX,naver.com,Streaming
+DOMAIN-SUFFIX,smartmediarep.com,Streaming
 # > Netflix
 USER-AGENT,Argo*,Streaming
 DOMAIN-SUFFIX,netflix.com,Streaming

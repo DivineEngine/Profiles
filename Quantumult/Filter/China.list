@@ -32,8 +32,8 @@ DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,me.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
-DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
+# DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
+# DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
 # > Baidu
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,baidubcr.com,DIRECT
@@ -152,16 +152,27 @@ DOMAIN-SUFFIX,miwifi.com,DIRECT
 DOMAIN-SUFFIX,xiaomi.com,DIRECT
 DOMAIN-SUFFIX,xiaomi.net,DIRECT
 # > Microsoft
-DOMAIN-SUFFIX,hotmail.com,DIRECT
-DOMAIN-SUFFIX,microsoft.com,DIRECT
-DOMAIN-SUFFIX,msecnd.net,DIRECT
-DOMAIN-SUFFIX,office365.com,DIRECT
-DOMAIN-SUFFIX,outlook.com,DIRECT
-DOMAIN-SUFFIX,s-microsoft.com,DIRECT
-DOMAIN-SUFFIX,visualstudio.com,DIRECT
-DOMAIN-SUFFIX,windows.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+# DOMAIN-SUFFIX,microsoft.com,DIRECT
+# DOMAIN-SUFFIX,msecnd.net,DIRECT
+# DOMAIN-SUFFIX,office.com,DIRECT
+# DOMAIN-SUFFIX,office365.com,DIRECT
+# DOMAIN-SUFFIX,s-microsoft.com,DIRECT
+# DOMAIN-SUFFIX,windows.com,DIRECT
+# DOMAIN-SUFFIX,windowsupdate.com,DIRECT
 # DOMAIN-KEYWORD,-microsoft-com.akamaized.net,DIRECT
+DOMAIN-SUFFIX,visualstudio.com,DIRECT
+# >> Outlook
+DOMAIN-SUFFIX,hotmail.com,DIRECT
+DOMAIN-SUFFIX,outlook.com,DIRECT
+DOMAIN,outlook.office365.com,DIRECT
+DOMAIN,smtp.office365.com,DIRECT
+# >> Windows Server Update Services
+DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
+DOMAIN-SUFFIX,update.microsoft.com,DIRECT
+DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+DOMAIN,download.microsoft.com,DIRECT
+DOMAIN,wustat.windows.com,DIRECT
+DOMAIN,ntservicepack.microsoft.com,DIRECT
 # > NetEase
 USER-AGENT,NeteaseMusic*,DIRECT
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT

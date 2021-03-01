@@ -279,7 +279,7 @@
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 # > NetEase MoneyKeeper - client.mail.163.com
 ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
-# > NetEase CloudMusic - interface*.music.163.com,59.111.181.*
+# > NetEase CloudMusic - interface*.music.163.com
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/eapi\/ad\/ - reject
 ^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
 # > NetEase Kaola - sp.kaola.com
@@ -295,10 +295,13 @@
 ^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
 # > NIU - app-api.niu.com
 ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/ - reject
+# > Naver TV - gfp.veta.naver.com
+^https?:\/\/gfp\.veta\.naver\.com\/adcall\? - reject
 
 # O
 # > Oray - slapi.oray.net
 ^https?:\/\/slapi\.oray\.net\/client\/ad - reject
+^https?:\/\/slapi\.oray\.net\/adver - reject
 
 # P
 # > PiaoGen - pss.txffp.com
@@ -315,9 +318,6 @@
 ^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp - reject
 
 # Q
-# > Qdaily
-^https?:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json - reject
-^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad - reject
 # > QYER - open.qyer.com,media.qyer.com
 ^https?:\/\/open\.qyer\.com\/qyer\/startpage\/ - reject
 ^https?:\/\/open\.qyer\.com\/qyer\/config\/get - reject
