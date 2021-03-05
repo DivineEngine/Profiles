@@ -30,6 +30,8 @@ DOMAIN,alt5-mtalk.google.com,DIRECT
 DOMAIN,alt6-mtalk.google.com,DIRECT
 DOMAIN,alt7-mtalk.google.com,DIRECT
 DOMAIN,alt8-mtalk.google.com,DIRECT
+# >> Paramount+
+DOMAIN,pubads.g.doubleclick.net,DIRECT
 # > Tencent
 DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT

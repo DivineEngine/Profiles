@@ -31,6 +31,8 @@ payload:
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
+  # >> Paramount+
+  - DOMAIN,pubads.g.doubleclick.net
   # > Tencent
   - DOMAIN,fairplay.l.qq.com
   - DOMAIN,livew.l.qq.com

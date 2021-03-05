@@ -91,6 +91,7 @@ payload:
   - DOMAIN-SUFFIX,adsage.com
   - DOMAIN-SUFFIX,ad-score.com
   - DOMAIN-SUFFIX,adsensor.org
+  - DOMAIN-SUFFIX,adserve.work
   - DOMAIN-SUFFIX,adsmediabox.com
   - DOMAIN-SUFFIX,ads-pixiv.net
   - DOMAIN-SUFFIX,ad-srv.co
@@ -111,6 +112,7 @@ payload:
   - DOMAIN-SUFFIX,adxadserv.com
   - DOMAIN-SUFFIX,aiclk.com
   - DOMAIN-SUFFIX,amazon-adsystem.com
+  - DOMAIN-SUFFIX,amoad.com
   - DOMAIN-SUFFIX,amobee.com
   - DOMAIN-SUFFIX,app-adforce.jp
   - DOMAIN-SUFFIX,appads.com
@@ -135,6 +137,7 @@ payload:
   - DOMAIN-SUFFIX,clotfun.mobi
   - DOMAIN-SUFFIX,clotfun.online
   - DOMAIN-SUFFIX,cloudmobi.net
+  - DOMAIN-SUFFIX,comscore.com
   - DOMAIN-SUFFIX,crwdcntrl.net
   - DOMAIN-SUFFIX,ctrmi.com
   - DOMAIN-SUFFIX,domob.cn
@@ -154,13 +157,13 @@ payload:
   - DOMAIN-SUFFIX,inmobicdn.cn
   - DOMAIN-SUFFIX,inmobicdn.net
   - DOMAIN-SUFFIX,inner-active.mobi
+  - DOMAIN-SUFFIX,innovid.com
   - DOMAIN-SUFFIX,insurads.com
   - DOMAIN-SUFFIX,ironsrc.com
   - DOMAIN-SUFFIX,irs01.com
   - DOMAIN-SUFFIX,iskyworker.com
   - DOMAIN-SUFFIX,iyoowi.com
   - DOMAIN-SUFFIX,juicyads.com
-  - DOMAIN-SUFFIX,kochava.com
   - DOMAIN-SUFFIX,leadboltmobile.net
   - DOMAIN-SUFFIX,lenzmx.com
   - DOMAIN-SUFFIX,liveadvert.com
@@ -176,37 +179,109 @@ payload:
   - DOMAIN-SUFFIX,moatads.com
   - DOMAIN-SUFFIX,mobclix.com
   - DOMAIN-SUFFIX,mopub.com
+  - DOMAIN-SUFFIX,nexage.com
+  - DOMAIN-SUFFIX,o333o.com
   - DOMAIN-SUFFIX,okjhb.xyz
   - DOMAIN-SUFFIX,open-adx.com
+  - DOMAIN-SUFFIX,openx.com
   - DOMAIN-SUFFIX,openx.net
   - DOMAIN-SUFFIX,outbrain.com
   - DOMAIN-SUFFIX,pubmatic.com
   - DOMAIN-SUFFIX,qchannel01.cn
   - DOMAIN-SUFFIX,rayjump.com
-  - DOMAIN-SUFFIX,rtbasia.com
+  - DOMAIN-SUFFIX,realsrv.com
   - DOMAIN-SUFFIX,rubiconproject.com
   - DOMAIN-SUFFIX,runative-syndicate.com
-  - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,sdkclick.com
+  - DOMAIN-SUFFIX,serving-sys.com
   - DOMAIN-SUFFIX,shuzilm.cn
+  - DOMAIN-SUFFIX,smaato.net
   - DOMAIN-SUFFIX,smaato.net
   - DOMAIN-SUFFIX,smartadserver.com
   - DOMAIN-SUFFIX,smartnews-ads.com
+  - DOMAIN-SUFFIX,snapads.com
   - DOMAIN-SUFFIX,socdm.com
+  - DOMAIN-SUFFIX,startappservice.com
   - DOMAIN-SUFFIX,supersonic.com
   - DOMAIN-SUFFIX,supersonicads.com
+  - DOMAIN-SUFFIX,taboola.com
   - DOMAIN-SUFFIX,tagtic.cn
   - DOMAIN-SUFFIX,tanv.com
   - DOMAIN-SUFFIX,tanx.com
+  - DOMAIN-SUFFIX,tapdaq.com
   - DOMAIN-SUFFIX,tapjoy.com
+  - DOMAIN-SUFFIX,tapjoyads.com
+  - DOMAIN-SUFFIX,tappx.com
+  - DOMAIN-SUFFIX,tapresearch.com
+  - DOMAIN-SUFFIX,taptapnetworks.com
+  - DOMAIN-SUFFIX,taptica.com
+  - DOMAIN-SUFFIX,targetspot.com
   - DOMAIN-SUFFIX,teads.tv
+  - DOMAIN-SUFFIX,terraclicks.com
+  - DOMAIN-SUFFIX,theadex.com
+  - DOMAIN-SUFFIX,themoneytizer.com
+  - DOMAIN-SUFFIX,theoremreach.com
+  - DOMAIN-SUFFIX,thetrafficstat.net
+  - DOMAIN-SUFFIX,tnkfactory.com
+  - DOMAIN-SUFFIX,tns-counter.ru
+  - DOMAIN-SUFFIX,traffichunt.com
   - DOMAIN-SUFFIX,trafficjunky.net
+  - DOMAIN-SUFFIX,trafmag.com
+  - DOMAIN-SUFFIX,traktum.com
+  - DOMAIN-SUFFIX,tremorhub.com
+  - DOMAIN-SUFFIX,tremormedia.com
+  - DOMAIN-SUFFIX,tremorvideo.com
+  - DOMAIN-SUFFIX,tresensa.com
+  - DOMAIN-SUFFIX,trfmxt.com
   - DOMAIN-SUFFIX,trvdp.com
+  - DOMAIN-SUFFIX,tubemogul.com
+  - DOMAIN-SUFFIX,tuifish.com
+  - DOMAIN-SUFFIX,tuitiger.com
   - DOMAIN-SUFFIX,turn.com
+  - DOMAIN-SUFFIX,u-ad.info
+  - DOMAIN-SUFFIX,uberads.com
+  - DOMAIN-SUFFIX,uimserv.net
+  - DOMAIN-SUFFIX,ultraadserver.com
+  - DOMAIN-SUFFIX,undertone.com
+  - DOMAIN-SUFFIX,unimhk.com
+  - DOMAIN-SUFFIX,unrulymedia.com
+  - DOMAIN-SUFFIX,upltv.com
+  - DOMAIN-SUFFIX,uprivaladserver.net
+  - DOMAIN-SUFFIX,upsight-api.com
+  - DOMAIN-SUFFIX,upsnap.com
   - DOMAIN-SUFFIX,uri6.com
+  - DOMAIN-SUFFIX,usekahuna.com
+  - DOMAIN-SUFFIX,utarget.ru
+  - DOMAIN-SUFFIX,vads.net.vn
+  - DOMAIN-SUFFIX,vads.vn
+  - DOMAIN-SUFFIX,vamaker.com
+  - DOMAIN-SUFFIX,vdopia.com
+  - DOMAIN-SUFFIX,veinteractive.com
+  - DOMAIN-SUFFIX,vendimob.pl
+  - DOMAIN-SUFFIX,vertamedia.com
+  - DOMAIN-SUFFIX,verticalscope.com
+  - DOMAIN-SUFFIX,vervemobile.com
+  - DOMAIN-SUFFIX,videoadex.com
+  - DOMAIN-SUFFIX,videohub.tv
   - DOMAIN-SUFFIX,vidoomy.com
+  - DOMAIN-SUFFIX,viewdeos.com
+  - DOMAIN-SUFFIX,vi-serve.com
+  - DOMAIN-SUFFIX,vm5apis.com
+  - DOMAIN-SUFFIX,voiceads.cn
+  - DOMAIN-SUFFIX,voodoo-ads.io
+  - DOMAIN-SUFFIX,vrtcal.com
+  - DOMAIN-SUFFIX,vrtzads.com
+  - DOMAIN-SUFFIX,vrvm.com
+  - DOMAIN-SUFFIX,vserv.mobi
   - DOMAIN-SUFFIX,vungle.com
+  - DOMAIN-SUFFIX,w55c.net
+  - DOMAIN-SUFFIX,waps.cn
+  - DOMAIN-SUFFIX,wapstart.ru
+  - DOMAIN-SUFFIX,webads.eu
   - DOMAIN-SUFFIX,wedolook.com
+  - DOMAIN-SUFFIX,widespace.com
+  - DOMAIN-SUFFIX,wigetmedia.com
+  - DOMAIN-SUFFIX,wordstream.com
   - DOMAIN-SUFFIX,wrinkads.com
   - DOMAIN-SUFFIX,wsod.com
   - DOMAIN-SUFFIX,xapads.com
@@ -220,12 +295,18 @@ payload:
   - DOMAIN-SUFFIX,yeahmobi.com
   - DOMAIN-SUFFIX,yhdichan.com
   - DOMAIN-SUFFIX,yicha.jp
+  - DOMAIN-SUFFIX,yieldlove-ad-serving.net
+  - DOMAIN-SUFFIX,yieldmagic.com
+  - DOMAIN-SUFFIX,yieldmo.com
+  - DOMAIN-SUFFIX,yieldoptimizer.com
   - DOMAIN-SUFFIX,yllix.com
   - DOMAIN-SUFFIX,ymtrack6.co
   - DOMAIN-SUFFIX,ymtracking.com
   - DOMAIN-SUFFIX,yoc.com
   - DOMAIN-SUFFIX,yoc-performance.com
+  - DOMAIN-SUFFIX,yomedia.vn
   - DOMAIN-SUFFIX,yomob.com.cn
+  - DOMAIN-SUFFIX,yottos.com
   - DOMAIN-SUFFIX,youappi.com
   - DOMAIN-SUFFIX,youmi.net
   - DOMAIN-SUFFIX,yumimobi.com
@@ -238,6 +319,8 @@ payload:
   - DOMAIN-SUFFIX,zucks.co.jp
   - DOMAIN-SUFFIX,zucks.net
   - DOMAIN-SUFFIX,zumobi.com
+  - DOMAIN-SUFFIX,zwaar.org
+  - DOMAIN-SUFFIX,zxrtb.com
 
   - DOMAIN-SUFFIX,ad.cmvideo.cn
   - DOMAIN-SUFFIX,ad.daum.net
@@ -251,18 +334,22 @@ payload:
   - DOMAIN,ad.jiemian.com
   - DOMAIN,ad.wappalyzer.com
   - DOMAIN,ad-cn.jovcloud.com
+  - DOMAIN,ad-mediation.tuanguwen.com
   - DOMAIN,ads.adadapted.com
   - DOMAIN,ads.chinadaily.com.cn
   - DOMAIN,ads.daydaycook.com.cn
   - DOMAIN,ads.flurry.com
+  - DOMAIN,ads.play.cbsi.video
   - DOMAIN,ads.weilitoutiao.net
   - DOMAIN,adsapi.manhuaren.com
   - DOMAIN,adsdk.dmzj.com
   - DOMAIN,adserver.pandora.com
+  - DOMAIN,adservice.tohsoft.com
   - DOMAIN,adshow.58.com
   - DOMAIN,adui.tg.meitu.com
   - DOMAIN,adv.bandi.so
   - DOMAIN,adv.ettoday.net
+  - DOMAIN,api.ad.xiaomi.com
   - DOMAIN,api.adnet.mob.com
   - DOMAIN,api-ad.kajicam.com
   - DOMAIN,appnext.hs.llnwd.net
@@ -322,9 +409,11 @@ payload:
   - DOMAIN,duclick.baidu.com
   - DOMAIN,mobads.baidu.com
   - DOMAIN,mobads-logs.baidu.com
+  - DOMAIN,nadvideo2.baidu.com
   - DOMAIN,nsclick.baidu.com
   # > iQIYI
   - DOMAIN,t7z.cupid.iqiyi.com
+  - DOMAIN,t7z.cupid.ptqy.gitv.tv
   - IP-CIDR,101.227.97.240/32,no-resolve
   - IP-CIDR,101.227.200.11/32,no-resolve
   - IP-CIDR,101.227.200.28/32,no-resolve
@@ -398,6 +487,11 @@ payload:
   - DOMAIN,ups.ksmobile.net
   - DOMAIN,ws.ksmobile.net
 
+  # (K)
+  # > Kuaishou
+  - DOMAIN-SUFFIX,e.kuaishou.com
+  - DOMAIN,js-ad.a.yximgs.com
+
   # (L)
   # > Le
   - DOMAIN-SUFFIX,webp2p.letv.com
@@ -465,9 +559,13 @@ payload:
   - DOMAIN,ad.qingting.fm
   - DOMAIN,adlaunch.qingting.fm
   - DOMAIN,ad-cdn.qingting.fm
+  # > OPPO
+  - DOMAIN-SUFFIX,ads.oppomobile.com
+  - DOMAIN,adsfs.oppomobile.com
 
   # (S)
   # > Sina
+  - DOMAIN-SUFFIX,alitui.weibo.com
   - DOMAIN-SUFFIX,beacon.sina.com.cn
   - DOMAIN,adimg.uve.weibo.com
   - DOMAIN,adimg.vue.weibo.com
@@ -496,8 +594,8 @@ payload:
   - DOMAIN,pgdt.ugdtimg.com
   - DOMAIN,splashqqlive.gtimg.com
   - DOMAIN,wa.gtimg.com
-  - DOMAIN,wxsnsdy.wxs.qq.com
-  - DOMAIN,wxsnsdythumb.wxs.qq.com
+  # DOMAIN,wxsnsdy.wxs.qq.com
+  # DOMAIN,wxsnsdythumb.wxs.qq.com
   # > Tencent Music (TME)
   - DOMAIN,ad.tencentmusic.com
   - DOMAIN,adserviceretry.kugou.com
@@ -526,6 +624,20 @@ payload:
   - DOMAIN,adv-adlog.variflight.com
   - DOMAIN,adv-ads.variflight.com
   - DOMAIN,app-ad.variflight.com
+  # > vivo
+  - DOMAIN,adlog.vivo.com.cn
+  - DOMAIN,adreq.vivo.com.cn
+  - DOMAIN,ads-marketing-vivofs.vivo.com.cn
+  - DOMAIN,adsdk.vivo.com.cn
+  - DOMAIN,adsstatic.vivo.com.cn
+  - DOMAIN,adxlog.vivo.com.cn
+  - DOMAIN,vcardsdkservice.vivo.com.cn
+  - DOMAIN-KEYWORD,stsdk.vivo.com.cn
+  - DOMAIN-KEYWORD,stsdk.vivoglobal.com
+  # > Viber
+  - DOMAIN,ads.viber.com
+  - DOMAIN,ads-d.viber.com
+  - DOMAIN,ads.aws.viber.com
 
   # (X)
   # > Ximalaya
@@ -538,6 +650,7 @@ payload:
   - DOMAIN,adsebs.ximalaya.com
   # > Xiaohongshu
   - DOMAIN,ads-img-qc.xhscdn.com
+  - DOMAIN,ads-video-al.xhscdn.com
   - DOMAIN,ads-video-qc.xhscdn.com
   - DOMAIN,t-ads.xiaohongshu.com
 
@@ -555,7 +668,7 @@ payload:
 
   # (Z)
   # > Zhihu
-  # USER-AGENT,AVOS*
+  # - USER-AGENT,AVOS*
   - DOMAIN,appcloud2.zhihu.com
   - DOMAIN,appcloud2.in.zhihu.com
   - DOMAIN,sugar.zhihu.com

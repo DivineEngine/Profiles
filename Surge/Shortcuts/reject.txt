@@ -16,7 +16,7 @@
 # --- (Alibaba) ---
 # > Taobao - gw.alicdn.com,heic.alicdn.com
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
-^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_9\d{2} - reject
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
 # > Xianyu - acs.m.taobao.com
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject
 # > Fliggy - acs.m.taobao.com
@@ -146,6 +146,7 @@
 ^https?:\/\/pic\.edaijia\.cn\/adsplash\/ - reject
 # > eleme - cube.elemecdn.com
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/ - reject
+^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_1\d{3},h_2\d{3}\/format,webp\/ - reject
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_6\d{2},h_8\d{2}\/format,webp\/ - reject
 ^https?:\/\/cube\.elemecdn\.com\/\w\/\w{2}\/\w+mp4\.mp4\? - reject
 # > ezviz ViedoGo - i.ys7.com

@@ -231,6 +231,14 @@ payload:
   - PROCESS-NAME,com.pccw.nowemobile
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowestatic.com
+  # > Paramount+
+  - PROCESS-NAME,com.cbs.app
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,paramountplus.com
+  - DOMAIN-SUFFIX,pplusstatic.com
+  - DOMAIN,cbsi.live.ott.irdeto.com
   # > PBS
   - PROCESS-NAME,com.pbs.video
   - DOMAIN-SUFFIX,pbs.org

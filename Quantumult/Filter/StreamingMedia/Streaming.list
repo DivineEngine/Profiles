@@ -228,6 +228,14 @@ DOMAIN-SUFFIX,nimg.jp,Streaming
 # > Now E
 DOMAIN-SUFFIX,nowe.com,Streaming
 DOMAIN-SUFFIX,nowestatic.com,Streaming
+# > Paramount+
+USER-AGENT,PPlus*,Streaming
+DOMAIN-SUFFIX,cbsi.com,Streaming
+DOMAIN-SUFFIX,cbsaavideo.com,Streaming
+DOMAIN-SUFFIX,cbsivideo.com,Streaming
+DOMAIN-SUFFIX,paramountplus.com,Streaming
+DOMAIN-SUFFIX,pplusstatic.com,Streaming
+DOMAIN,cbsi.live.ott.irdeto.com,Streaming
 # > PBS
 USER-AGENT,PBS*,Streaming
 DOMAIN-SUFFIX,pbs.org,Streaming
