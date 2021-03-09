@@ -161,6 +161,12 @@ DOMAIN-SUFFIX,xiaomi.net,DIRECT
 # DOMAIN-SUFFIX,windowsupdate.com,DIRECT
 # DOMAIN-KEYWORD,-microsoft-com.akamaized.net,DIRECT
 DOMAIN-SUFFIX,visualstudio.com,DIRECT
+# >> Microsoft Software Download
+# DOMAIN,software-download.microsoft.com,DIRECT
+# DOMAIN-KEYWORD,-microsoft-com.akamaized.net,DIRECT
+# >> OneDrive
+# DOMAIN-SUFFIX,1drv.com,DIRECT
+# DOMAIN-SUFFIX,storage.live.com,DIRECT
 # >> Outlook
 DOMAIN-SUFFIX,hotmail.com,DIRECT
 DOMAIN-SUFFIX,outlook.com,DIRECT

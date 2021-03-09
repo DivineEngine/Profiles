@@ -17,7 +17,7 @@
 ^(http|https):\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 
 # Weibo Short URL
-^http:\/\/t\.cn https://sinaurl.cn 302
+^http:\/\/t\.cn http://sinaurl.cn 302
 
 # Redirect False to True
 # > IGN China to IGN Global
