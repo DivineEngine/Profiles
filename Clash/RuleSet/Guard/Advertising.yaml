@@ -594,8 +594,8 @@ payload:
   - DOMAIN,pgdt.ugdtimg.com
   - DOMAIN,splashqqlive.gtimg.com
   - DOMAIN,wa.gtimg.com
-  # DOMAIN,wxsnsdy.wxs.qq.com
-  # DOMAIN,wxsnsdythumb.wxs.qq.com
+  - DOMAIN,wxsnsdy.wxs.qq.com
+  - DOMAIN,wxsnsdythumb.wxs.qq.com
   # > Tencent Music (TME)
   - DOMAIN,ad.tencentmusic.com
   - DOMAIN,adserviceretry.kugou.com

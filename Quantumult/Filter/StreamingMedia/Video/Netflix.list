@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,netflixdnstest6.com,Netflix
 DOMAIN-SUFFIX,netflixdnstest7.com,Netflix
 DOMAIN-SUFFIX,netflixdnstest8.com,Netflix
 DOMAIN-SUFFIX,netflixdnstest9.com,Netflix
-DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
+DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
 DOMAIN-KEYWORD,dualstack.ichnaea-web-,Netflix
 IP-CIDR,23.246.0.0/18,Netflix
 IP-CIDR,37.77.184.0/21,Netflix

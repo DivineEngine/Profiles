@@ -185,6 +185,8 @@
 ^https?:\/\/api\.huomao\.com\/channels\/loginAd - reject
 # > HanjuTV
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
+# > Huya - business.msstatic.com
+^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 
 # I
 # > iFLY Input - imeclient.openspeech.cn
