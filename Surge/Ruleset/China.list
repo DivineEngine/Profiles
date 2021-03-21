@@ -42,6 +42,9 @@ DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
+# > Battle
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
 # > bilibili
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.com
@@ -105,8 +108,6 @@ DOMAIN-SUFFIX,xiaomi.net
 # DOMAIN-SUFFIX,office365.com
 # DOMAIN-SUFFIX,s-microsoft.com
 # DOMAIN-SUFFIX,windows.com
-# DOMAIN-SUFFIX,windowsupdate.com
-# DOMAIN-KEYWORD,-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,visualstudio.com
 # >> Microsoft Software Download
 # DOMAIN,software-download.microsoft.com

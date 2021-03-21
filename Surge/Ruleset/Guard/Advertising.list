@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,ad6media.com
 DOMAIN-SUFFIX,ad6media.es
 DOMAIN-SUFFIX,ad6media.fr
 DOMAIN-SUFFIX,adacado.com
+DOMAIN-SUFFIX,adadapted.com
 DOMAIN-SUFFIX,adap.tv
 DOMAIN-SUFFIX,adasiaholdings.com
 DOMAIN-SUFFIX,adatrix.com
@@ -75,16 +76,23 @@ DOMAIN-SUFFIX,adextent.com
 DOMAIN-SUFFIX,adfactor.nl
 DOMAIN-SUFFIX,adfalcon.com
 DOMAIN-SUFFIX,adflow.ru
+DOMAIN-SUFFIX,adform.net
 DOMAIN-SUFFIX,adinall.com
+DOMAIN-SUFFIX,adkernel.com
 DOMAIN-SUFFIX,ad-locus.com
 DOMAIN-SUFFIX,adlooxtracking.com
+DOMAIN-SUFFIX,admarvel.com
 DOMAIN-SUFFIX,admaster.com.cn
 DOMAIN-SUFFIX,ad-maven.com
+DOMAIN-SUFFIX,admicro.vn
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,ad-move.jp
+DOMAIN-SUFFIX,adnetwork.vn
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adnyg.com
 DOMAIN-SUFFIX,ad-plus.cn
+DOMAIN-SUFFIX,adpushup.com
+DOMAIN-SUFFIX,adroll.com
 DOMAIN-SUFFIX,adsafeprotected.com
 DOMAIN-SUFFIX,adsage.cn
 DOMAIN-SUFFIX,adsage.com
@@ -109,7 +117,10 @@ DOMAIN-SUFFIX,advertising.com
 DOMAIN-SUFFIX,adwhirl.com
 DOMAIN-SUFFIX,adwo.com
 DOMAIN-SUFFIX,adxadserv.com
+DOMAIN-SUFFIX,adzerk.net
 DOMAIN-SUFFIX,aiclk.com
+DOMAIN-SUFFIX,airpush.com
+DOMAIN-SUFFIX,algovid.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amoad.com
 DOMAIN-SUFFIX,amobee.com
@@ -123,6 +134,7 @@ DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,apsalar.com
 DOMAIN-SUFFIX,apxadtracking.net
+DOMAIN-SUFFIX,aralego.com
 DOMAIN-SUFFIX,atomhike.com
 DOMAIN-SUFFIX,axonix.com
 DOMAIN-SUFFIX,b2pk.com
@@ -137,9 +149,14 @@ DOMAIN-SUFFIX,clotfun.mobi
 DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cloudmobi.net
 DOMAIN-SUFFIX,comscore.com
+DOMAIN-SUFFIX,crispadvertising.com
+DOMAIN-SUFFIX,criteo.com
+DOMAIN-SUFFIX,criteo.net
 DOMAIN-SUFFIX,crwdcntrl.net
 DOMAIN-SUFFIX,ctrmi.com
 DOMAIN-SUFFIX,domob.cn
+DOMAIN-SUFFIX,dotomi.com
+DOMAIN-SUFFIX,doubleverify.com
 DOMAIN-SUFFIX,eroadvertising.com
 DOMAIN-SUFFIX,ero-advertising.com
 DOMAIN-SUFFIX,exdynsrv.com
@@ -189,22 +206,47 @@ DOMAIN-SUFFIX,pubmatic.com
 DOMAIN-SUFFIX,qchannel01.cn
 DOMAIN-SUFFIX,rayjump.com
 DOMAIN-SUFFIX,realsrv.com
+DOMAIN-SUFFIX,restartad.com
+DOMAIN-SUFFIX,revcontent.com
+DOMAIN-SUFFIX,revjet.com
 DOMAIN-SUFFIX,rubiconproject.com
 DOMAIN-SUFFIX,runative-syndicate.com
 DOMAIN-SUFFIX,sdkclick.com
 DOMAIN-SUFFIX,serving-sys.com
+DOMAIN-SUFFIX,sharethrough.com
 DOMAIN-SUFFIX,shuzilm.cn
-DOMAIN-SUFFIX,smaato.net
+DOMAIN-SUFFIX,simpli.fi
+DOMAIN-SUFFIX,sitemaji.com
 DOMAIN-SUFFIX,smaato.net
 DOMAIN-SUFFIX,smartadserver.com
 DOMAIN-SUFFIX,smartnews-ads.com
 DOMAIN-SUFFIX,snapads.com
 DOMAIN-SUFFIX,socdm.com
+DOMAIN-SUFFIX,sonobi.com
+DOMAIN-SUFFIX,springserve.com
 DOMAIN-SUFFIX,startappservice.com
+DOMAIN-SUFFIX,steelhouse.com
+DOMAIN-SUFFIX,steelhousemedia.com
+DOMAIN-SUFFIX,steepto.com
+DOMAIN-SUFFIX,stickyadstv.com
+DOMAIN-SUFFIX,streamrail.com
+DOMAIN-SUFFIX,streamrail.net
+DOMAIN-SUFFIX,strikead.com
+DOMAIN-SUFFIX,sumome.com
+DOMAIN-SUFFIX,sunnyworks.co.kr
+DOMAIN-SUFFIX,superad2.com.sg
+DOMAIN-SUFFIX,superadbox.com
+DOMAIN-SUFFIX,superads.cn
 DOMAIN-SUFFIX,supersonic.com
 DOMAIN-SUFFIX,supersonicads.com
+DOMAIN-SUFFIX,synergy-e.com
+DOMAIN-SUFFIX,tabmo.io
 DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,taboolasyndication.com
+DOMAIN-SUFFIX,tacoda.net
+DOMAIN-SUFFIX,tactilews.com
 DOMAIN-SUFFIX,tagtic.cn
+DOMAIN-SUFFIX,tamedia.com.tw
 DOMAIN-SUFFIX,tanv.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,tapdaq.com
@@ -237,6 +279,7 @@ DOMAIN-SUFFIX,tubemogul.com
 DOMAIN-SUFFIX,tuifish.com
 DOMAIN-SUFFIX,tuitiger.com
 DOMAIN-SUFFIX,turn.com
+DOMAIN-SUFFIX,tutoads.tv
 DOMAIN-SUFFIX,u-ad.info
 DOMAIN-SUFFIX,uberads.com
 DOMAIN-SUFFIX,uimserv.net
@@ -274,7 +317,6 @@ DOMAIN-SUFFIX,vrvm.com
 DOMAIN-SUFFIX,vserv.mobi
 DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,w55c.net
-DOMAIN-SUFFIX,waps.cn
 DOMAIN-SUFFIX,wapstart.ru
 DOMAIN-SUFFIX,webads.eu
 DOMAIN-SUFFIX,wedolook.com
@@ -295,7 +337,6 @@ DOMAIN-SUFFIX,yeahmobi.com
 DOMAIN-SUFFIX,yhdichan.com
 DOMAIN-SUFFIX,yicha.jp
 DOMAIN-SUFFIX,yieldlove-ad-serving.net
-DOMAIN-SUFFIX,yieldmagic.com
 DOMAIN-SUFFIX,yieldmo.com
 DOMAIN-SUFFIX,yieldoptimizer.com
 DOMAIN-SUFFIX,yllix.com
@@ -323,7 +364,9 @@ DOMAIN-SUFFIX,zxrtb.com
 
 DOMAIN-SUFFIX,ad.cmvideo.cn
 DOMAIN-SUFFIX,ad.daum.net
+DOMAIN-SUFFIX,ad.g.daum.net
 
+DOMAIN,ads.play.cbsi.video
 DOMAIN,abema-adx.ameba.jp
 DOMAIN,ad.12306.cn
 DOMAIN,ad.caiyunapp.com
@@ -334,11 +377,11 @@ DOMAIN,ad.jiemian.com
 DOMAIN,ad.wappalyzer.com
 DOMAIN,ad-cn.jovcloud.com
 DOMAIN,ad-mediation.tuanguwen.com
-DOMAIN,ads.adadapted.com
 DOMAIN,ads.chinadaily.com.cn
 DOMAIN,ads.daydaycook.com.cn
 DOMAIN,ads.flurry.com
-DOMAIN,ads.play.cbsi.video
+DOMAIN,ads.storm8.com
+DOMAIN,ads.superawesome.tv
 DOMAIN,ads.weilitoutiao.net
 DOMAIN,adsapi.manhuaren.com
 DOMAIN,adsdk.dmzj.com
@@ -401,6 +444,7 @@ DOMAIN,adm3.autoimg.cn
 
 # (B)
 # --- (Baidu) ---
+DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN,afd.baidu.com
@@ -428,6 +472,16 @@ DOMAIN,advertise.baicizhan.org
 # > BitAuto
 DOMAIN,adx.yiche.com
 DOMAIN,log.ycapp.yiche.com
+# > Braze
+DOMAIN-SUFFIX,iad.appboy.com
+DOMAIN-SUFFIX,iad-03.appboy.com
+DOMAIN-SUFFIX,iad-01.braze.com
+DOMAIN-SUFFIX,iad-02.braze.com
+DOMAIN-SUFFIX,iad-03.braze.com
+DOMAIN-SUFFIX,iad-04.braze.com
+DOMAIN-SUFFIX,iad-05.braze.com
+DOMAIN-SUFFIX,iad-06.braze.com
+DOMAIN-SUFFIX,iad-08.braze.com
 
 # (C)
 # > CNTV
@@ -472,6 +526,7 @@ DOMAIN,ad.hpplay.cn
 DOMAIN,adc.hpplay.cn
 DOMAIN,adcdn.hpplay.cn
 DOMAIN,adeng.hpplay.cn
+DOMAIN,pin.hpplay.cn
 DOMAIN,rp.hpplay.cn
 DOMAIN,rpt.hpplay.cn
 
@@ -668,10 +723,12 @@ DOMAIN,ads.yahoo.de
 # (Z)
 # > Zhihu
 USER-AGENT,AVOS*
-DOMAIN,appcloud2.zhihu.com
 DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
+DOMAIN,118.89.204.198
 IP-CIDR,118.89.204.198/32,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 # > ZOL
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn

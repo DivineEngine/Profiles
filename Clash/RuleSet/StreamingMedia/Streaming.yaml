@@ -129,6 +129,7 @@ payload:
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
   # > HBO GO HKG
   - PROCESS-NAME,hk.hbo.hbogo
   - DOMAIN-SUFFIX,hbogoasia.com
@@ -239,6 +240,8 @@ payload:
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
   - DOMAIN,cbsi.live.ott.irdeto.com
+  - DOMAIN,cbsplaylistserver.aws.syncbak.com
+  - DOMAIN,cbsservice.aws.syncbak.com
   # > PBS
   - PROCESS-NAME,com.pbs.video
   - DOMAIN-SUFFIX,pbs.org

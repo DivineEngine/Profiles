@@ -129,6 +129,7 @@ DOMAIN-SUFFIX,hbogo.com,Streaming
 DOMAIN-SUFFIX,hbonow.com,Streaming
 USER-AGENT,HBOMAX*,Streaming
 DOMAIN-SUFFIX,hbomax.com,Streaming
+DOMAIN-SUFFIX,hbomaxcdn.com,Streaming
 # > HBO GO HKG
 USER-AGENT,HBO%20GO%20PROD%20HKG*,Streaming
 DOMAIN-SUFFIX,hbogoasia.com,Streaming
@@ -236,6 +237,8 @@ DOMAIN-SUFFIX,cbsivideo.com,Streaming
 DOMAIN-SUFFIX,paramountplus.com,Streaming
 DOMAIN-SUFFIX,pplusstatic.com,Streaming
 DOMAIN,cbsi.live.ott.irdeto.com,Streaming
+DOMAIN,cbsplaylistserver.aws.syncbak.com,Streaming
+DOMAIN,cbsservice.aws.syncbak.com,Streaming
 # > PBS
 USER-AGENT,PBS*,Streaming
 DOMAIN-SUFFIX,pbs.org,Streaming

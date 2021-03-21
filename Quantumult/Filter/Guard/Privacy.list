@@ -1,4 +1,33 @@
 # Privacy
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,cpatrk.net,REJECT
+DOMAIN-SUFFIX,kochava.com,REJECT
+DOMAIN-SUFFIX,marketo.com,REJECT
+DOMAIN-SUFFIX,mobileapptracking.com,REJECT
+DOMAIN-SUFFIX,rtbasia.com,REJECT
+DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+DOMAIN-SUFFIX,sumologic.com,REJECT
+DOMAIN-SUFFIX,survicate.com,REJECT
+DOMAIN-SUFFIX,tagcommander.com,REJECT
+DOMAIN-SUFFIX,tailtarget.com,REJECT
+DOMAIN-SUFFIX,talkingdata.net,REJECT
+DOMAIN-SUFFIX,tapad.com,REJECT
+DOMAIN-SUFFIX,tapfiliate.com,REJECT
+DOMAIN-SUFFIX,tapinfluence.com,REJECT
+DOMAIN-SUFFIX,tapstream.com,REJECT
+DOMAIN-SUFFIX,tealiumiq.com,REJECT
+DOMAIN-SUFFIX,tend.io,REJECT
+DOMAIN-SUFFIX,tpctrust.com,REJECT
+DOMAIN-SUFFIX,trackingio.com,REJECT
+DOMAIN-SUFFIX,tremormedia.com,REJECT
+DOMAIN-SUFFIX,woopra.com,REJECT
+DOMAIN-SUFFIX,wootric.com,REJECT
+DOMAIN-SUFFIX,wowanalytics.co.uk,REJECT
+DOMAIN-SUFFIX,zoomanalytics.co,REJECT
+
+DOMAIN,track.tenjin.com,REJECT
+DOMAIN,track.tenjin.io,REJECT
+DOMAIN,api.talkingdata.com,REJECT
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,zgsdk.zhugeio.com,REJECT
@@ -34,7 +63,3 @@ DOMAIN,btrace.qq.com,REJECT
 DOMAIN,btrace.video.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
-# > Umeng
-DOMAIN-KEYWORD,log.umeng.com,REJECT
-DOMAIN-KEYWORD,logs.umeng.com,REJECT
-DOMAIN-KEYWORD,logs.umengcloud.com,REJECT
