@@ -1,5 +1,27 @@
-#!name=URL Optimization
-#!desc=通用的 URL 优化，包含 Google 搜索及地图、微博短链接白名单、AbeamTV 区域限制等体验增强
+#!name=Advanced Settings & URL Redirect
+#!desc=高级设置及通用的 URL 重定向优化（如 Google 搜索及地图、AbeamTV 区域限制等）
+
+[General]
+# > Internet 测试 URL
+internet-test-url = http://wifi.vivo.com.cn/generate_204
+# > 代理测速 URL
+proxy-test-url = http://cp.cloudflare.com/generate_204
+# > 测试超时（秒）
+test-timeout = 5
+
+# > 自定义 GeoIP 数据库
+geoip-maxmind-url = https://raw.githubusercontent.com/JMVoid/ipip2mmdb/release/Country.mmdb
+
+# > 跳过代理
+skip-proxy = %APPEND% passenger.t3go.cn
+# > 排除简单主机名
+exclude-simple-hostnames = true
+
+# > Always Real IP Hosts
+always-real-ip = %APPEND% msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
+
+# > VIF Excluded Routes
+tun-excluded-routes = %APPEND% 239.255.255.250/32
 
 [URL Rewrite]
 # Redirect Google Search Service
@@ -15,9 +37,6 @@
 ^(http|https):\/\/you\.163\.com\/ https://you.163.com/ 302
 ^(http|https):\/\/(www.)?suning\.com\/ https://suning.com/ 302
 ^(http|https):\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
-
-# Weibo Short URL
-^http:\/\/t\.cn http://sinaurl.cn 302
 
 # Redirect False to True
 # > IGN China to IGN Global

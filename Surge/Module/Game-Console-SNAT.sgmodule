@@ -1,6 +1,0 @@
-#!name=Game Console SNAT
-#!desc=让 Surge 为 PlayStation、Xbox 和 Nintendo Switch 正确处理 SNAT 对话。只有当 Surge Mac 作为这些设备的路由器（Surge Mac 开启「增强模式」，修改游戏机的网络配置：1.IP 地址及子网掩码保持不变。2.网关设置成 Mac 的 IP 地址.3.DNS 设置为「198.18.0.2」）时才会有用（https://nssurge.zendesk.com/hc/zh-cn/articles/900000208886-Surge-Mac-路由模式特殊设备兼容说明）
-#!system=mac
-
-[General]
-always-real-ip = %APPEND% *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
