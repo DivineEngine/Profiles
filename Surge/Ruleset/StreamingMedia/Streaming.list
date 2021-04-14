@@ -88,6 +88,8 @@ DOMAIN-KEYWORD,uk-live
 USER-AGENT,DAZN*
 DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazn-api.com
+DOMAIN-SUFFIX,dazndn.com
+DOMAIN-SUFFIX,indazn.com
 DOMAIN,d151l6v8er5bdm.cloudfront.net
 DOMAIN-KEYWORD,voddazn
 # > Disney+
@@ -113,15 +115,6 @@ DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,theplatform.com
 DOMAIN-SUFFIX,uplynk.com
-# > FOX+
-DOMAIN-SUFFIX,foxplus.com
-# DOMAIN-SUFFIX,theplatform.com
-DOMAIN,cdn-fox-networks-group-green.akamaized.net
-DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
-DOMAIN,foxsports01-i.akamaihd.net
-DOMAIN,foxsports02-i.akamaihd.net
-DOMAIN,foxsports03-i.akamaihd.net
-DOMAIN,staticasiafox.akamaized.net
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com

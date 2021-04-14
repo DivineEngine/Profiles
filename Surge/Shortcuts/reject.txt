@@ -146,7 +146,7 @@
 ^https?:\/\/mobile-api2011.elong.com\/(adgateway|adv)\/ - reject
 # > eDaijia
 ^https?:\/\/pic\.edaijia\.cn\/adsplash\/ - reject
-# > eleme - cube.elemecdn.com
+# > eleme
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/ - reject
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_1\d{3},h_2\d{3}\/format,webp\/ - reject
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_6\d{2},h_8\d{2}\/format,webp\/ - reject
@@ -340,6 +340,8 @@
 ^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising - reject
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
+# > RELX - app.relxtech.com
+^https?:\/\/app\.relxtech\.com\/dianziyan-api\/api\/screen\/advert\/random - reject
 
 # S
 # ---(Sina)---

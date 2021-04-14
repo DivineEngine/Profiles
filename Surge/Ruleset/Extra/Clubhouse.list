@@ -1,9 +1,6 @@
 # > Clubhouse
 # 如果的你代理服务器不支持或没有开启 udp-relay，请不要使用本文件。
-DOMAIN-SUFFIX,clubhouseapi.com
-DOMAIN-SUFFIX,joinclubhouse.com
-DOMAIN,clubhouseprod.s3.amazonaws.com
-DOMAIN,clubhouse.pubnub.com
+
 IP-CIDR,3.0.163.78/32,no-resolve
 IP-CIDR,13.230.60.35/32,no-resolve
 IP-CIDR,23.98.43.152/32,no-resolve

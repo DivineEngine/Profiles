@@ -20,4 +20,4 @@
 
 ### Surge 2
 
-对于 Surge (Legacy Support) 即 Surge 2 用户的支持即将停止。
+对于 Surge(Legacy Support) 即 Surge 2 用户的支持已经停止。
