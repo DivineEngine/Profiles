@@ -1,0 +1,20 @@
+# > HBO Asia
+USER-AGENT,HBO%20GO%20PROD*,HBO Asia
+DOMAIN-SUFFIX,hbogoasia.com,HBO Asia
+DOMAIN-SUFFIX,hbogoasia.hk,HBO Asia
+DOMAIN-KEYWORD,.hbogoasia.,HBO Asia
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,HBO Asia
+DOMAIN,bcbolthboa-a.akamaihd.net,HBO Asia
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,HBO Asia
+DOMAIN,dai3fd1oh325y.cloudfront.net,HBO Asia
+DOMAIN,hboasia1-i.akamaihd.net,HBO Asia
+DOMAIN,hboasia2-i.akamaihd.net,HBO Asia
+DOMAIN,hboasia3-i.akamaihd.net,HBO Asia
+DOMAIN,hboasia4-i.akamaihd.net,HBO Asia
+DOMAIN,hboasia5-i.akamaihd.net,HBO Asia
+DOMAIN,hboasialive.akamaized.net,HBO Asia
+DOMAIN,hbogoprod-vod.akamaized.net,HBO Asia
+DOMAIN,hbolb.onwardsmg.com,HBO Asia
+DOMAIN,hbounify-prod.evergent.com,HBO Asia
+DOMAIN,players.brightcove.net,HBO Asia
+DOMAIN,s3-ap-southeast-1.amazonaws.com,HBO Asia

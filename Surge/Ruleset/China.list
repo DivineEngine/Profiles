@@ -161,7 +161,7 @@ DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
 # > Tencent
-USER-AGENT,MicroMessenger%20Client
+USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
 DOMAIN-SUFFIX,gtimg.com
@@ -177,6 +177,8 @@ DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN,file-igamecj.akamaized.net
+IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,203.205.254.0/23,no-resolve
 # > Content Delivery Network
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
@@ -317,7 +319,6 @@ DOMAIN-SUFFIX,nim-lang-cn.org
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,oracle.com
-DOMAIN-SUFFIX,pcbeta.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qidian.com

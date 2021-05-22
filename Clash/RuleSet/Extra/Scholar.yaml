@@ -51,6 +51,7 @@ payload:
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,sciencedirect.com
   - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,scitation.org
   - DOMAIN-SUFFIX,sci-hub.tw
   - DOMAIN-SUFFIX,scopus.com
   - DOMAIN-SUFFIX,siam.org

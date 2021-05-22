@@ -93,6 +93,13 @@ payload:
   - DOMAIN-SUFFIX,indazn.com
   - DOMAIN,d151l6v8er5bdm.cloudfront.net
   - DOMAIN-KEYWORD,voddazn
+  # > discovery+
+  - PROCESS-NAME,com.discovery.discoveryplus.mobile
+  - DOMAIN-SUFFIX,disco-api.com
+  - DOMAIN-SUFFIX,discoveryplus.co.uk
+  - DOMAIN-SUFFIX,discoveryplus.com
+  - DOMAIN-SUFFIX,discoveryplus.in
+  - DOMAIN-SUFFIX,dnitv.com
   # > Disney+
   - PROCESS-NAME,com.disney.disneyplus
   - DOMAIN-SUFFIX,bamgrid.com
@@ -111,12 +118,6 @@ payload:
   - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
-  # > FOX NOW
-  - PROCESS-NAME,com.fox.now
-  - DOMAIN-SUFFIX,fox.com
-  - DOMAIN-SUFFIX,foxdcg.com
-  - DOMAIN-SUFFIX,theplatform.com
-  - DOMAIN-SUFFIX,uplynk.com
   # > HBO NOW & Max
   - PROCESS-NAME,com.hbo.hbonow
   - DOMAIN-SUFFIX,hbo.com
@@ -124,21 +125,26 @@ payload:
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
-  # > HBO GO HKG
+  # > HBO Asia
   - PROCESS-NAME,hk.hbo.hbogo
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN,bcbolthboa-a.akamaihd.net
-  - DOMAIN,players.brightcove.net
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com
-  - DOMAIN,dai3fd1oh325y.cloudfront.net
+  - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN,bcbolthboa-a.akamaihd.net
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,dai3fd1oh325y.cloudfront.net
   - DOMAIN,hboasia1-i.akamaihd.net
   - DOMAIN,hboasia2-i.akamaihd.net
   - DOMAIN,hboasia3-i.akamaihd.net
   - DOMAIN,hboasia4-i.akamaihd.net
   - DOMAIN,hboasia5-i.akamaihd.net
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,hboasialive.akamaized.net
+  - DOMAIN,hbogoprod-vod.akamaized.net
+  - DOMAIN,hbolb.onwardsmg.com
+  - DOMAIN,hbounify-prod.evergent.com
+  - DOMAIN,players.brightcove.net
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com
   # > 华文电视
   # USER-AGENT,HWTVMobile*
   - DOMAIN-SUFFIX,5itv.tv
@@ -236,6 +242,7 @@ payload:
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
   - DOMAIN,cbsservice.aws.syncbak.com
+  - DOMAIN,link.theplatform.com
   # > PBS
   - PROCESS-NAME,com.pbs.video
   - DOMAIN-SUFFIX,pbs.org

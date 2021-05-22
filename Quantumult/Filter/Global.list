@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,huobi.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
 DOMAIN-SUFFIX,zb.com,PROXY
 # > Discord
+DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discordapp.com,PROXY
 DOMAIN-SUFFIX,discordapp.net,PROXY
 # > Dropbox
@@ -86,6 +87,15 @@ DOMAIN-SUFFIX,nytimes.com,PROXY
 DOMAIN-SUFFIX,nytimg.com,PROXY
 DOMAIN-SUFFIX,nytlog.com,PROXY
 DOMAIN-SUFFIX,nytstyle.com,PROXY
+# > Pinterest
+DOMAIN-SUFFIX,pinterest.at,PROXY
+DOMAIN-SUFFIX,pinterest.ca,PROXY
+DOMAIN-SUFFIX,pinterest.co.uk,PROXY
+DOMAIN-SUFFIX,pinterest.com,PROXY
+DOMAIN-SUFFIX,pinterest.de,PROXY
+DOMAIN-SUFFIX,pinterest.fr,PROXY
+DOMAIN-SUFFIX,pinterest.jp,PROXY
+DOMAIN-SUFFIX,pinterest.se,PROXY
 # > pixiv
 DOMAIN-SUFFIX,pixiv.net,PROXY
 DOMAIN-SUFFIX,pixiv.org,PROXY
@@ -188,8 +198,10 @@ DOMAIN-SUFFIX,crucial.com,PROXY
 DOMAIN-SUFFIX,cts.com.tw,PROXY
 DOMAIN-SUFFIX,cw.com.tw,PROXY
 DOMAIN-SUFFIX,cyberctm.com,PROXY
+DOMAIN-SUFFIX,cyclingnews.com,PROXY
 DOMAIN-SUFFIX,dailymotion.com,PROXY
 DOMAIN-SUFFIX,dailyview.tw,PROXY
+DOMAIN-SUFFIX,dandanzan.com,PROXY
 DOMAIN-SUFFIX,daum.net,PROXY
 DOMAIN-SUFFIX,daumcdn.net,PROXY
 DOMAIN-SUFFIX,dcard.tw,PROXY
@@ -302,6 +314,7 @@ DOMAIN-SUFFIX,mega.nz,PROXY
 DOMAIN-SUFFIX,mergersandinquisitions.com,PROXY
 DOMAIN-SUFFIX,mingpao.com,PROXY
 DOMAIN-SUFFIX,mixi.jp,PROXY
+DOMAIN-SUFFIX,mixlr.com,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
 DOMAIN-SUFFIX,mubi.com,PROXY
 DOMAIN-SUFFIX,myspace.com,PROXY
@@ -410,6 +423,7 @@ DOMAIN-SUFFIX,uptodown.com,PROXY
 DOMAIN-SUFFIX,urbandictionary.com,PROXY
 DOMAIN-SUFFIX,ustream.tv,PROXY
 DOMAIN-SUFFIX,uwants.com,PROXY
+DOMAIN-SUFFIX,v2ex.com,PROXY
 DOMAIN-SUFFIX,v2fly.org,PROXY
 DOMAIN-SUFFIX,v2ray.com,PROXY
 DOMAIN-SUFFIX,viber.com,PROXY
@@ -450,10 +464,7 @@ DOMAIN-SUFFIX,zoom.us,PROXY
 
 DOMAIN,cc.tvbs.com.tw,PROXY
 DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
-DOMAIN,search.avira.com,PROXY
 DOMAIN,us.weibo.com,PROXY
-
-DOMAIN-KEYWORD,.pinterest.,PROXY
 
 DOMAIN-SUFFIX,edu,PROXY
 DOMAIN-SUFFIX,gov,PROXY

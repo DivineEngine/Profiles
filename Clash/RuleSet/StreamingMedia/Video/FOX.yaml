@@ -1,7 +1,0 @@
-payload:
-  # > FOX NOW
-  - PROCESS-NAME,com.fox.now
-  - DOMAIN-SUFFIX,fox.com
-  - DOMAIN-SUFFIX,foxdcg.com
-  - DOMAIN-SUFFIX,theplatform.com
-  - DOMAIN-SUFFIX,uplynk.com
