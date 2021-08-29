@@ -466,6 +466,7 @@ payload:
   - DOMAIN,cc.tvbs.com.tw
   - DOMAIN,ocsp.int-x3.letsencrypt.org
   - DOMAIN,us.weibo.com
+  - DOMAIN,manual.seafile.com
 
   - DOMAIN-SUFFIX,edu
   - DOMAIN-SUFFIX,gov
