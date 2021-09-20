@@ -18,6 +18,10 @@ payload:
   # > iOS updates
   - DOMAIN,appldnld.apple.com
   - DOMAIN,ns.itunes.apple.com
+  - DOMAIN,ocsp.int-x3.letsencrypt.org
+  - DOMAIN,ocsp.apple.com
+  - DOMAIN,world-gen.g.aaplimg.com
+  - DOMAIN,gdmf.apple.com
   # > iOS, tvOS, and macOS
   - DOMAIN,mesu.apple.com
   - DOMAIN,updates.cdn-apple.com
