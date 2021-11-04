@@ -1,10 +1,23 @@
+## 资源
+
+[官方网站](https://nssurge.com/) / [手册](http://manual.nssurge.com/) / [常见问题](https://nssurge.zendesk.com/) / [社区](https://community.nssurge.com/)
+
+## 配置
+
+| 类别 | 配置 |
+| :------------: | :------------: |
+| 出国版 | [Outbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Outbound.conf) |
+| 回国版 | [Inbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Inbound.conf) |
+
 ## 说明
 
-### Surge 4
+你可能需要阅读这份[使用说明](https://www.notion.so/divineengine/b4161dac0412486e9a6f1637a1b2d572)。
 
-对于 Surge 4（指已解锁「模块」功能）的用户，可自行删除 `[URL Rewrite]` 内的 Rewrite，以模块替代方便更新，建议必选 Module 目录下的 `General.sgmodule` 模块，其他按需添加。
+对于 Surge(Legacy Support) 即 Surge 2 用户的支持已经停止。
 
-### Surge 3
+### 关于 Rewrite
+
+对于 Surge 4（指已解锁「模块」功能）的用户，可自行删除 `[URL Rewrite]` 内的 Rewrite 以模块替代方便更新，建议必选 Module 目录下的 `General.sgmodule` 模块，其他按需添加。
 
 对于 Surge 3（指未解锁「模块」功能）的用户，默认不带有去广告的 Rewrite 及 hostname，你需要进行以下步骤：
 
@@ -17,7 +30,3 @@
 ⚠️ 注意：如在 Surge 内出现『未能打开文件「*.conf」，因为它不存在』的错误提示，这一般出现在运行快捷指令时 Surge 没有同时打开，这时关掉提示重新运行一次快捷指令即可。
 
 之后更新有关去广告的 Rewrite 及 hostname 均可重复此步骤，此方法极大简化了未解锁「模块」功能用户更新 Rewrite 及 hostname 部分的困难操作，如有自定义的 `hostname` 放置在首部（也就是 `www.google.cn` 之前）不会在更新时被覆盖。
-
-### Surge 2
-
-对于 Surge(Legacy Support) 即 Surge 2 用户的支持已经停止。

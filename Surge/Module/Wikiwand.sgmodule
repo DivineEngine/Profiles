@@ -6,4 +6,4 @@
 ^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
 
 [MITM]
-hostname = %INSERT% *.wikipedia.org,*.wikiwand.com
+hostname = %APPEND% *.wikipedia.org,*.wikiwand.com

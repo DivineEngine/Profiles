@@ -42,13 +42,6 @@ DOMAIN,tracklog.58.com,REJECT
 # > Baidu
 DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
-# > ByteDance
-DOMAIN,log.byteoversea.com,REJECT
-DOMAIN,log.tiktokv.com,REJECT
-DOMAIN,log-hl-ipv6.snssdk.com,REJECT
-DOMAIN,log-lq.snssdk.com,REJECT
-DOMAIN,log-va.tiktokv.com,REJECT
-DOMAIN,xlog.snssdk.com,REJECT
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
@@ -58,8 +51,4 @@ DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
 # > Tencent
-DOMAIN-SUFFIX,trace.qq.com,REJECT
-DOMAIN,btrace.qq.com,REJECT
-DOMAIN,btrace.video.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT

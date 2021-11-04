@@ -6,3 +6,4 @@ DOMAIN-SUFFIX,docs.google.com,GoogleDrive
 DOMAIN-SUFFIX,drive.google.com,GoogleDrive
 DOMAIN-SUFFIX,googledrive.com,GoogleDrive
 DOMAIN-SUFFIX,googleusercontent.com,GoogleDrive
+DOMAIN,www.googleapis.com,GoogleDrive

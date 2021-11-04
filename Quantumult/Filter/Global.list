@@ -10,9 +10,10 @@ DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
 # > Apple
 DOMAIN,testflight.apple.com,PROXY
-# > Cryptocurrency
+# > Crypto
 DOMAIN-SUFFIX,aex.com,PROXY
 DOMAIN-SUFFIX,bibox.com,PROXY
+DOMAIN-SUFFIX,binance.cc,PROXY
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,bitcointalk.org,PROXY
 DOMAIN-SUFFIX,bitfinex.com,PROXY
@@ -20,6 +21,7 @@ DOMAIN-SUFFIX,bitmex.com,PROXY
 DOMAIN-SUFFIX,gate.io,PROXY
 DOMAIN-SUFFIX,huobi.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
+DOMAIN-SUFFIX,uniswap.org,PROXY
 DOMAIN-SUFFIX,zb.com,PROXY
 # > Discord
 DOMAIN-SUFFIX,discord.com,PROXY
@@ -56,6 +58,7 @@ DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
+DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
@@ -113,11 +116,14 @@ IP-CIDR,91.108.12.0/22,PROXY
 IP-CIDR,91.108.16.0/22,PROXY
 IP-CIDR,91.108.20.0/22,PROXY
 IP-CIDR,91.108.56.0/22,PROXY
-IP-CIDR,95.161.64.0/20,PROXY
+IP-CIDR,91.105.192.0/23,PROXY
 IP-CIDR,149.154.160.0/20,PROXY
+IP-CIDR,185.76.151.0/24,PROXY
 IP6-CIDR,2001:b28:f23d::/48,PROXY
 IP6-CIDR,2001:b28:f23f::/48,PROXY
 IP6-CIDR,2001:67c:4e8::/48,PROXY
+IP6-CIDR,2001:b28:f23c::/48,PROXY
+IP6-CIDR,2a0a:f280::/32,PROXY
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv,PROXY
 DOMAIN-SUFFIX,periscope.tv,PROXY
@@ -397,6 +403,7 @@ DOMAIN-SUFFIX,steemitwallet.com,PROXY
 DOMAIN-SUFFIX,straitstimes.com,PROXY
 DOMAIN-SUFFIX,streamable.com,PROXY
 DOMAIN-SUFFIX,streema.com,PROXY
+DOMAIN-SUFFIX,substack.com,PROXY
 DOMAIN-SUFFIX,t66y.com,PROXY
 DOMAIN-SUFFIX,tapatalk.com,PROXY
 DOMAIN-SUFFIX,teco-hk.org,PROXY
@@ -412,6 +419,7 @@ DOMAIN-SUFFIX,tineye.com,PROXY
 DOMAIN-SUFFIX,tiny.cc,PROXY
 DOMAIN-SUFFIX,tinyurl.com,PROXY
 DOMAIN-SUFFIX,torproject.org,PROXY
+DOMAIN-SUFFIX,tradingview.com,PROXY
 DOMAIN-SUFFIX,tumblr.com,PROXY
 DOMAIN-SUFFIX,turbobit.net,PROXY
 DOMAIN-SUFFIX,tutanota.com,PROXY
@@ -450,6 +458,7 @@ DOMAIN-SUFFIX,xn--90wwvt03e.com,PROXY
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com,PROXY
 DOMAIN-SUFFIX,xnxx.com,PROXY
 DOMAIN-SUFFIX,xvideos.com,PROXY
+DOMAIN-SUFFIX,yadi.sk,PROXY
 DOMAIN-SUFFIX,yahoo.com,PROXY
 DOMAIN-SUFFIX,yandex.ru,PROXY
 DOMAIN-SUFFIX,ycombinator.com,PROXY
@@ -460,9 +469,11 @@ DOMAIN-SUFFIX,you-get.org,PROXY
 DOMAIN-SUFFIX,zaobao.com,PROXY
 DOMAIN-SUFFIX,zello.com,PROXY
 DOMAIN-SUFFIX,zeronet.io,PROXY
+DOMAIN-SUFFIX,z-lib.org,PROXY
 DOMAIN-SUFFIX,zoom.us,PROXY
 
 DOMAIN,cc.tvbs.com.tw,PROXY
+DOMAIN,clubhouse.pubnubapi.com,PROXY
 DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
 DOMAIN,us.weibo.com,PROXY
 
@@ -528,22 +539,22 @@ DOMAIN-SUFFIX,twitter.jp,PROXY
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
-# > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re,PROXY
-# > iBooks Store download
 DOMAIN,books.itunes.apple.com,PROXY
-# > App Store Preview
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN,beta.music.apple.com,PROXY
+DOMAIN,lookup-api.apple.com,PROXY
+# > Web Preview
 DOMAIN,apps.apple.com,PROXY
 DOMAIN,itunes.apple.com,PROXY
-# > Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com,PROXY
-# > Look Up
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN,lookup-api.apple.com,PROXY
-# > Apple Music Web
-DOMAIN,beta.music.apple.com,PROXY
+DOMAIN,tv.apple.com,PROXY
 # ------
+# Google
+DOMAIN-SUFFIX,go.dev,PROXY
+DOMAIN-SUFFIX,golang.org,PROXY
 # > Others
+DOMAIN-SUFFIX,aicoin.com,PROXY
+DOMAIN-SUFFIX,aimoon.com,PROXY
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,cccat.io,PROXY
 DOMAIN-SUFFIX,dubox.com,PROXY
@@ -551,6 +562,8 @@ DOMAIN-SUFFIX,duboxcdn.com,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
+DOMAIN-SUFFIX,sushi.com,PROXY
+# URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
 # (Network Jitter)
 # > Apple
@@ -558,7 +571,6 @@ DOMAIN,appleid.apple.com,PROXY
 DOMAIN,developer.apple.com,PROXY
 DOMAIN,www.icloud.com,PROXY
 DOMAIN,ocsp.apple.com,PROXY
-DOMAIN,xp.apple.com,PROXY
 # > DigiCert
 DOMAIN,cacerts.digicert.com,PROXY
 DOMAIN,crl3.digicert.com,PROXY
@@ -571,4 +583,3 @@ DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
 DOMAIN,international-gfe.download.nvidia.com,PROXY
-DOMAIN,store-images.s-microsoft.com,PROXY

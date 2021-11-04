@@ -44,8 +44,8 @@ payload:
   - DOMAIN-SUFFIX,bdstatic.com
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
   # > Battle
-  - DOMAIN-SUFFIX,battle.net,DIRECT
-  - DOMAIN-SUFFIX,blizzard.com,DIRECT
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
   # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -122,9 +122,10 @@ payload:
   - DOMAIN,outlook.office365.com
   - DOMAIN,smtp.office365.com
   # >> Windows Server Update Services
-  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN,download.microsoft.com
   - DOMAIN,wustat.windows.com
   - DOMAIN,ntservicepack.microsoft.com
@@ -139,6 +140,7 @@ payload:
   - DOMAIN-SUFFIX,lofter.com
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,ydstatic.com
+  - DOMAIN-SUFFIX,youdao.com
   # > PayPal
   # USER-AGENT,PayPal*
   - DOMAIN-SUFFIX,paypal.com
@@ -162,7 +164,7 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamstatic.com
   # > Tencent
-  # USER-AGENT,MicroMessenger%20Client
+  # USER-AGENT,MicroMessenger*
   # USER-AGENT,WeChat*
   # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
   - DOMAIN-SUFFIX,gtimg.com
@@ -174,10 +176,20 @@ payload:
   - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,tencent-cloud.com
   - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN,file-igamecj.akamaized.net
+  - IP-CIDR,101.32.104.4/32,no-resolve
+  - IP-CIDR,101.32.104.41/32,no-resolve
+  - IP-CIDR,101.32.104.56/32,no-resolve
+  - IP-CIDR,101.32.118.25/32,no-resolve
+  - IP-CIDR,101.32.133.16/32,no-resolve
+  - IP-CIDR,101.32.133.53/32,no-resolve
+  - IP-CIDR,101.32.133.209/32,no-resolve
+  - IP-CIDR,129.226.3.47/32,no-resolve
+  - IP-CIDR,129.226.107.244/32,no-resolve
   - IP-CIDR,182.254.116.0/24,no-resolve
   - IP-CIDR,203.205.254.0/23,no-resolve
   # > Content Delivery Network
@@ -200,6 +212,7 @@ payload:
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,sms.imagetasks.com
   # > Speed Test
+  # - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN,speedtest.macpaw.com
   # > Private Tracker
@@ -262,6 +275,7 @@ payload:
   - DOMAIN-SUFFIX,chinaso.com
   - DOMAIN-SUFFIX,chuimg.com
   - DOMAIN-SUFFIX,chunyu.mobi
+  - DOMAIN-SUFFIX,cibntv.net
   - DOMAIN-SUFFIX,cmbchina.com
   - DOMAIN-SUFFIX,cmbimg.com
   - DOMAIN-SUFFIX,coolapk.com
@@ -287,6 +301,7 @@ payload:
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,gifshow.com
   - DOMAIN-SUFFIX,godic.net
+  - DOMAIN-SUFFIX,heweather.net
   - DOMAIN-SUFFIX,hicloud.com
   - DOMAIN-SUFFIX,hongxiu.com
   - DOMAIN-SUFFIX,hostbuf.com
@@ -320,8 +335,8 @@ payload:
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,qdaily.com
   - DOMAIN-SUFFIX,qidian.com
+  - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,qyer.com
   - DOMAIN-SUFFIX,qyerstatic.com
   - DOMAIN-SUFFIX,raychase.net
@@ -329,7 +344,7 @@ payload:
   - DOMAIN-SUFFIX,ruguoapp.com
   - DOMAIN-SUFFIX,sankuai.com
   - DOMAIN-SUFFIX,scomper.me
-  - DOMAIN-SUFFIX,seafile.com
+  - DOMAIN-SUFFIX,shouqianba.com
   - DOMAIN-SUFFIX,sm.ms
   - DOMAIN-SUFFIX,smzdm.com
   - DOMAIN-SUFFIX,snapdrop.net

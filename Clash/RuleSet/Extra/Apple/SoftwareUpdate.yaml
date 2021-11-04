@@ -1,7 +1,7 @@
 payload:
   # Software Update
   # > macOS updates
-  - DOMAIN,gg.apple.com
+  - DOMAIN,configuration.apple.com
   - DOMAIN,gnf-mdn.apple.com
   - DOMAIN,gnf-mr.apple.com
   - DOMAIN,gs.apple.com
@@ -15,10 +15,12 @@ payload:
   # > macOS Recovery
   - DOMAIN,oscdn.apple.com
   - DOMAIN,osrecovery.apple.com
-  # > iOS updates
+  # > iOS and iPadOS updates
   - DOMAIN,appldnld.apple.com
   - DOMAIN,ns.itunes.apple.com
-  # > iOS, tvOS, and macOS
+  # > iOS, iPadOS, tvOS, and macOS updates
+  - DOMAIN,gg.apple.com
+  - DOMAIN,gdmf.apple.com
   - DOMAIN,mesu.apple.com
   - DOMAIN,updates.cdn-apple.com
   - DOMAIN,updates-http.cdn-apple.com

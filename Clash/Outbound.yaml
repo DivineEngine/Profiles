@@ -10,7 +10,7 @@
 # Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
 # tproxy-port: 7893
 
-# HTTP(S) and SOCKS5 server on the same port
+# HTTP(S) and SOCKS4(A)/SOCKS5 server on the same port
 mixed-port: 7890
 
 # authentication of local SOCKS5/HTTP(S) server
@@ -74,6 +74,12 @@ hosts:
   'dl.google.com': 180.163.151.161
   'dl.l.google.com': 180.163.151.161
 
+profile:
+  # Store the `select` results in $HOME/.config/clash/.cache
+  # set false If you don't want this behavior
+  # when two different configurations have groups with the same name, the selected values are shared
+  store-selected: false
+
 # DNS server settings
 # This section is optional. When not present, the DNS server will be disabled.
 dns:
@@ -88,7 +94,7 @@ dns:
   enhanced-mode: redir-host # or fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
   # use-hosts: true # lookup hosts and return IP record
-
+  
   # Hostnames in this list will not be resolved with fake IPs
   # i.e. questions to these domain names will always be answered with their
   # real IP addresses
@@ -112,8 +118,11 @@ dns:
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
     - 119.29.29.29
+    # - 114.114.114.114 # default value
+    # - 8.8.8.8 # default value
     # - tls://dns.rubyfish.cn:853 # DNS over TLS
     # - https://1.1.1.1/dns-query # DNS over HTTPS
+    # - dhcp://en0 # dns from dhcp
 
   # When `fallback` is present, the DNS server will send concurrent requests
   # to the servers in this section along with servers in `nameservers`.
@@ -133,14 +142,20 @@ dns:
   # are always used if not match `fallback-filter.ipcidr`.
   #
   # This is a countermeasure against DNS pollution attacks.
-  fallback-filter:
-    geoip: true
-    ipcidr:
-      # - 240.0.0.0/4
-    # domain:
-    #   - '+.google.com'
-    #   - '+.facebook.com'
-    #   - '+.youtube.com'
+  # fallback-filter:
+  #   geoip: true
+  #   geoip-code: CN
+  #   ipcidr:
+  #     - 240.0.0.0/4
+  #   domain:
+  #     - '+.google.com'
+  #     - '+.facebook.com'
+  #     - '+.youtube.com'
+  
+  # Lookup domains via specific nameservers
+  # nameserver-policy:
+  #   'www.baidu.com': '114.114.114.114'
+  #   '+.internal.crop.com': '10.0.0.1'
 
 #
 # https://github.com/Dreamacro/clash/wiki/premium-core-features

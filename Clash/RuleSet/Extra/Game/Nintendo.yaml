@@ -1,0 +1,4 @@
+payload:
+  # > Nintendo
+  - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,nintendo.net

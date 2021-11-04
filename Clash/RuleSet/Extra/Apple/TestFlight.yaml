@@ -1,4 +1,0 @@
-payload:
-  # TestFlight
-  - DOMAIN,beta.apple.com
-  - DOMAIN,testflight.apple.com

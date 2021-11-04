@@ -57,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,getoutline.org
   - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,ytimg.com
@@ -114,11 +115,14 @@ payload:
   - IP-CIDR,91.108.16.0/22,no-resolve
   - IP-CIDR,91.108.20.0/22,no-resolve
   - IP-CIDR,91.108.56.0/22,no-resolve
-  - IP-CIDR,95.161.64.0/20,no-resolve
+  - IP-CIDR,91.105.192.0/23,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,185.76.151.0/24,no-resolve
   - IP-CIDR,2001:b28:f23d::/48,no-resolve
   - IP-CIDR,2001:b28:f23f::/48,no-resolve
   - IP-CIDR,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR,2001:b28:f23c::/48,no-resolve
+  - IP-CIDR,2a0a:f280::/32,no-resolve
   # > Twitter
   - DOMAIN-SUFFIX,pscp.tv
   - DOMAIN-SUFFIX,periscope.tv
@@ -413,6 +417,7 @@ payload:
   - DOMAIN-SUFFIX,tiny.cc
   - DOMAIN-SUFFIX,tinyurl.com
   - DOMAIN-SUFFIX,torproject.org
+  - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,tumblr.com
   - DOMAIN-SUFFIX,turbobit.net
   - DOMAIN-SUFFIX,tutanota.com
@@ -464,6 +469,7 @@ payload:
   - DOMAIN-SUFFIX,zoom.us
 
   - DOMAIN,cc.tvbs.com.tw
+  - DOMAIN,clubhouse.pubnubapi.com
   - DOMAIN,ocsp.int-x3.letsencrypt.org
   - DOMAIN,us.weibo.com
 
@@ -495,7 +501,6 @@ payload:
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,gmodules.com
   - DOMAIN-SUFFIX,godoc.org
-  - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gv.com
   - DOMAIN-SUFFIX,gwtproject.org
@@ -537,22 +542,21 @@ payload:
 
   # (Region-Restricted Access Denied)
   # ---(Apple)---
-  # > Apple URL Shortener
   - DOMAIN-SUFFIX,appsto.re
-  # > iBooks Store download
   - DOMAIN,books.itunes.apple.com
-  # > App Store Preview
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,beta.music.apple.com
+  - DOMAIN,lookup-api.apple.com
   - DOMAIN,apps.apple.com
   - DOMAIN,itunes.apple.com
-  # > Spotlight
-  - DOMAIN,api-glb-sea.smoot.apple.com
-  # > Look Up
-  - DOMAIN-SUFFIX,smoot.apple.com
-  - DOMAIN,lookup-api.apple.com
-  # > Apple Music Web
-  - DOMAIN,beta.music.apple.com
+  - DOMAIN,tv.apple.com
   # ------
+  # Google
+  - DOMAIN-SUFFIX,go.dev
+  - DOMAIN-SUFFIX,golang.org
   # > Others
+  - DOMAIN-SUFFIX,aicoin.com
+  - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,cccat.io
   - DOMAIN-SUFFIX,dubox.com
@@ -568,7 +572,6 @@ payload:
   - DOMAIN,developer.apple.com
   - DOMAIN,www.icloud.com
   - DOMAIN,ocsp.apple.com
-  - DOMAIN,xp.apple.com
   # > DigiCert
   - DOMAIN,cacerts.digicert.com
   - DOMAIN,crl3.digicert.com

@@ -1,8 +1,25 @@
 # Software Update
-# > iOS updates
+# > macOS updates
+DOMAIN,configuration.apple.com,PROXY
+DOMAIN,gnf-mdn.apple.com,PROXY
+DOMAIN,gnf-mr.apple.com,PROXY
+DOMAIN,gs.apple.com,PROXY
+DOMAIN,ig.apple.com,PROXY
+DOMAIN,skl.apple.com,PROXY
+DOMAIN,swcdn.apple.com,PROXY
+DOMAIN,swdist.apple.com,PROXY
+DOMAIN,swdownload.apple.com,PROXY
+DOMAIN,swpost.apple.com,PROXY
+DOMAIN,swscan.apple.com,PROXY
+# > macOS Recovery
+DOMAIN,oscdn.apple.com,PROXY
+DOMAIN,osrecovery.apple.com,PROXY
+# > iOS and iPadOS updates
 DOMAIN,appldnld.apple.com,PROXY
 DOMAIN,ns.itunes.apple.com,PROXY
-# > iOS, tvOS, and macOS
+# > iOS, iPadOS, tvOS, and macOS updates
+DOMAIN,gg.apple.com,PROXY
+DOMAIN,gdmf.apple.com,PROXY
 DOMAIN,mesu.apple.com,PROXY
 DOMAIN,updates.cdn-apple.com,PROXY
 DOMAIN,updates-http.cdn-apple.com,PROXY
