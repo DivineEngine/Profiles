@@ -11,16 +11,35 @@ payload:
   - DOMAIN,a771.dscq.akamai.net
   # > Apple
   - DOMAIN,testflight.apple.com
-  # > Cryptocurrency
+  # > Crypto
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,bibox.com
+  - DOMAIN-SUFFIX,binance.cc
   - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,binance.us
   - DOMAIN-SUFFIX,bitcointalk.org
   - DOMAIN-SUFFIX,bitfinex.com
+  - DOMAIN-SUFFIX,bithumb.com
   - DOMAIN-SUFFIX,bitmex.com
+  - DOMAIN-SUFFIX,bitstamp.net
+  - DOMAIN-SUFFIX,bittrex.com
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,coinbase.com
+  - DOMAIN-SUFFIX,coincheck.com
+  - DOMAIN-SUFFIX,coingecko.com
+  - DOMAIN-SUFFIX,coinmarketcap.com
+  - DOMAIN-SUFFIX,coinone.co.kr
+  - DOMAIN-SUFFIX,ftx.com
   - DOMAIN-SUFFIX,gate.io
+  - DOMAIN-SUFFIX,gemini.com
   - DOMAIN-SUFFIX,huobi.com
+  - DOMAIN-SUFFIX,korbit.co.kr
+  - DOMAIN-SUFFIX,kraken.com
+  - DOMAIN-SUFFIX,kucoin.com
+  - DOMAIN-SUFFIX,liquid.com
   - DOMAIN-SUFFIX,okex.com
+  - DOMAIN-SUFFIX,poloniex.com
+  - DOMAIN-SUFFIX,uniswap.org
   - DOMAIN-SUFFIX,zb.com
   # > Discord
   - DOMAIN-SUFFIX,discord.com
@@ -402,6 +421,7 @@ payload:
   - DOMAIN-SUFFIX,straitstimes.com
   - DOMAIN-SUFFIX,streamable.com
   - DOMAIN-SUFFIX,streema.com
+  - DOMAIN-SUFFIX,substack.com
   - DOMAIN-SUFFIX,t66y.com
   - DOMAIN-SUFFIX,tapatalk.com
   - DOMAIN-SUFFIX,teco-hk.org
@@ -456,6 +476,7 @@ payload:
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
   - DOMAIN-SUFFIX,xnxx.com
   - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,yadi.sk
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,ycombinator.com
@@ -466,6 +487,7 @@ payload:
   - DOMAIN-SUFFIX,zaobao.com
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zeronet.io
+  - DOMAIN-SUFFIX,z-lib.org
   - DOMAIN-SUFFIX,zoom.us
 
   - DOMAIN,cc.tvbs.com.tw
@@ -547,6 +569,7 @@ payload:
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN,beta.music.apple.com
   - DOMAIN,lookup-api.apple.com
+  # > Web Preview
   - DOMAIN,apps.apple.com
   - DOMAIN,itunes.apple.com
   - DOMAIN,tv.apple.com
@@ -564,7 +587,7 @@ payload:
   - DOMAIN-SUFFIX,ifixit.com
   - DOMAIN-SUFFIX,mangakakalot.com
   - DOMAIN-SUFFIX,shopeemobile.com
-  # URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
+  - DOMAIN-SUFFIX,sushi.com
 
   # (Network Jitter)
   # > Apple
@@ -584,4 +607,3 @@ payload:
   - DOMAIN-SUFFIX,s3.amazonaws.com
   - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN,international-gfe.download.nvidia.com
-  - DOMAIN,store-images.s-microsoft.com
