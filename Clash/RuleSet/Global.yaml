@@ -125,6 +125,7 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
   # > Telegram
   - DOMAIN-SUFFIX,telegra.ph
   - DOMAIN-SUFFIX,telegram.org

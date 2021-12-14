@@ -124,6 +124,7 @@ DOMAIN-SUFFIX,pximg.net,PROXY
 DOMAIN-SUFFIX,redd.it,PROXY
 DOMAIN-SUFFIX,reddit.com,PROXY
 DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
 # > Telegram
 DOMAIN-SUFFIX,telegra.ph,PROXY
 DOMAIN-SUFFIX,telegram.org,PROXY
