@@ -282,9 +282,9 @@ proxy-groups:
   #     - DuckDuckGo # 嵌套使用订阅节点策略组
   #   proxies:
   #     - Fallback
-  #     - 1
-  #     - 2
-  #     - 3
+  #     - '1'
+  #     - '2'
+  #     - '3'
   #
   # 但如果订阅节点很多选起来就很麻烦，不如先嵌套一个策略组进行手动或自动的选择。
 
@@ -303,9 +303,9 @@ proxy-groups:
   - name: "Fallback"
     type: fallback
     proxies:
-      - 1
-      - 2
-      - 3
+      - '1'
+      - '2'
+      - '3'
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -314,9 +314,9 @@ proxy-groups:
     type: select
     proxies:
       - Fallback
-      - 1
-      - 2
-      - 3
+      - '1'
+      - '2'
+      - '3'
       - DuckDuckGo # 嵌套使用订阅节点策略组
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
@@ -331,9 +331,9 @@ proxy-groups:
     type: select
     proxies:
       - PROXY
-      - 1
-      - 2
-      - 3
+      - '1'
+      - '2'
+      - '3'
       # - US
 
   # 中国流媒体服务（面向海外版本）
@@ -342,7 +342,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 2
+      - '2'
 
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
