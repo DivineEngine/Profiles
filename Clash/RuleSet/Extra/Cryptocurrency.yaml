@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,kucoin.com
   - DOMAIN-SUFFIX,liquid.com
   - DOMAIN-SUFFIX,okex.com
+  - DOMAIN-SUFFIX,okx.com
   - DOMAIN-SUFFIX,poloniex.com
   - DOMAIN-SUFFIX,sushi.com
   - DOMAIN-SUFFIX,uniswap.org
