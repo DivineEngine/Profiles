@@ -245,19 +245,10 @@ DOMAIN-SUFFIX,nflximg.com,Streaming
 DOMAIN-SUFFIX,nflximg.net,Streaming
 DOMAIN-SUFFIX,nflxso.net,Streaming
 DOMAIN-SUFFIX,nflxvideo.net,Streaming
-DOMAIN-SUFFIX,netflixdnstest0.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest1.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest2.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest3.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest4.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest5.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
+DOMAIN-KEYWORD,netflixdnstest,Streaming
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Streaming
 DOMAIN-KEYWORD,dualstack.apiproxy-,Streaming
-# GEOIP,netflix,Streaming
+# GEOIP,NETFLIX,Streaming
 # > niconico
 USER-AGENT,Niconico*,Streaming
 DOMAIN-SUFFIX,dmc.nico,Streaming

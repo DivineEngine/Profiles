@@ -261,6 +261,7 @@ payload:
   - DOMAIN-SUFFIX,bibox.com
   - DOMAIN-SUFFIX,binance.cc
   - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,binance.me
   - DOMAIN-SUFFIX,binance.us
   - DOMAIN-SUFFIX,bitcointalk.org
   - DOMAIN-SUFFIX,bitfinex.com

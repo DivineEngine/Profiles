@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,binance.com,Crypto
 DOMAIN-SUFFIX,binance.im,Crypto
 DOMAIN-SUFFIX,binance.me,Crypto
 DOMAIN-SUFFIX,binance.us,Crypto
+DOMAIN-SUFFIX,bnappzh.co,Crypto
 DOMAIN-SUFFIX,bnappzh.com,Crypto
 DOMAIN-SUFFIX,bnbstatic.com,Crypto
 DOMAIN-SUFFIX,bntrace.com,Crypto
@@ -51,4 +52,3 @@ DOMAIN-SUFFIX,aicoin.com,Crypto
 DOMAIN-SUFFIX,aimoon.com,Crypto
 DOMAIN-SUFFIX,coingecko.com,Crypto
 DOMAIN-SUFFIX,coinmarketcap.com,Crypto
-DOMAIN-SUFFIX,tradingview.com,Crypto
