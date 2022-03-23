@@ -1,8 +1,21 @@
 # > Disney+
 USER-AGENT,Disney+*,Disney+
-DOMAIN-SUFFIX,bamgrid.com,Disney+
-DOMAIN-SUFFIX,disneyplus.com,Disney+
-DOMAIN-SUFFIX,disney-plus.net,Disney+
 DOMAIN-SUFFIX,disneystreaming.com,Disney+
+DOMAIN-SUFFIX,adobedtm.com,Disney+
+DOMAIN-SUFFIX,bam.nr-data.net,Disney+
+DOMAIN-SUFFIX,bamgrid.com,Disney+
+DOMAIN-SUFFIX,braze.com,Disney+
+DOMAIN-SUFFIX,cdn.optimizely.com,Disney+
+DOMAIN-SUFFIX,cdn.registerdisney.go.com,Disney+
+DOMAIN-SUFFIX,cws.conviva.com,Disney+
+DOMAIN-SUFFIX,d9.flashtalking.com,Disney+
+DOMAIN-SUFFIX,disney.demdex.net,Disney+
+DOMAIN-SUFFIX,disney.my.sentry.io,Disney+
+DOMAIN-SUFFIX,disneyplus.bn5x.net,Disney+
+DOMAIN-SUFFIX,disneyplus.com,Disney+
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,Disney+
+DOMAIN-SUFFIX,disney-plus.net,Disney+
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com,Disney+
 DOMAIN-SUFFIX,dssott.com,Disney+
-DOMAIN,cdn.registerdisney.go.com,Disney+
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,Disney+
+DOMAIN-SUFFIX,js-agent.newrelic.com,Disney+
