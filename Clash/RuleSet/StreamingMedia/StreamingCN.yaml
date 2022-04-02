@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,aixifan.com
   # > bilibili
   - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,biliapi.com
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com

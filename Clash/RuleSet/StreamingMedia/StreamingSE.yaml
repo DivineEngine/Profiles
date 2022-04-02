@@ -1,15 +1,11 @@
 payload:
   # > bilibili
-  - DOMAIN,api.biliapi.com
-  - DOMAIN,api.biliapi.net
-  - DOMAIN,api.bilibili.com
-  - DOMAIN,app.biliapi.com
-  - DOMAIN,app.biliapi.net
-  - DOMAIN,app.bilibili.com
-  - DOMAIN,grpc.biliapi.net
-  - DOMAIN,m.bilibili.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
-  - DOMAIN,www.bilibili.com
   - DOMAIN-KEYWORD,cn-hk-eq-bcache-
   # > 愛奇藝台灣站
   - DOMAIN,cache.video.iqiyi.com
