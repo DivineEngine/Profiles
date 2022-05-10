@@ -8,9 +8,6 @@ skip-proxy = %APPEND% passenger.t3go.cn, www.baidu.com, yunbusiness.ccb.com
 # > Always Real IP Hosts
 always-real-ip = %APPEND% *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.logon.battlenet.com.cn, *.logon.battle.net, stun.l.google.com
 
-# > VIF Excluded Routes
-tun-excluded-routes = %APPEND% 239.255.255.250/32
-
 [Host]
 
 [URL Rewrite]
