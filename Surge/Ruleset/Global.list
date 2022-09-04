@@ -431,6 +431,9 @@ DOMAIN,search.yahoo.co.jp
 # > Yandex
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN,disk.yandex.com
+# > VikACG
+DOMAIN-SUFFIX,vikacg.com
+DOMAIN-SUFFIX,picjs.xyz
 
 # (Region-Restricted Access Denied)
 DOMAIN-SUFFIX,aicoin.com
