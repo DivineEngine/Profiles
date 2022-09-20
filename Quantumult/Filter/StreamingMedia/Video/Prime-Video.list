@@ -4,17 +4,24 @@ USER-AGENT,Prime%20Video*,Prime Video
 DOMAIN-SUFFIX,aiv-cdn.net,Prime Video
 DOMAIN-SUFFIX,aiv-delivery.net,Prime Video
 DOMAIN-SUFFIX,amazonvideo.com,Prime Video
+<<<<<<< HEAD
 DOMAIN-SUFFIX,media-amazon.com,Prime Video
 DOMAIN-SUFFIX,primevideo.com,Prime Video
 DOMAIN-SUFFIX,pv-cdn.net,Prime Video
 DOMAIN,atv-ps.amazon.com,Prime Video
 DOMAIN,fls-na.amazon.com,Prime Video
+=======
+DOMAIN-SUFFIX,primevideo.com,Prime Video
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN,avodmp4s3ww-a.akamaihd.net,Prime Video
 DOMAIN,d25xi40x97liuc.cloudfront.net,Prime Video
 DOMAIN,dmqdd6hw24ucf.cloudfront.net,Prime Video
 DOMAIN,dmqdd6hw24ucf.cloudfront.net,Prime Video
 DOMAIN,d22qjgkvxw22r6.cloudfront.net,Prime Video
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Prime Video
+<<<<<<< HEAD
 DOMAIN,d27xxe7juh1us6.cloudfront.net,Prime Video
 DOMAIN,www.amazon.com,Prime Video
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-KEYWORD,avoddashs,Prime Video

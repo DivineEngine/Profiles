@@ -2,7 +2,10 @@
 USER-AGENT,DAZN*,DAZN
 DOMAIN-SUFFIX,dazn.com,DAZN
 DOMAIN-SUFFIX,dazn-api.com,DAZN
+<<<<<<< HEAD
 DOMAIN-SUFFIX,dazndn.com,DAZN
 DOMAIN-SUFFIX,indazn.com,DAZN
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN,d151l6v8er5bdm.cloudfront.net,DAZN
 DOMAIN-KEYWORD,voddazn,DAZN

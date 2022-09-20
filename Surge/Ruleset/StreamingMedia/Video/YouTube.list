@@ -2,6 +2,7 @@
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*
 DOMAIN-SUFFIX,googlevideo.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
@@ -13,3 +14,7 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
+=======
+DOMAIN-SUFFIX,youtube.com
+DOMAIN,youtubei.googleapis.com
+>>>>>>> ad93599 (🚚 目录调整)

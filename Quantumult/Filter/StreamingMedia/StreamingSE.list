@@ -1,4 +1,5 @@
 # > bilibili
+<<<<<<< HEAD
 DOMAIN,api.biliapi.com,StreamingSE
 DOMAIN,api.biliapi.net,StreamingSE
 DOMAIN,api.bilibili.com,StreamingSE
@@ -17,3 +18,11 @@ IP-CIDR,116.211.202.216/32,StreamingSE
 # > MangoTV(芒果TV国际)
 DOMAIN-SUFFIX,api.mgtv.com,StreamingSE
 DOMAIN,mobileso.bz.mgtv.com,StreamingSE
+=======
+DOMAIN,api.bilibili.com,StreamingSE
+DOMAIN,upos-hz-mirrorakam.akamaized.net,StreamingSE
+# > 愛奇藝台灣站
+DOMAIN,cache.video.iqiyi.com,StreamingSE
+# > 芒果TV国际
+DOMAIN-SUFFIX,api.mgtv.com,StreamingSE
+>>>>>>> ad93599 (🚚 目录调整)

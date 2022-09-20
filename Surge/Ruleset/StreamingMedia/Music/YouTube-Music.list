@@ -1,5 +1,11 @@
 # > YouTubeMusic
+<<<<<<< HEAD
 # ⚠️ 注意，需要放置在 YouTube.list 之前，且不适用于 Quantumult X 及浏览器环境
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 DOMAIN,music.youtube.com
+=======
+# ⚠️ 注意，需要放置在 YouTube.list 之前
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,YouTubeMusic*
+>>>>>>> ad93599 (🚚 目录调整)

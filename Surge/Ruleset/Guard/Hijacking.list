@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 # Internet Service Providers Hijacking
 DOMAIN-SUFFIX,17gouwuba.com
 DOMAIN-SUFFIX,186078.com
 DOMAIN-SUFFIX,189key.com
+=======
+# Internet Service Providers Hijacking 运营商劫持
+DOMAIN-SUFFIX,17gouwuba.com
+DOMAIN-SUFFIX,186078.com
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,189zj.cn
 DOMAIN-SUFFIX,285680.com
 DOMAIN-SUFFIX,3721zh.com
@@ -17,6 +23,10 @@ DOMAIN-SUFFIX,7gg.cc
 DOMAIN-SUFFIX,91veg.com
 DOMAIN-SUFFIX,9s6q.cn
 DOMAIN-SUFFIX,adsame.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,aiclk.com
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,akuai.top
 DOMAIN-SUFFIX,atplay.cn
 DOMAIN-SUFFIX,baiwanchuangyi.com
@@ -93,7 +103,10 @@ DOMAIN-SUFFIX,taoggou.com
 DOMAIN-SUFFIX,tcxshop.com
 DOMAIN-SUFFIX,tjqonline.cn
 DOMAIN-SUFFIX,topitme.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,tt114.net
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,tt3sm4.cn
 DOMAIN-SUFFIX,tuia.cn
 DOMAIN-SUFFIX,tuipenguin.com
@@ -146,7 +159,10 @@ IP-CIDR,220.196.52.141/32,no-resolve
 IP-CIDR,221.6.4.148/32,no-resolve
 # > ChinaMobile
 IP-CIDR,114.247.28.96/32,no-resolve
+<<<<<<< HEAD
 IP-CIDR,120.240.95.37/32,no-resolve
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
 # > Dr.Peng
@@ -160,6 +176,7 @@ IP-CIDR,124.14.21.147/32,no-resolve
 IP-CIDR,124.14.21.151/32,no-resolve
 IP-CIDR,180.166.52.24/32,no-resolve
 IP-CIDR,211.161.101.106/32,no-resolve
+<<<<<<< HEAD
 IP-CIDR,211.161.101.110/32,no-resolve
 IP-CIDR,220.115.251.25/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
@@ -168,6 +185,13 @@ IP-CIDR,222.73.156.235/32,no-resolve
 # > Huawei AspiegelBot
 IP-CIDR,114.119.160.0/21,no-resolve
 # > KuaiZip
+=======
+IP-CIDR,220.115.251.25/32,no-resolve
+IP-CIDR,222.73.156.235/32,no-resolve
+
+# Malware 恶意网站
+# > 快压
+>>>>>>> ad93599 (🚚 目录调整)
 # https://zhuanlan.zhihu.com/p/39534279
 DOMAIN-SUFFIX,kuaizip.com
 # > MacKeeper
@@ -178,12 +202,19 @@ DOMAIN-SUFFIX,zryydi.com
 # https://www.zhihu.com/question/281163698/answer/441388130
 DOMAIN-SUFFIX,flash.cn
 DOMAIN,geo2.adobe.com
+<<<<<<< HEAD
 # > C&J Marketing
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,abbyychina.com
 DOMAIN-SUFFIX,alienskins.cn
 DOMAIN-SUFFIX,anydeskchina.cn
+=======
+# > C&J Marketing 思杰马克丁软件
+# https://www.zhihu.com/question/46746200
+DOMAIN-SUFFIX,4009997658.com
+DOMAIN-SUFFIX,abbyychina.com
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,bartender.cc
 DOMAIN-SUFFIX,betterzip.net
 DOMAIN-SUFFIX,betterzipcn.com
@@ -200,6 +231,7 @@ DOMAIN-SUFFIX,earmasterchina.cn
 DOMAIN-SUFFIX,easyrecoverychina.com
 DOMAIN-SUFFIX,ediuschina.com
 DOMAIN-SUFFIX,flstudiochina.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,folxchina.cn
 DOMAIN-SUFFIX,formysql.com
 DOMAIN-SUFFIX,guitarpro.cc
@@ -209,6 +241,13 @@ DOMAIN-SUFFIX,hypersnap.net
 DOMAIN-SUFFIX,iconworkshop.cn
 DOMAIN-SUFFIX,idmchina.net
 DOMAIN-SUFFIX,imazingchina.com
+=======
+DOMAIN-SUFFIX,formysql.com
+DOMAIN-SUFFIX,guitarpro.cc
+DOMAIN-SUFFIX,huishenghuiying.com.cn
+DOMAIN-SUFFIX,hypersnap.net
+DOMAIN-SUFFIX,iconworkshop.cn
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,imindmap.cc
 DOMAIN-SUFFIX,jihehuaban.com.cn
 DOMAIN-SUFFIX,keyshot.cc
@@ -229,7 +268,10 @@ DOMAIN-SUFFIX,mycleanmymac.com
 DOMAIN-SUFFIX,nicelabel.cc
 DOMAIN-SUFFIX,ntfsformac.cc
 DOMAIN-SUFFIX,ntfsformac.cn
+<<<<<<< HEAD
 DOMAIN-SUFFIX,officesoftcn.com
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,overturechina.com
 DOMAIN-SUFFIX,passwordrecovery.cn
 DOMAIN-SUFFIX,pdfexpert.cc

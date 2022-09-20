@@ -2,4 +2,9 @@
 USER-AGENT,Niconico*,niconico
 DOMAIN-SUFFIX,dmc.nico,niconico
 DOMAIN-SUFFIX,nicovideo.jp,niconico
+<<<<<<< HEAD
 DOMAIN-SUFFIX,nimg.jp,niconico
+=======
+DOMAIN-SUFFIX,nimg.jp,niconico
+DOMAIN-SUFFIX,socdm.com,niconico
+>>>>>>> ad93599 (🚚 目录调整)

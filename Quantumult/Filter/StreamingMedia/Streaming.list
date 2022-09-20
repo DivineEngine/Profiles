@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Streaming Media
 
 # (Live)
@@ -9,20 +10,37 @@ DOMAIN-SUFFIX,twitch.tv,Streaming
 DOMAIN-SUFFIX,twitchcdn.net,Streaming
 DOMAIN-SUFFIX,twitch-ext.rootonline.de,Streaming
 
+=======
+# (Podcast)
+# > Himalaya
+USER-AGENT,Himalaya*,Streaming
+DOMAIN-SUFFIX,himalaya.com,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 # (Music)
 # > Deezer
 USER-AGENT,Deezer*,Streaming
 DOMAIN-SUFFIX,deezer.com,Streaming
 DOMAIN-SUFFIX,dzcdn.net,Streaming
+<<<<<<< HEAD
 # > JOOX
 USER-AGENT,JOOX*,Streaming
 USER-AGENT,WeMusic*,Streaming
 DOMAIN-SUFFIX,joox.com,Streaming
 DOMAIN-KEYWORD,jooxweb-api,Streaming
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 # > KKBOX
 DOMAIN-SUFFIX,kkbox.com,Streaming
 DOMAIN-SUFFIX,kkbox.com.tw,Streaming
 DOMAIN-SUFFIX,kfs.io,Streaming
+<<<<<<< HEAD
+=======
+# > JOOX
+USER-AGENT,WeMusic*,Streaming
+USER-AGENT,JOOX*,Streaming
+DOMAIN-SUFFIX,joox.com,Streaming
+DOMAIN-KEYWORD,jooxweb-api,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 # > Pandora
 USER-AGENT,Pandora*,Streaming
 DOMAIN-SUFFIX,pandora.com,Streaming
@@ -45,6 +63,7 @@ DOMAIN-SUFFIX,tidal.com,Streaming
 # > YouTubeMusic
 USER-AGENT,com.google.ios.youtubemusic*,Streaming
 USER-AGENT,YouTubeMusic*,Streaming
+<<<<<<< HEAD
 
 # (Podcast)
 # > Himalaya
@@ -54,6 +73,8 @@ DOMAIN-SUFFIX,himalaya.com,Streaming
 USER-AGENT,Overcast*,Streaming
 DOMAIN-SUFFIX,overcast.fm,Streaming
 
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 # (Video)
 # > AbemaTV
 USER-AGENT,AbemaTV*,Streaming
@@ -61,7 +82,14 @@ DOMAIN-SUFFIX,abema.io,Streaming
 DOMAIN-SUFFIX,abema.tv,Streaming
 DOMAIN-SUFFIX,ameba.jp,Streaming
 DOMAIN-SUFFIX,hayabusa.io,Streaming
+<<<<<<< HEAD
 DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
+=======
+DOMAIN,abematv.akamaized.net,Streaming
+DOMAIN,ds-linear-abematv.akamaized.net,Streaming
+DOMAIN,ds-vod-abematv.akamaized.net,Streaming
+DOMAIN,linear-abematv.akamaized.net,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 # > All 4
 USER-AGENT,All4*,Streaming
 DOMAIN-SUFFIX,c4assets.com,Streaming
@@ -72,17 +100,22 @@ USER-AGENT,Prime%20Video*,Streaming
 DOMAIN-SUFFIX,aiv-cdn.net,Streaming
 DOMAIN-SUFFIX,aiv-delivery.net,Streaming
 DOMAIN-SUFFIX,amazonvideo.com,Streaming
+<<<<<<< HEAD
 DOMAIN-SUFFIX,media-amazon.com,Streaming
 DOMAIN-SUFFIX,primevideo.com,Streaming
 DOMAIN-SUFFIX,pv-cdn.net,Streaming
 DOMAIN,atv-ps.amazon.com,Streaming
 DOMAIN,fls-na.amazon.com,Streaming
+=======
+DOMAIN-SUFFIX,primevideo.com,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN,avodmp4s3ww-a.akamaihd.net,Streaming
 DOMAIN,d25xi40x97liuc.cloudfront.net,Streaming
 DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
 DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
 DOMAIN,d22qjgkvxw22r6.cloudfront.net,Streaming
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
+<<<<<<< HEAD
 DOMAIN,d27xxe7juh1us6.cloudfront.net,Streaming
 # DOMAIN,www.amazon.com,Streaming
 DOMAIN-KEYWORD,avoddashs,Streaming
@@ -92,11 +125,17 @@ DOMAIN,tv.applemusic.com,Streaming
 DOMAIN,linear.tv.apple.com,Streaming
 DOMAIN,play-edge.itunes.apple.com,Streaming
 DOMAIN,uts-api.itunes.apple.com,Streaming
+=======
+DOMAIN-KEYWORD,avoddashs,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 # > Bahamut
 USER-AGENT,Anime*,Streaming
 DOMAIN-SUFFIX,bahamut.com.tw,Streaming
 DOMAIN-SUFFIX,gamer.com.tw,Streaming
+<<<<<<< HEAD
 DOMAIN,bahamut.akamaized.net,Streaming
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN,gamer-cds.cdn.hinet.net,Streaming
 DOMAIN,gamer2-cds.cdn.hinet.net,Streaming
 # > BBC iPlayer
@@ -105,6 +144,7 @@ DOMAIN-SUFFIX,bbc.co.uk,Streaming
 DOMAIN-SUFFIX,bbci.co.uk,Streaming
 DOMAIN-KEYWORD,bbcfmt,Streaming
 DOMAIN-KEYWORD,uk-live,Streaming
+<<<<<<< HEAD
 # > bilibili Intl
 DOMAIN-SUFFIX,biliintl.com,Streaming
 DOMAIN,apm-misaka.biliapi.net,Streaming
@@ -112,10 +152,13 @@ DOMAIN,p.bstarstatic.com,Streaming
 DOMAIN,p-bstarstatic.akamaized.net,Streaming
 DOMAIN,upos-bstar-mirrorakam.akamaized.net,Streaming
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net,Streaming
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 # > DAZN
 USER-AGENT,DAZN*,Streaming
 DOMAIN-SUFFIX,dazn.com,Streaming
 DOMAIN-SUFFIX,dazn-api.com,Streaming
+<<<<<<< HEAD
 DOMAIN-SUFFIX,dazndn.com,Streaming
 DOMAIN-SUFFIX,indazn.com,Streaming
 DOMAIN,d151l6v8er5bdm.cloudfront.net,Streaming
@@ -143,16 +186,47 @@ DOMAIN,cdn.registerdisney.go.com,Streaming
 DOMAIN-SUFFIX,dmm.co.jp,Streaming
 DOMAIN-SUFFIX,dmm.com,Streaming
 DOMAIN-SUFFIX,dmm-extension.com,Streaming
+=======
+DOMAIN,d151l6v8er5bdm.cloudfront.net,Streaming
+DOMAIN-KEYWORD,voddazn,Streaming
+# > Disney+
+USER-AGENT,Disney+*,Streaming
+DOMAIN-SUFFIX,disney-plus.net,Streaming
+DOMAIN-SUFFIX,disneyplus.com,Streaming
+DOMAIN-SUFFIX,dssott.com,Streaming
+DOMAIN,cdn.registerdisney.go.com,Streaming
+DOMAIN,global.edge.bamgrid.com,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 # > encoreTVB
 USER-AGENT,encoreTVB*,Streaming
 DOMAIN-SUFFIX,encoretvb.com,Streaming
 DOMAIN,edge.api.brightcove.com,Streaming
 DOMAIN,bcbolt446c5271-a.akamaihd.net,Streaming
+<<<<<<< HEAD
 # > HBO NOW & Max
+=======
+# > FOX NOW
+USER-AGENT,FOX%20NOW*,Streaming
+DOMAIN-SUFFIX,fox.com,Streaming
+DOMAIN-SUFFIX,foxdcg.com,Streaming
+DOMAIN-SUFFIX,theplatform.com,Streaming
+DOMAIN-SUFFIX,uplynk.com,Streaming
+# > FOX+
+DOMAIN-SUFFIX,foxplus.com,Streaming
+# DOMAIN-SUFFIX,theplatform.com,Streaming
+DOMAIN,cdn-fox-networks-group-green.akamaized.net,Streaming
+DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,Streaming
+DOMAIN,foxsports01-i.akamaihd.net,Streaming
+DOMAIN,foxsports02-i.akamaihd.net,Streaming
+DOMAIN,foxsports03-i.akamaihd.net,Streaming
+DOMAIN,staticasiafox.akamaized.net,Streaming
+# > HBO NOW
+>>>>>>> ad93599 (🚚 目录调整)
 USER-AGENT,HBO%20NOW*,Streaming
 DOMAIN-SUFFIX,hbo.com,Streaming
 DOMAIN-SUFFIX,hbogo.com,Streaming
 DOMAIN-SUFFIX,hbonow.com,Streaming
+<<<<<<< HEAD
 USER-AGENT,HBOMAX*,Streaming
 DOMAIN-SUFFIX,hbomax.com,Streaming
 DOMAIN-SUFFIX,hbomaxcdn.com,Streaming
@@ -165,17 +239,32 @@ DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
 DOMAIN,bcbolthboa-a.akamaihd.net,Streaming
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
 DOMAIN,dai3fd1oh325y.cloudfront.net,Streaming
+=======
+# > HBO GO HKG
+USER-AGENT,HBO%20GO%20PROD%20HKG*,Streaming
+DOMAIN-SUFFIX,hbogoasia.com,Streaming
+DOMAIN-SUFFIX,hbogoasia.hk,Streaming
+DOMAIN,bcbolthboa-a.akamaihd.net,Streaming
+DOMAIN,players.brightcove.net,Streaming
+DOMAIN,s3-ap-southeast-1.amazonaws.com,Streaming
+DOMAIN,dai3fd1oh325y.cloudfront.net,Streaming
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN,hboasia1-i.akamaihd.net,Streaming
 DOMAIN,hboasia2-i.akamaihd.net,Streaming
 DOMAIN,hboasia3-i.akamaihd.net,Streaming
 DOMAIN,hboasia4-i.akamaihd.net,Streaming
 DOMAIN,hboasia5-i.akamaihd.net,Streaming
+<<<<<<< HEAD
 DOMAIN,hboasialive.akamaized.net,Streaming
 DOMAIN,hbogoprod-vod.akamaized.net,Streaming
 DOMAIN,hbolb.onwardsmg.com,Streaming
 DOMAIN,hbounify-prod.evergent.com,Streaming
 DOMAIN,players.brightcove.net,Streaming
 DOMAIN,s3-ap-southeast-1.amazonaws.com,Streaming
+=======
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 # > 华文电视
 USER-AGENT,HWTVMobile*,Streaming
 DOMAIN-SUFFIX,5itv.tv,Streaming
@@ -186,13 +275,17 @@ DOMAIN-SUFFIX,huluim.com,Streaming
 DOMAIN-SUFFIX,hulustream.com,Streaming
 # > Hulu / フールー
 DOMAIN-SUFFIX,happyon.jp,Streaming
+<<<<<<< HEAD
 DOMAIN-SUFFIX,hjholdings.jp,Streaming
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,hulu.jp,Streaming
 # > ITV
 USER-AGENT,ITV_Player*,Streaming
 DOMAIN-SUFFIX,itv.com,Streaming
 DOMAIN-SUFFIX,itvstatic.com,Streaming
 DOMAIN,itvpnpmobile-a.akamaihd.net,Streaming
+<<<<<<< HEAD
 # > iQIYI
 DOMAIN-SUFFIX,iq.com,Streaming
 DOMAIN,intl.iqiyi.com,Streaming
@@ -213,6 +306,8 @@ IP-CIDR,210.71.227.200/32,Streaming
 IP-CIDR,210.71.227.202/32,Streaming
 IP-CIDR,210.201.32.8/32,Streaming
 IP-CIDR,210.201.32.11/32,Streaming
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 # > KKTV
 USER-AGENT,KKTV*,Streaming
 USER-AGENT,com.kktv.ios.kktv*,Streaming
@@ -235,10 +330,13 @@ DOMAIN,d349g9zuie06uo.cloudfront.net,Streaming
 USER-AGENT,mytv*,Streaming
 DOMAIN-SUFFIX,mytvsuper.com,Streaming
 DOMAIN-SUFFIX,tvb.com,Streaming
+<<<<<<< HEAD
 # > Naver TV
 USER-AGENT,Naver%20TV*,Streaming
 DOMAIN-SUFFIX,naver.com,Streaming
 DOMAIN-SUFFIX,smartmediarep.com,Streaming
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 # > Netflix
 USER-AGENT,Argo*,Streaming
 DOMAIN-SUFFIX,netflix.com,Streaming
@@ -248,15 +346,38 @@ DOMAIN-SUFFIX,nflximg.com,Streaming
 DOMAIN-SUFFIX,nflximg.net,Streaming
 DOMAIN-SUFFIX,nflxso.net,Streaming
 DOMAIN-SUFFIX,nflxvideo.net,Streaming
+<<<<<<< HEAD
 DOMAIN-KEYWORD,netflixdnstest,Streaming
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Streaming
 DOMAIN-KEYWORD,dualstack.apiproxy-,Streaming
 # GEOIP,NETFLIX,Streaming
+=======
+DOMAIN-SUFFIX,netflixdnstest0.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest1.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest2.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest3.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest4.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest5.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
+IP-CIDR,23.246.0.0/18,Streaming,no-resolve
+IP-CIDR,37.77.184.0/21,Streaming,no-resolve
+IP-CIDR,45.57.0.0/17,Streaming,no-resolve
+IP-CIDR,64.120.128.0/17,Streaming,no-resolve
+IP-CIDR,66.197.128.0/17,Streaming,no-resolve
+IP-CIDR,108.175.32.0/20,Streaming,no-resolve
+IP-CIDR,192.173.64.0/18,Streaming,no-resolve
+IP-CIDR,198.38.96.0/19,Streaming,no-resolve
+IP-CIDR,198.45.48.0/20,Streaming,no-resolve
+>>>>>>> ad93599 (🚚 目录调整)
 # > niconico
 USER-AGENT,Niconico*,Streaming
 DOMAIN-SUFFIX,dmc.nico,Streaming
 DOMAIN-SUFFIX,nicovideo.jp,Streaming
 DOMAIN-SUFFIX,nimg.jp,Streaming
+<<<<<<< HEAD
 # > Now E
 DOMAIN-SUFFIX,nowe.com,Streaming
 DOMAIN-SUFFIX,nowestatic.com,Streaming
@@ -280,12 +401,24 @@ DOMAIN-SUFFIX,peacocktv.com,Streaming
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com,Streaming
 DOMAIN-SUFFIX,phprcdn.com,Streaming
+=======
+DOMAIN-SUFFIX,socdm.com,Streaming
+# > Now E
+DOMAIN-SUFFIX,nowe.com,Streaming
+DOMAIN-SUFFIX,nowestatic.com,Streaming
+# > PBS
+USER-AGENT,PBS*,Streaming
+DOMAIN-SUFFIX,pbs.org,Streaming
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,pornhub.com,Streaming
 DOMAIN-SUFFIX,pornhubpremium.com,Streaming
 # > 台湾好
 USER-AGENT,TaiwanGood*,Streaming
 DOMAIN-SUFFIX,skyking.com.tw,Streaming
 DOMAIN,hamifans.emome.net,Streaming
+<<<<<<< HEAD
 # > TikTok
 USER-AGENT,TikTok*,Streaming
 DOMAIN-SUFFIX,byteoversea.com,Streaming
@@ -301,6 +434,13 @@ DOMAIN-KEYWORD,tiktokcdn-,Streaming
 USER-AGENT,TVer-Release*,Streaming
 DOMAIN-SUFFIX,tver.jp,Streaming
 DOMAIN,edge.api.brightcove.com,Streaming
+=======
+# > Twitch
+DOMAIN-SUFFIX,twitch.tv,Streaming
+DOMAIN-SUFFIX,twitchcdn.net,Streaming
+DOMAIN-SUFFIX,ttvnw.net,Streaming
+DOMAIN-SUFFIX,jtvnw.net,Streaming
+>>>>>>> ad93599 (🚚 目录调整)
 # > ViuTV
 USER-AGENT,Viu*,Streaming
 DOMAIN-SUFFIX,viu.com,Streaming
@@ -309,15 +449,19 @@ DOMAIN,api.viu.now.com,Streaming
 DOMAIN,d1k2us671qcoau.cloudfront.net,Streaming
 DOMAIN,d2anahhhmp1ffz.cloudfront.net,Streaming
 DOMAIN,dfp6rglgjqszk.cloudfront.net,Streaming
+<<<<<<< HEAD
 # > WeTV
 USER-AGENT,WeTV*,Streaming
 DOMAIN-SUFFIX,wetv.vip,Streaming
 DOMAIN-SUFFIX,wetvinfo.com,Streaming
 IP-CIDR,150.109.28.51/32,Streaming
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 # > YouTube
 USER-AGENT,com.google.ios.youtube*,Streaming
 USER-AGENT,YouTube*,Streaming
 DOMAIN-SUFFIX,googlevideo.com,Streaming
+<<<<<<< HEAD
 DOMAIN-SUFFIX,withyoutube.com,Streaming
 DOMAIN-SUFFIX,youtu.be,Streaming
 DOMAIN-SUFFIX,youtube.com,Streaming
@@ -329,3 +473,7 @@ DOMAIN-SUFFIX,yt.be,Streaming
 DOMAIN-SUFFIX,ytimg.com,Streaming
 DOMAIN,youtubei.googleapis.com,Streaming
 DOMAIN,yt3.ggpht.com,Streaming
+=======
+DOMAIN-SUFFIX,youtube.com,Streaming
+DOMAIN,youtubei.googleapis.com,Streaming
+>>>>>>> ad93599 (🚚 目录调整)

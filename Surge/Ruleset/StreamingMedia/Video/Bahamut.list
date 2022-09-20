@@ -2,6 +2,9 @@
 USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
+<<<<<<< HEAD
 DOMAIN,bahamut.akamaized.net
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN,gamer2-cds.cdn.hinet.net

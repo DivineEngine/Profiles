@@ -1,5 +1,6 @@
 # > TikTok
 USER-AGENT,TikTok*,TikTok
+<<<<<<< HEAD
 DOMAIN-SUFFIX,byteoversea.com,TikTok
 DOMAIN-SUFFIX,ibytedtos.com,TikTok
 DOMAIN-SUFFIX,ipstatp.com,TikTok
@@ -10,3 +11,10 @@ DOMAIN-SUFFIX,tik-tokapi.com,TikTok
 DOMAIN-SUFFIX,tiktokcdn.com,TikTok
 DOMAIN-SUFFIX,tiktokv.com,TikTok
 DOMAIN-KEYWORD,tiktokcdn-,TikTok
+=======
+DOMAIN-SUFFIX,muscdn.com,TikTok
+DOMAIN-SUFFIX,musical.ly,TikTok
+DOMAIN-SUFFIX,tiktokv.com,TikTok
+DOMAIN-SUFFIX,tiktokcdn.com,TikTok
+DOMAIN-KEYWORD,-tiktokcdn-com,TikTok
+>>>>>>> ad93599 (🚚 目录调整)

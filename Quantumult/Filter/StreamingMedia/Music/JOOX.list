@@ -1,5 +1,10 @@
 # > JOOX
+<<<<<<< HEAD
 USER-AGENT,JOOX*,JOOX
 USER-AGENT,WeMusic*,JOOX
+=======
+USER-AGENT,WeMusic*,JOOX
+USER-AGENT,JOOX*,JOOX
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,joox.com,JOOX
 DOMAIN-KEYWORD,jooxweb-api,JOOX

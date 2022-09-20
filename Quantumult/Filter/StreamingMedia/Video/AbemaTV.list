@@ -4,4 +4,8 @@ DOMAIN-SUFFIX,abema.io,AbemaTV
 DOMAIN-SUFFIX,abema.tv,AbemaTV
 DOMAIN-SUFFIX,ameba.jp,AbemaTV
 DOMAIN-SUFFIX,hayabusa.io,AbemaTV
+<<<<<<< HEAD
 DOMAIN-KEYWORD,abematv.akamaized.net,AbemaTV
+=======
+DOMAIN-KEYWORD,abematv.akamaized,AbemaTV
+>>>>>>> ad93599 (🚚 目录调整)

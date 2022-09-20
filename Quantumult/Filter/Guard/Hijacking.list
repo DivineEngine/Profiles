@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 # Internet Service Providers Hijacking
 DOMAIN-SUFFIX,17gouwuba.com,REJECT
 DOMAIN-SUFFIX,186078.com,REJECT
 DOMAIN-SUFFIX,189key.com,REJECT
+=======
+# Internet Service Providers Hijacking 运营商劫持
+DOMAIN-SUFFIX,17gouwuba.com,REJECT
+DOMAIN-SUFFIX,186078.com,REJECT
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,189zj.cn,REJECT
 DOMAIN-SUFFIX,285680.com,REJECT
 DOMAIN-SUFFIX,3721zh.com,REJECT
@@ -17,6 +23,10 @@ DOMAIN-SUFFIX,7gg.cc,REJECT
 DOMAIN-SUFFIX,91veg.com,REJECT
 DOMAIN-SUFFIX,9s6q.cn,REJECT
 DOMAIN-SUFFIX,adsame.com,REJECT
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,aiclk.com,REJECT
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,akuai.top,REJECT
 DOMAIN-SUFFIX,atplay.cn,REJECT
 DOMAIN-SUFFIX,baiwanchuangyi.com,REJECT
@@ -93,7 +103,10 @@ DOMAIN-SUFFIX,taoggou.com,REJECT
 DOMAIN-SUFFIX,tcxshop.com,REJECT
 DOMAIN-SUFFIX,tjqonline.cn,REJECT
 DOMAIN-SUFFIX,topitme.com,REJECT
+<<<<<<< HEAD
 DOMAIN-SUFFIX,tt114.net,REJECT
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,tt3sm4.cn,REJECT
 DOMAIN-SUFFIX,tuia.cn,REJECT
 DOMAIN-SUFFIX,tuipenguin.com,REJECT
@@ -116,6 +129,7 @@ DOMAIN-SUFFIX,zlne800.com,REJECT
 DOMAIN-SUFFIX,zmlled.cn,REJECT
 DOMAIN-SUFFIX,zunmi.cn,REJECT
 DOMAIN-SUFFIX,zzd6.com,REJECT
+<<<<<<< HEAD
 IP-CIDR,39.107.15.115/32,REJECT
 IP-CIDR,47.89.59.182/32,REJECT
 IP-CIDR,103.49.209.27/32,REJECT
@@ -168,6 +182,56 @@ IP-CIDR,222.73.156.235/32,REJECT
 # > Huawei AspiegelBot
 IP-CIDR,114.119.160.0/21,REJECT
 # > KuaiZip
+=======
+IP-CIDR,39.107.15.115/32,REJECT,no-resolve
+IP-CIDR,47.89.59.182/32,REJECT,no-resolve
+IP-CIDR,103.49.209.27/32,REJECT,no-resolve
+IP-CIDR,123.56.152.96/32,REJECT,no-resolve
+# > ChinaTelecom
+IP-CIDR,61.160.200.223/32,REJECT,no-resolve
+IP-CIDR,61.160.200.242/32,REJECT,no-resolve
+IP-CIDR,61.160.200.252/32,REJECT,no-resolve
+IP-CIDR,61.174.50.214/32,REJECT,no-resolve
+IP-CIDR,111.175.220.163/32,REJECT,no-resolve
+IP-CIDR,111.175.220.164/32,REJECT,no-resolve
+IP-CIDR,122.229.8.47/32,REJECT,no-resolve
+IP-CIDR,122.229.29.89/32,REJECT,no-resolve
+IP-CIDR,124.232.160.178/32,REJECT,no-resolve
+IP-CIDR,175.6.223.15/32,REJECT,no-resolve
+IP-CIDR,183.59.53.237/32,REJECT,no-resolve
+IP-CIDR,218.93.127.37/32,REJECT,no-resolve
+IP-CIDR,221.228.17.152/32,REJECT,no-resolve
+IP-CIDR,221.231.6.79/32,REJECT,no-resolve
+IP-CIDR,222.186.61.91/32,REJECT,no-resolve
+IP-CIDR,222.186.61.95/32,REJECT,no-resolve
+IP-CIDR,222.186.61.96/32,REJECT,no-resolve
+IP-CIDR,222.186.61.97/32,REJECT,no-resolve
+# > ChinaUnicom
+IP-CIDR,106.75.231.48/32,REJECT,no-resolve
+IP-CIDR,119.4.249.166/32,REJECT,no-resolve
+IP-CIDR,220.196.52.141/32,REJECT,no-resolve
+IP-CIDR,221.6.4.148/32,REJECT,no-resolve
+# > ChinaMobile
+IP-CIDR,114.247.28.96/32,REJECT,no-resolve
+IP-CIDR,221.179.131.72/32,REJECT,no-resolve
+IP-CIDR,221.179.140.145/32,REJECT,no-resolve
+# > Dr.Peng
+# IP-CIDR,10.72.25.0/24,REJECT,no-resolve
+IP-CIDR,115.182.16.79/32,REJECT,no-resolve
+IP-CIDR,118.144.88.126/32,REJECT,no-resolve
+IP-CIDR,118.144.88.215/32,REJECT,no-resolve
+IP-CIDR,118.144.88.216/32,REJECT,no-resolve
+IP-CIDR,120.76.189.132/32,REJECT,no-resolve
+IP-CIDR,124.14.21.147/32,REJECT,no-resolve
+IP-CIDR,124.14.21.151/32,REJECT,no-resolve
+IP-CIDR,180.166.52.24/32,REJECT,no-resolve
+IP-CIDR,211.161.101.106/32,REJECT,no-resolve
+IP-CIDR,220.115.251.25/32,REJECT,no-resolve
+IP-CIDR,222.73.156.235/32,REJECT,no-resolve
+
+# Malware 恶意网站
+# > 快压
+>>>>>>> ad93599 (🚚 目录调整)
 # https://zhuanlan.zhihu.com/p/39534279
 DOMAIN-SUFFIX,kuaizip.com,REJECT
 # > MacKeeper
@@ -178,12 +242,19 @@ DOMAIN-SUFFIX,zryydi.com,REJECT
 # https://www.zhihu.com/question/281163698/answer/441388130
 DOMAIN-SUFFIX,flash.cn,REJECT
 DOMAIN,geo2.adobe.com,REJECT
+<<<<<<< HEAD
 # > C&J Marketing
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com,REJECT
 DOMAIN-SUFFIX,abbyychina.com,REJECT
 DOMAIN-SUFFIX,alienskins.cn,REJECT
 DOMAIN-SUFFIX,anydeskchina.cn,REJECT
+=======
+# > C&J Marketing 思杰马克丁软件
+# https://www.zhihu.com/question/46746200
+DOMAIN-SUFFIX,4009997658.com,REJECT
+DOMAIN-SUFFIX,abbyychina.com,REJECT
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,bartender.cc,REJECT
 DOMAIN-SUFFIX,betterzip.net,REJECT
 DOMAIN-SUFFIX,betterzipcn.com,REJECT
@@ -200,6 +271,7 @@ DOMAIN-SUFFIX,earmasterchina.cn,REJECT
 DOMAIN-SUFFIX,easyrecoverychina.com,REJECT
 DOMAIN-SUFFIX,ediuschina.com,REJECT
 DOMAIN-SUFFIX,flstudiochina.com,REJECT
+<<<<<<< HEAD
 DOMAIN-SUFFIX,folxchina.cn,REJECT
 DOMAIN-SUFFIX,formysql.com,REJECT
 DOMAIN-SUFFIX,guitarpro.cc,REJECT
@@ -209,6 +281,13 @@ DOMAIN-SUFFIX,hypersnap.net,REJECT
 DOMAIN-SUFFIX,iconworkshop.cn,REJECT
 DOMAIN-SUFFIX,idmchina.net,REJECT
 DOMAIN-SUFFIX,imazingchina.com,REJECT
+=======
+DOMAIN-SUFFIX,formysql.com,REJECT
+DOMAIN-SUFFIX,guitarpro.cc,REJECT
+DOMAIN-SUFFIX,huishenghuiying.com.cn,REJECT
+DOMAIN-SUFFIX,hypersnap.net,REJECT
+DOMAIN-SUFFIX,iconworkshop.cn,REJECT
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,imindmap.cc,REJECT
 DOMAIN-SUFFIX,jihehuaban.com.cn,REJECT
 DOMAIN-SUFFIX,keyshot.cc,REJECT
@@ -229,7 +308,10 @@ DOMAIN-SUFFIX,mycleanmymac.com,REJECT
 DOMAIN-SUFFIX,nicelabel.cc,REJECT
 DOMAIN-SUFFIX,ntfsformac.cc,REJECT
 DOMAIN-SUFFIX,ntfsformac.cn,REJECT
+<<<<<<< HEAD
 DOMAIN-SUFFIX,officesoftcn.com,REJECT
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,overturechina.com,REJECT
 DOMAIN-SUFFIX,passwordrecovery.cn,REJECT
 DOMAIN-SUFFIX,pdfexpert.cc,REJECT

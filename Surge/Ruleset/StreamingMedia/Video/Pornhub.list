@@ -1,5 +1,8 @@
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,phprcdn.com
+=======
+>>>>>>> ad93599 (🚚 目录调整)
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
