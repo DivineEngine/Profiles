@@ -1,0 +1,9 @@
+# Software Update
+# > iOS updates
+DOMAIN,appldnld.apple.com,PROXY
+DOMAIN,ns.itunes.apple.com,PROXY
+# > iOS, tvOS, and macOS
+DOMAIN,mesu.apple.com,PROXY
+DOMAIN,updates.cdn-apple.com,PROXY
+DOMAIN,updates-http.cdn-apple.com,PROXY
+DOMAIN,xp.apple.com,PROXY

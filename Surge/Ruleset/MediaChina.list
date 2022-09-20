@@ -1,0 +1,8 @@
+# (MediaChina)
+# > bilibili
+DOMAIN,api.bilibili.com
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+# > 愛奇藝台灣站
+DOMAIN-SUFFIX,iqiyi.com
+# > 芒果TV国际
+DOMAIN-SUFFIX,api.mgtv.com

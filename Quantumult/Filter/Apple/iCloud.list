@@ -1,0 +1,5 @@
+# iCloud
+DOMAIN-SUFFIX,apple-cloudkit.com,PROXY
+DOMAIN-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,icloud-content.com,PROXY
+DOMAIN,www-cdn.icloud.com.akadns.net,PROXY

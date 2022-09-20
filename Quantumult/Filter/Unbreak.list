@@ -1,5 +1,6 @@
 # Unbreak
 # > General
+<<<<<<< HEAD
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,app.appsflyer.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
@@ -31,6 +32,20 @@ DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
 DOMAIN,vi.l.qq.com,DIRECT
+=======
+USER-AGENT,coffeecorp*,DIRECT
+USER-AGENT,restaurant-mobile*,DIRECT
+DOMAIN,app.adjust.com,DIRECT
+# > Google
+DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+DOMAIN,analyticsinsights-pa.googleapis.com,PROXY
+DOMAIN,analyticsreporting.googleapis.com,PROXY
+DOMAIN,dl.google.com,DIRECT
+DOMAIN,mtalk.google.com,DIRECT
+# > Tencent
+DOMAIN,livew.l.qq.com,DIRECT
+DOMAIN,vd.l.qq.com,DIRECT
+>>>>>>> 67bc7a8 (🎉 项目成立)
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
 # > Umeng

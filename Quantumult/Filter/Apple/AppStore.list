@@ -1,0 +1,7 @@
+# App Store
+# Store content such as apps, books, and music
+DOMAIN-SUFFIX,apps.apple.com,PROXY
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,PROXY
+DOMAIN-SUFFIX,mzstatic.com,PROXY
+DOMAIN,ppq.apple.com,PROXY

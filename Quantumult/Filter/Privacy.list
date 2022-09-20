@@ -1,0 +1,77 @@
+# Privacy 隐私
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,analysis,REJECT
+
+DOMAIN-SUFFIX,42trck.com,REJECT
+DOMAIN-SUFFIX,51.la,REJECT
+DOMAIN-SUFFIX,ads-twitter.com,REJECT
+DOMAIN-SUFFIX,adinfuse.com,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,analysys.cn,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
+DOMAIN-SUFFIX,cnzz.com,REJECT
+DOMAIN-SUFFIX,flurry.com,REJECT
+DOMAIN-SUFFIX,voicefive.com,REJECT
+
+DOMAIN,applog.mobike.com,REJECT
+DOMAIN,gs.getui.com,REJECT
+DOMAIN,log.b612kaji.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,toots-a.akamaihd.net,REJECT
+DOMAIN,track.tiara.daum.net,REJECT
+DOMAIN,track.tiara.kakao.com,REJECT
+DOMAIN,trackapp.guahao.cn,REJECT
+DOMAIN,traffic.mogujie.com,REJECT
+DOMAIN,wmlog.meituan.com,REJECT
+
+# > 58同城
+DOMAIN,track.58.com,REJECT
+DOMAIN,tracklog.58.com,REJECT
+# > Alibaba
+DOMAIN,acs4baichuan.m.taobao.com,REJECT
+DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adash.man.aliyuncs.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adash-c.ut.taobao.com,REJECT
+DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,adashx4yt.m.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+# > Baidu
+DOMAIN-SUFFIX,baidustatic.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
+# > ByteDance
+DOMAIN,applog.musical.ly,REJECT
+DOMAIN,track.toutiao.com,REJECT
+DOMAIN,xlog.snssdk.com,REJECT
+DOMAIN,xlog-va.byteoversea.com,REJECT
+# > Google
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+# > HunanTV
+DOMAIN-SUFFIX,log.hunantv.com,REJECT
+DOMAIN,log.v2.hunantv.com,REJECT
+DOMAIN,v2.log.hunantv.com,REJECT
+# > MI
+DOMAIN-SUFFIX,tracking.miui.com,REJECT
+DOMAIN,data.mistat.xiaomi.com,REJECT
+DOMAIN,tracking.intl.miui.com,REJECT
+# > Tencent
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN,pingma.qq.com,REJECT
+DOMAIN,pingtcss.qq.com,REJECT
+DOMAIN,tajs.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
+DOMAIN,mtrace.qq.com,REJECT
+# > UC
+DOMAIN,adtrack.ucweb.com,REJECT
+DOMAIN,track.uc.cn,REJECT
+# > Umeng
+DOMAIN-SUFFIX,umeng.co,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
