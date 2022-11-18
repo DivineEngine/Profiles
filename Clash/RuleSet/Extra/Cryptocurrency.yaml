@@ -11,10 +11,12 @@ payload:
   - DOMAIN-SUFFIX,bitstamp.net
   - DOMAIN-SUFFIX,bittrex.com
   - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,byd3c3.com
   - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,coincheck.com
   - DOMAIN-SUFFIX,coinone.co.kr
   - DOMAIN-SUFFIX,ftx.com
+  - DOMAIN-SUFFIX,ftx.tech
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,gemini.com
   - DOMAIN-SUFFIX,huobi.com
@@ -45,4 +47,25 @@ payload:
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,coingecko.com
+  - DOMAIN-SUFFIX,coinmarketcap.com
+  - DOMAIN-SUFFIX,tradingview.com
+  
+  # Tools
+  - DOMAIN-SUFFIX,debank.com
+  - DOMAIN-SUFFIX,bntrace.com
+  - DOMAIN-SUFFIX,bnbstatic.com
+  - DOMAIN-SUFFIX,dexscreener.com
+  - DOMAIN-SUFFIX,dexscreener.io
+  - DOMAIN-SUFFIX,linktr.ee
+  - DOMAIN-SUFFIX,duneanalytics.com,Fallback-US
+  - DOMAIN-SUFFIX,dune.xyz,Fallback-US
+
+  # fantom
+  
+  
+  # avax
+  - DOMAIN-SUFFIX,avalaunch.app,PROXY
+  - DOMAIN-SUFFIX,traderjoexyz.com,PROXY
+  
+  # solana
   - DOMAIN-SUFFIX,coinmarketcap.com
