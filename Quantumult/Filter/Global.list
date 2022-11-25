@@ -430,6 +430,9 @@ DOMAIN,search.yahoo.co.jp,PROXY
 # > Yandex
 DOMAIN-SUFFIX,yadi.sk,PROXY
 DOMAIN,disk.yandex.com,PROXY
+# > VikACG
+DOMAIN-SUFFIX,vikacg.com,PROXY
+DOMAIN-SUFFIX,picjs.xyz,PROXY
 
 # (Region-Restricted Access Denied)
 DOMAIN-SUFFIX,aicoin.com,PROXY
