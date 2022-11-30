@@ -59,8 +59,11 @@ payload:
   - PROCESS-NAME,tv.abema
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
+  - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,hayabusa.io
+  - DOMAIN-SUFFIX,hayabusa.media
+  - DOMAIN,api-abematv.bucketeer.jp
   - DOMAIN-KEYWORD,abematv.akamaized.net
   # > All 4
   - PROCESS-NAME,com.channel4.ondemand
@@ -148,6 +151,12 @@ payload:
   - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  # > Hami Video
+  - PROCESS-NAME,com.cht.ottPlayer
+  - DOMAIN-SUFFIX,ott.hinet.net
+  - DOMAIN-SUFFIX,hamivideo.hinet.net
+  - DOMAIN,hls-hichannel.cdn.hinet.net
+  - DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
   # > HBO NOW & Max
   - PROCESS-NAME,com.hbo.hbonow
   - DOMAIN-SUFFIX,hbo.com

@@ -59,8 +59,11 @@ DOMAIN-SUFFIX,overcast.fm,Streaming
 USER-AGENT,AbemaTV*,Streaming
 DOMAIN-SUFFIX,abema.io,Streaming
 DOMAIN-SUFFIX,abema.tv,Streaming
+DOMAIN-SUFFIX,abema-tv.com,Streaming
 DOMAIN-SUFFIX,ameba.jp,Streaming
 DOMAIN-SUFFIX,hayabusa.io,Streaming
+DOMAIN-SUFFIX,hayabusa.media,Streaming
+DOMAIN,api-abematv.bucketeer.jp,Streaming
 DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
 # > All 4
 USER-AGENT,All4*,Streaming
@@ -148,6 +151,11 @@ USER-AGENT,encoreTVB*,Streaming
 DOMAIN-SUFFIX,encoretvb.com,Streaming
 DOMAIN,edge.api.brightcove.com,Streaming
 DOMAIN,bcbolt446c5271-a.akamaihd.net,Streaming
+# > Hami Video
+DOMAIN-SUFFIX,ott.hinet.net,Streaming
+DOMAIN-SUFFIX,hamivideo.hinet.net,Streaming
+DOMAIN,hls-hichannel.cdn.hinet.net,Streaming
+DOMAIN-KEYWORD,hamivideo.cdn.hinet.net,Streaming
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*,Streaming
 DOMAIN-SUFFIX,hbo.com,Streaming
