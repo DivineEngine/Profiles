@@ -1,0 +1,5 @@
+#!name=Imaging Edge
+#!desc=解决「Imaging Edge」的连接问题
+
+[General]
+skip-proxy = %APPEND% 192.168.122.1/32

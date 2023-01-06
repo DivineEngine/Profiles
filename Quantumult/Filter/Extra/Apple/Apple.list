@@ -4,7 +4,11 @@ DOMAIN-SUFFIX,apple.co,Apple
 DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,apple.com.cn,Apple
 DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
+DOMAIN-SUFFIX,apple-mapkit.com,Apple
+DOMAIN-SUFFIX,applemusic.com,Apple
 DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,apzones.com,Apple
 DOMAIN-SUFFIX,cdn-apple.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
 DOMAIN-SUFFIX,icloud.com.cn,Apple
@@ -12,12 +16,6 @@ DOMAIN-SUFFIX,icloud-content.com,Apple
 DOMAIN-SUFFIX,me.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN-KEYWORD,apple.com.akadns.net,Apple
+DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
+DOMAIN-KEYWORD,apple-support.akadns.net,Apple
 DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
-IP-CIDR,17.0.0.0/8,Apple
-IP-CIDR,63.92.224.0/19,Apple
-IP-CIDR,65.199.22.0/23,Apple
-IP-CIDR,139.178.128.0/18,Apple
-IP-CIDR,144.178.0.0/19,Apple
-IP-CIDR,192.35.50.0/24,Apple
-IP-CIDR,198.183.17.0/24,Apple
-IP-CIDR,205.180.175.0/24,Apple

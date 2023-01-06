@@ -2,7 +2,14 @@
 USER-AGENT,com.google.ios.youtube*,YouTube
 USER-AGENT,YouTube*,YouTube
 DOMAIN-SUFFIX,googlevideo.com,YouTube
+DOMAIN-SUFFIX,withyoutube.com,YouTube
+DOMAIN-SUFFIX,youtu.be,YouTube
 DOMAIN-SUFFIX,youtube.com,YouTube
+DOMAIN-SUFFIX,youtubeeducation.com,YouTube
+DOMAIN-SUFFIX,youtubegaming.com,YouTube
+DOMAIN-SUFFIX,youtubekids.com,YouTube
+DOMAIN-SUFFIX,youtube-nocookie.com,YouTube
+DOMAIN-SUFFIX,yt.be,YouTube
 DOMAIN-SUFFIX,ytimg.com,YouTube
 DOMAIN,youtubei.googleapis.com,YouTube
 DOMAIN,yt3.ggpht.com,YouTube

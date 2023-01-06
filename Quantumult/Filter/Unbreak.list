@@ -1,10 +1,7 @@
 # Unbreak
 # > General
-USER-AGENT,archero*,DIRECT
-USER-AGENT,coffeecorp*,DIRECT
-USER-AGENT,Coffee%20Corp*,DIRECT
-USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
+DOMAIN,app.appsflyer.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
 # > Alibaba
 DOMAIN,log.mmstat.com,DIRECT
@@ -13,13 +10,10 @@ DOMAIN,sycm.mmstat.com,DIRECT
 DOMAIN-SUFFIX,blog.google,DIRECT
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
 DOMAIN,clientservices.googleapis.com,DIRECT
+DOMAIN,update.googleapis.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,dl.l.google.com,DIRECT
 DOMAIN,update.googleapis.com,DIRECT
-DOMAIN,translate.googleapis.com,DIRECT
-# >> Google Fonts API
-DOMAIN,fonts.googleapis.com,DIRECT
-DOMAIN,fonts.gstatic.com,DIRECT
 # >> Firebase Cloud Messaging
 DOMAIN,mtalk.google.com,DIRECT
 DOMAIN,alt1-mtalk.google.com,DIRECT
@@ -31,11 +25,12 @@ DOMAIN,alt6-mtalk.google.com,DIRECT
 DOMAIN,alt7-mtalk.google.com,DIRECT
 DOMAIN,alt8-mtalk.google.com,DIRECT
 # >> Paramount+
-DOMAIN,pubads.g.doubleclick.net,DIRECT
+# DOMAIN,pubads.g.doubleclick.net,DIRECT
 # > Tencent
 DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
+DOMAIN,vi.l.qq.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
 # > Umeng

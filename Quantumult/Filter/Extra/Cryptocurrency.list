@@ -1,39 +1,54 @@
 # Forum
-DOMAIN-SUFFIX,bitcointalk.org,PROXY
+DOMAIN-SUFFIX,bitcointalk.org,Crypto
+
+# Wallet
+DOMAIN-SUFFIX,debank.com,Crypto
 
 # Exchange
-DOMAIN-SUFFIX,aex.com,PROXY
-DOMAIN-SUFFIX,bibox.com,PROXY
-DOMAIN-SUFFIX,binance.cc,PROXY
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,binance.me,PROXY
-DOMAIN-SUFFIX,binance.us,PROXY
-DOMAIN-SUFFIX,bitfinex.com,PROXY
-DOMAIN-SUFFIX,bithumb.com,PROXY
-DOMAIN-SUFFIX,bitmex.com,PROXY
-DOMAIN-SUFFIX,bitstamp.net,PROXY
-DOMAIN-SUFFIX,bittrex.com,PROXY
-DOMAIN-SUFFIX,bybit.com,PROXY
-DOMAIN-SUFFIX,coinbase.com,PROXY
-DOMAIN-SUFFIX,coincheck.com,PROXY
-DOMAIN-SUFFIX,coinone.co.kr,PROXY
-DOMAIN-SUFFIX,ftx.com,PROXY
-DOMAIN-SUFFIX,gate.io,PROXY
-DOMAIN-SUFFIX,gemini.com,PROXY
-DOMAIN-SUFFIX,huobi.com,PROXY
-DOMAIN-SUFFIX,korbit.co.kr,PROXY
-DOMAIN-SUFFIX,kraken.com,PROXY
-DOMAIN-SUFFIX,kucoin.com,PROXY
-DOMAIN-SUFFIX,liquid.com,PROXY
-DOMAIN-SUFFIX,okex.com,PROXY
-DOMAIN-SUFFIX,poloniex.com,PROXY
-DOMAIN-SUFFIX,sushi.com,PROXY
-DOMAIN-SUFFIX,uniswap.org,PROXY
-DOMAIN-SUFFIX,zb.com,PROXY
+DOMAIN-SUFFIX,aex.com,Crypto
+DOMAIN-SUFFIX,bibox.com,Crypto
+DOMAIN-SUFFIX,bitfinex.com,Crypto
+DOMAIN-SUFFIX,bithumb.com,Crypto
+DOMAIN-SUFFIX,bitmex.com,Crypto
+DOMAIN-SUFFIX,bitstamp.net,Crypto
+DOMAIN-SUFFIX,bittrex.com,Crypto
+DOMAIN-SUFFIX,bybit.com,Crypto
+DOMAIN-SUFFIX,coinbase.com,Crypto
+DOMAIN-SUFFIX,coincheck.com,Crypto
+DOMAIN-SUFFIX,coinone.co.kr,Crypto
+DOMAIN-SUFFIX,ftx.com,Crypto
+DOMAIN-SUFFIX,gate.io,Crypto
+DOMAIN-SUFFIX,gemini.com,Crypto
+DOMAIN-SUFFIX,huobi.com,Crypto
+DOMAIN-SUFFIX,korbit.co.kr,Crypto
+DOMAIN-SUFFIX,kraken.com,Crypto
+DOMAIN-SUFFIX,kucoin.com,Crypto
+DOMAIN-SUFFIX,liquid.com,Crypto
+DOMAIN-SUFFIX,pancakeswap.finance,Crypto
+DOMAIN-SUFFIX,poloniex.com,Crypto
+DOMAIN-SUFFIX,sushi.com,Crypto
+DOMAIN-SUFFIX,uniswap.org,Crypto
+DOMAIN-SUFFIX,zb.com,Crypto
+# > Binance
+DOMAIN-SUFFIX,binance.cc,Crypto
+DOMAIN-SUFFIX,binance.cloud,Crypto
+DOMAIN-SUFFIX,binance.com,Crypto
+DOMAIN-SUFFIX,binance.im,Crypto
+DOMAIN-SUFFIX,binance.me,Crypto
+DOMAIN-SUFFIX,binance.us,Crypto
+DOMAIN-SUFFIX,bnappzh.co,Crypto
+DOMAIN-SUFFIX,bnappzh.com,Crypto
+DOMAIN-SUFFIX,bnbstatic.com,Crypto
+DOMAIN-SUFFIX,bntrace.com,Crypto
+# > OKX
+DOMAIN-SUFFIX,okex.com,Crypto
+DOMAIN-SUFFIX,okx.com,Crypto
+
+# Explorer 
+DOMAIN-SUFFIX,etherscan.io,Crypto
 
 # Analysis
-DOMAIN-SUFFIX,aicoin.com,PROXY
-DOMAIN-SUFFIX,aimoon.com,PROXY
-DOMAIN-SUFFIX,coingecko.com,PROXY
-DOMAIN-SUFFIX,coinmarketcap.com,PROXY
-DOMAIN-SUFFIX,tradingview.com,PROXY
+DOMAIN-SUFFIX,aicoin.com,Crypto
+DOMAIN-SUFFIX,aimoon.com,Crypto
+DOMAIN-SUFFIX,coingecko.com,Crypto
+DOMAIN-SUFFIX,coinmarketcap.com,Crypto

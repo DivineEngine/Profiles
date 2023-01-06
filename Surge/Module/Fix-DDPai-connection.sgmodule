@@ -1,0 +1,5 @@
+#!name=Fix DDPai connection
+#!desc=解决「盯盯拍」的连接问题
+
+[General]
+skip-proxy = %APPEND% 193.168.0.1/32

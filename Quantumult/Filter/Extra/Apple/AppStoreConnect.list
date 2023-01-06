@@ -1,4 +1,4 @@
 # > App Store Connect
-DOMAIN,appstoreconnect.apple.com,App Store Connect
-DOMAIN,iosapps-ssl.itunes.apple.com,App Store Connect
-DOMAIN,itcmobile.itunes.apple.com,App Store Connect
+DOMAIN,appstoreconnect.apple.com,PROXY
+DOMAIN,iosapps-ssl.itunes.apple.com,PROXY
+DOMAIN,itcmobile.itunes.apple.com,PROXY

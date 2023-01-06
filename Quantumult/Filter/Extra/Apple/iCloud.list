@@ -1,6 +1,12 @@
 # iCloud
 DOMAIN-SUFFIX,apple-cloudkit.com,PROXY
+DOMAIN-SUFFIX,apple-livephotoskit.com,PROXY
+DOMAIN-SUFFIX,apzones.com,PROXY
+DOMAIN-SUFFIX,cdn-apple.com,PROXY
+DOMAIN-SUFFIX,gc.apple.com,PROXY
+DOMAIN-SUFFIX,icloud.apple.com,PROXY
 DOMAIN-SUFFIX,icloud.com,PROXY
 DOMAIN-SUFFIX,icloud.com.cn,PROXY
 DOMAIN-SUFFIX,icloud-content.com,PROXY
-DOMAIN,www-cdn.icloud.com.akadns.net,PROXY
+DOMAIN-SUFFIX,iwork.apple.com,PROXY
+DOMAIN-KEYWORD,icloud.com.akadns.net,PROXY

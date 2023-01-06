@@ -14,10 +14,10 @@ DOMAIN,swscan.apple.com,PROXY
 # > macOS Recovery
 DOMAIN,oscdn.apple.com,PROXY
 DOMAIN,osrecovery.apple.com,PROXY
-# > iOS and iPadOS updates
+# > iOS, iPadOS, and watchOS updates
 DOMAIN,appldnld.apple.com,PROXY
 DOMAIN,ns.itunes.apple.com,PROXY
-# > iOS, iPadOS, tvOS, and macOS updates
+# > iOS, iPadOS, tvOS, watchOS, and macOS updates
 DOMAIN,gg.apple.com,PROXY
 DOMAIN,gdmf.apple.com,PROXY
 DOMAIN,mesu.apple.com,PROXY

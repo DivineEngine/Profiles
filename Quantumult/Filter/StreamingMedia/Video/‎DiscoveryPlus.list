@@ -6,3 +6,6 @@ DOMAIN-SUFFIX,discoveryplus.co.uk,discovery+
 DOMAIN-SUFFIX,discoveryplus.com,discovery+
 DOMAIN-SUFFIX,discoveryplus.in,discovery+
 DOMAIN-SUFFIX,dnitv.com,discovery+
+# DOMAIN,go-prod-vz.akamaized.net,discovery+
+DOMAIN,x-default-stgec.uplynk.com,discovery+
+DOMAIN-KEYWORD,discovery.uplynk.com,discovery+

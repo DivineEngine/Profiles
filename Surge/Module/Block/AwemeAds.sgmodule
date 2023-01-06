@@ -1,0 +1,13 @@
+#!name=Block Aweme Advertising
+#!desc=By Choler | 抖音版本 <= 16.2.0
+
+[URL Rewrite]
+^https?:\/\/api.*\.amemv\.com\/aweme\/v2\/feed\/ https://aweme.snssdk.com/aweme/v1/feed/ header
+
+[Script]
+# > Aweme - *.amemv.com, *.snssdk.com
+douyin = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v\d\/feed\/,requires-body=1,script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
+# ------
+
+[MITM]
+hostname = %APPEND% *.amemv.com, *.snssdk.com

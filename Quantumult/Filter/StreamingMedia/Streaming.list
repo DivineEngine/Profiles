@@ -2,10 +2,12 @@
 
 # (Live)
 # > Twitch
+DOMAIN-SUFFIX,ext-twitch.tv,Streaming
 DOMAIN-SUFFIX,jtvnw.net,Streaming
 DOMAIN-SUFFIX,ttvnw.net,Streaming
 DOMAIN-SUFFIX,twitch.tv,Streaming
 DOMAIN-SUFFIX,twitchcdn.net,Streaming
+DOMAIN-SUFFIX,twitch-ext.rootonline.de,Streaming
 
 # (Music)
 # > Deezer
@@ -57,8 +59,11 @@ DOMAIN-SUFFIX,overcast.fm,Streaming
 USER-AGENT,AbemaTV*,Streaming
 DOMAIN-SUFFIX,abema.io,Streaming
 DOMAIN-SUFFIX,abema.tv,Streaming
+DOMAIN-SUFFIX,abema-tv.com,Streaming
 DOMAIN-SUFFIX,ameba.jp,Streaming
 DOMAIN-SUFFIX,hayabusa.io,Streaming
+DOMAIN-SUFFIX,hayabusa.media,Streaming
+DOMAIN,api-abematv.bucketeer.jp,Streaming
 DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
 # > All 4
 USER-AGENT,All4*,Streaming
@@ -70,8 +75,9 @@ USER-AGENT,Prime%20Video*,Streaming
 DOMAIN-SUFFIX,aiv-cdn.net,Streaming
 DOMAIN-SUFFIX,aiv-delivery.net,Streaming
 DOMAIN-SUFFIX,amazonvideo.com,Streaming
-DOMAIN-SUFFIX,primevideo.com,Streaming
 DOMAIN-SUFFIX,media-amazon.com,Streaming
+DOMAIN-SUFFIX,primevideo.com,Streaming
+DOMAIN-SUFFIX,pv-cdn.net,Streaming
 DOMAIN,atv-ps.amazon.com,Streaming
 DOMAIN,fls-na.amazon.com,Streaming
 DOMAIN,avodmp4s3ww-a.akamaihd.net,Streaming
@@ -83,6 +89,8 @@ DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
 DOMAIN,d27xxe7juh1us6.cloudfront.net,Streaming
 # DOMAIN,www.amazon.com,Streaming
 DOMAIN-KEYWORD,avoddashs,Streaming
+# > Apple Music TV
+DOMAIN,tv.applemusic.com,Streaming
 # > Apple TV
 DOMAIN,linear.tv.apple.com,Streaming
 DOMAIN,play-edge.itunes.apple.com,Streaming
@@ -91,6 +99,7 @@ DOMAIN,uts-api.itunes.apple.com,Streaming
 USER-AGENT,Anime*,Streaming
 DOMAIN-SUFFIX,bahamut.com.tw,Streaming
 DOMAIN-SUFFIX,gamer.com.tw,Streaming
+DOMAIN,bahamut.akamaized.net,Streaming
 DOMAIN,gamer-cds.cdn.hinet.net,Streaming
 DOMAIN,gamer2-cds.cdn.hinet.net,Streaming
 # > BBC iPlayer
@@ -122,6 +131,9 @@ DOMAIN-SUFFIX,discoveryplus.co.uk,Streaming
 DOMAIN-SUFFIX,discoveryplus.com,Streaming
 DOMAIN-SUFFIX,discoveryplus.in,Streaming
 DOMAIN-SUFFIX,dnitv.com,Streaming
+# DOMAIN,go-prod-vz.akamaized.net,Streaming
+DOMAIN,x-default-stgec.uplynk.com,Streaming
+DOMAIN-KEYWORD,discovery.uplynk.com,Streaming
 # > Disney+
 USER-AGENT,Disney+*,Streaming
 DOMAIN-SUFFIX,bamgrid.com,Streaming
@@ -139,6 +151,11 @@ USER-AGENT,encoreTVB*,Streaming
 DOMAIN-SUFFIX,encoretvb.com,Streaming
 DOMAIN,edge.api.brightcove.com,Streaming
 DOMAIN,bcbolt446c5271-a.akamaihd.net,Streaming
+# > Hami Video
+DOMAIN-SUFFIX,ott.hinet.net,Streaming
+DOMAIN-SUFFIX,hamivideo.hinet.net,Streaming
+DOMAIN,hls-hichannel.cdn.hinet.net,Streaming
+DOMAIN-KEYWORD,hamivideo.cdn.hinet.net,Streaming
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*,Streaming
 DOMAIN-SUFFIX,hbo.com,Streaming
@@ -217,9 +234,6 @@ DOMAIN,d3c7rimkq79yfu.cloudfront.net,Streaming
 # > LiTV
 DOMAIN-SUFFIX,litv.tv,Streaming
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,Streaming
-# > MangoTV(芒果TV国际)
-DOMAIN-SUFFIX,api.mgtv.com,Streaming
-DOMAIN,mobileso.bz.mgtv.com,Streaming
 # > My5
 USER-AGENT,My5*,Streaming
 DOMAIN-SUFFIX,channel5.com,Streaming
@@ -242,30 +256,10 @@ DOMAIN-SUFFIX,nflximg.com,Streaming
 DOMAIN-SUFFIX,nflximg.net,Streaming
 DOMAIN-SUFFIX,nflxso.net,Streaming
 DOMAIN-SUFFIX,nflxvideo.net,Streaming
-DOMAIN-SUFFIX,netflixdnstest0.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest1.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest2.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest3.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest4.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest5.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
+DOMAIN-KEYWORD,netflixdnstest,Streaming
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Streaming
 DOMAIN-KEYWORD,dualstack.apiproxy-,Streaming
-DOMAIN-KEYWORD,dualstack.ichnaea-web-,Streaming
-IP-CIDR,23.246.0.0/18,Streaming
-IP-CIDR,37.77.184.0/21,Streaming
-IP-CIDR,45.57.0.0/17,Streaming
-IP-CIDR,64.120.128.0/17,Streaming
-IP-CIDR,66.197.128.0/17,Streaming
-IP-CIDR,108.175.32.0/20,Streaming
-IP-CIDR,192.173.64.0/18,Streaming
-IP-CIDR,198.38.96.0/19,Streaming
-IP-CIDR,198.45.48.0/20,Streaming
-IP-CIDR,34.210.42.111/32,Streaming
-IP-CIDR,52.89.124.203/32,Streaming
-IP-CIDR,54.148.37.5/32,Streaming
+# GEOIP,NETFLIX,Streaming
 # > niconico
 USER-AGENT,Niconico*,Streaming
 DOMAIN-SUFFIX,dmc.nico,Streaming
@@ -310,7 +304,7 @@ DOMAIN-SUFFIX,tiktok.com,Streaming
 DOMAIN-SUFFIX,tik-tokapi.com,Streaming
 DOMAIN-SUFFIX,tiktokcdn.com,Streaming
 DOMAIN-SUFFIX,tiktokv.com,Streaming
-DOMAIN-KEYWORD,-tiktokcdn-com,Streaming
+DOMAIN-KEYWORD,tiktokcdn-,Streaming
 # > TVer
 USER-AGENT,TVer-Release*,Streaming
 DOMAIN-SUFFIX,tver.jp,Streaming
@@ -332,7 +326,14 @@ IP-CIDR,150.109.28.51/32,Streaming
 USER-AGENT,com.google.ios.youtube*,Streaming
 USER-AGENT,YouTube*,Streaming
 DOMAIN-SUFFIX,googlevideo.com,Streaming
+DOMAIN-SUFFIX,withyoutube.com,Streaming
+DOMAIN-SUFFIX,youtu.be,Streaming
 DOMAIN-SUFFIX,youtube.com,Streaming
+DOMAIN-SUFFIX,youtubeeducation.com,Streaming
+DOMAIN-SUFFIX,youtubegaming.com,Streaming
+DOMAIN-SUFFIX,youtubekids.com,Streaming
+DOMAIN-SUFFIX,youtube-nocookie.com,Streaming
+DOMAIN-SUFFIX,yt.be,Streaming
 DOMAIN-SUFFIX,ytimg.com,Streaming
 DOMAIN,youtubei.googleapis.com,Streaming
 DOMAIN,yt3.ggpht.com,Streaming
