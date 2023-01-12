@@ -5,3 +5,4 @@ payload:
   - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,sharepoint.com

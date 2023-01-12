@@ -342,6 +342,7 @@ DOMAIN-SUFFIX,github.io,PROXY
 DOMAIN-SUFFIX,githubassets.com,PROXY
 DOMAIN-SUFFIX,githubusercontent.com,PROXY
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
+DOMAIN-SUFFIX,sharepoint.com,PROXY
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net,PROXY
 DOMAIN,assets1.xboxlive.com,PROXY
 DOMAIN,assets2.xboxlive.com,PROXY
