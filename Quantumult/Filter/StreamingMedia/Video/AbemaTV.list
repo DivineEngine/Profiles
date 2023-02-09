@@ -2,6 +2,9 @@
 USER-AGENT,AbemaTV*,AbemaTV
 DOMAIN-SUFFIX,abema.io,AbemaTV
 DOMAIN-SUFFIX,abema.tv,AbemaTV
+DOMAIN-SUFFIX,abema-tv.com,AbemaTV
 DOMAIN-SUFFIX,ameba.jp,AbemaTV
 DOMAIN-SUFFIX,hayabusa.io,AbemaTV
+DOMAIN-SUFFIX,hayabusa.media,AbemaTV
+DOMAIN,api-abematv.bucketeer.jp,AbemaTV
 DOMAIN-KEYWORD,abematv.akamaized.net,AbemaTV

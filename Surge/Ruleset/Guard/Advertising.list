@@ -20,6 +20,7 @@ DOMAIN,tunion-api.m.taobao.com
 # > YOUKU
 DOMAIN-SUFFIX,atm.youku.com
 DOMAIN,ad.mobile.youku.com
+DOMAIN,adx.op.cp18.ott.cibntv.net
 DOMAIN,iyes.youku.com
 DOMAIN,pl.cp31.ott.cibntv.net
 # > AMap
@@ -254,6 +255,7 @@ DOMAIN-SUFFIX,ad.sohu.com
 DOMAIN-SUFFIX,ads.sohu.com
 DOMAIN-SUFFIX,aty.sohu.com
 DOMAIN,hui.sohu.com
+DOMAIN-SUFFIX,pv.sohu.com
 # > Snapchat
 DOMAIN,ads.snapchat.com
 DOMAIN,adsapi.snapchat.com
@@ -292,6 +294,8 @@ DOMAIN,mobilelog.kugou.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
 DOMAIN,tmead.y.qq.com
+DOMAIN,splashimgbssdl.yun.kugou.com
+DOMAIN,adsfilebssdlbig.tx.kugou.com
 # ------
 # > TongHuaShun
 DOMAIN,adm.10jqka.com.cn
